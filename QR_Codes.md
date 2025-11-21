@@ -49,7 +49,7 @@ Create a base document in `Inkscape`.
 	- Under `Layer` choose `Add Layer ...`
 	- Call it "Hacky" for clarity
     - Use the `Layers and Objects` tool to ensure that it is the top layer
-- Import the Hacky source file [`Hacky source 7x11.svg`](/img/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg) into it.
+- Import the Hacky source file [`Hacky source 7x11.svg`](attachments/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg) into it.
 	- Either download the file linked above and then import it into Inkscape
     	- Select option `Include as editable object`
         - Set `DPI for rendered SVG` to 96

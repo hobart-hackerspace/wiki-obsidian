@@ -10,11 +10,11 @@ We have a bunch of nice gear, including a good digital oscilloscope, meters, var
 
 ### Equipment Manuals:
 #### Digital Multimeter (EEVblog DMM BM2257):
-- [Features](/img/BM2257-Brochure-EN.pdf)
-- [Manual](/img/BM2257-Manual-EEVblog.pdf)
+- [Features](attachments/BM2257-Brochure-EN.pdf)
+- [Manual](attachments/BM2257-Manual-EEVblog.pdf)
 
 #### Digital Oscilloscope (Rigol MSO55074):
-- [Features](/img/MSO5000_DataSheet_EN_V2_0.pdf)
-- [Quick Guide](/img/MSO5000_QuickGuide_EN_QGA25103-1110.pdf)
-- [Full Manual](/img/MSO5000-series-manual-UGA25103-1110.pdf)
-- [Programming Guide](/img/MSO5000_ProgrammingGuide_EN.pdf)
+- [Features](attachments/MSO5000_DataSheet_EN_V2_0.pdf)
+- [Quick Guide](attachments/MSO5000_QuickGuide_EN_QGA25103-1110.pdf)
+- [Full Manual](attachments/MSO5000-series-manual-UGA25103-1110.pdf)
+- [Programming Guide](attachments/MSO5000_ProgrammingGuide_EN.pdf)

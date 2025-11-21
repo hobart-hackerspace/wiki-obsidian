@@ -106,7 +106,7 @@ Before you can use the laser cutter you need to:
     	read the message and press the "Accept" button.
     - The machine is ready for use when the display shows a big **"Start"** message.
 
-![Power point, Exhaust fan & Control panel](/img/Laser_cutter_startup-ckf5l6tqr2rbtiqktt37t2jgkweh.webp){width="500px"}
+![Power point, Exhaust fan & Control panel](attachments/Laser_cutter_startup-ckf5l6tqr2rbtiqktt37t2jgkweh.webp){width="500px"}
 
 - Have access to the *Beam Studio* software. See header notes or [detailed notes below](Software).
 - Have a suitable design file 

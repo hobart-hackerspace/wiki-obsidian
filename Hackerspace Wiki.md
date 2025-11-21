@@ -1,4 +1,4 @@
-![](/img/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
+![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
 # Hobart Hackerspace wiki ([wiki.local](#home))
 
@@ -77,14 +77,14 @@ The heritage issue means that we have to be careful how we look after the buildi
     	- [Domain Names and DNS records](Domain Name records)
         - [Exposed IP ports](Internet connection and firewall#static-ip-assignments-and-exposed-ip-ports)
     - Branding assets (logo, letterhead, etc etc)
-    	- Logo ![](/img/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg){width="27px"}
+    	- Logo ![](attachments/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg){width="27px"}
         	- Our logo is called *Hacky* -- a friendly take on the skull & crossbones, courtesy of Shane. It's inspired, we're told, by the *Sea Shepherds'* logo. [Here's a page of usable image files.](Hacky_images)
          - QR Codes
 			- We're moving to set up QR codes pointing to all our equipment documentation pages. [Here's a page showing how to make one, customised for a particular page and with *Hacky* in the middle.](QR_Codes)
          - Letterhead
          	- Templates for our letterhead are available for download in both `MS Word` and `LibreOffice` formats:
-            	- [MS Word](/img/Letterhead_v1.0.dotx)
-                - [LibreOffice](/img/Letterhead_v1.0.ott)
+            	- [MS Word](attachments/Letterhead_v1.0.dotx)
+                - [LibreOffice](attachments/Letterhead_v1.0.ott)
             - Please be aware that the letterhead templates are intended only for use on Hackerspace business. 
               Any other use will be treated as the crime of fraud.
 	- Building issues
@@ -104,7 +104,7 @@ familiar with (or can learn very quickly if you're not).
 Details on how to use it are in the [How to use this wiki](How to use the wiki) page. 
 
 The base system is maintained by [Brian Marriott](mailto:brian.marriott@hobarthackerspace.org.au) -- 
-but it's up to all members to provide the content! Just click the ![](/img/Wiki_New_button_sml-len6lxa3gbd62fhxfwpss3jk35ko.png) button above.
+but it's up to all members to provide the content! Just click the ![](attachments/Wiki_New_button_sml-len6lxa3gbd62fhxfwpss3jk35ko.png) button above.
 If you have suggestions for improvement, 
 [email Brian](mailto:brian.marriott@hobarthackerspace.org.au) at the moment -- 
 in future you'll be able to add them to a Github tickets page.

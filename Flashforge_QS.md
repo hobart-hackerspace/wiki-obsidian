@@ -39,7 +39,7 @@ PUT IT BACK** once you have used it!
     - A small squeeze of the lever and light pull with your hand should remove the left panel. 
     - You might need to lift out the filament spool to see the label.
     
-    ![LH Filament holder](/img/Picture1-vgk6bvfkngre3qglo54wklqjpu3d.png){width="30%"}
+    ![LH Filament holder](attachments/Picture1-vgk6bvfkngre3qglo54wklqjpu3d.png){width="30%"}
 
 # Printing
 - Now open ***FlashPrint*** on the desktop computer, the icon can be found in the middle of the desktop.
@@ -50,7 +50,7 @@ PUT IT BACK** once you have used it!
 required]{.underline}, by going to the right side of the ***FlashPrint***
 application and on the second icon from the top , you\'ll see four
 arrows pointing outwards icon.
-    ![Icons](/img/Picture2-4o4chhhknvojs7wg77m5mbvkwu5u.png){width="10%"}
+    ![Icons](attachments/Picture2-4o4chhhknvojs7wg77m5mbvkwu5u.png){width="10%"}
     - Clicking on that will allow you to move the object or model to where you
 need it.
 - Now right click on the object or model and 
@@ -58,7 +58,7 @@ need it.
     - then click away from the menu,
     - before right clicking on the object or model again 
     - and this time clicking on `Choose Left Extruder`.
-    ![Menu](/img/Picture3-ltsu4ayrbg6x7s3qxra2dirwdih7.png){width="20%"}
+    ![Menu](attachments/Picture3-ltsu4ayrbg6x7s3qxra2dirwdih7.png){width="20%"}
     - Sometimes the application might be a bit weird and this action might be
 required.
 - **Note**: if you have to print using the ***Right Extruder,*** you can set that here. 
@@ -69,7 +69,7 @@ required.
     This is found on page 12.
 
 - Now at the top of the ***FlashPrint*** window, you should see a button called 
-`Start Slicing` click on that once. ![](/img/Picture4-wqmd4vpxdpb7ssfrzzudxc5nx53l.png){width="10%"}
+`Start Slicing` click on that once. ![](attachments/Picture4-wqmd4vpxdpb7ssfrzzudxc5nx53l.png){width="10%"}
 
 - It looks like an utter mess, but only change the details listed below.
 
@@ -95,7 +95,7 @@ required.
     Warning, you will need to wait a short while for the math to happen.
 
 - Now the menu at the top would have changed!
-![](/img/Picture6-34sqry5pxuddft3mjmlxpmgaxekl.png){width="30%"}
+![](attachments/Picture6-34sqry5pxuddft3mjmlxpmgaxekl.png){width="30%"}
 
 If you want to see how your object or model will be printed click on the
 button called, `Slice Preview` or you can click on the weird icon at
@@ -115,7 +115,7 @@ to print, it may be that the 3D Printer's IP address has changed.
 To check to see if this is the cause, go to the *FlashForge* 3D printer
 control panel and press on the `About` icon.
 
-![](/img/Picture8-kkdfw4jmtwe2wj2gsircqfcwv73t.png){width="50%"}
+![](attachments/Picture8-kkdfw4jmtwe2wj2gsircqfcwv73t.png){width="50%"}
 
 Below, we have the `About` window on the *FlashForge*.
 
@@ -126,13 +126,13 @@ and we should not need this, only the `192.168.2.238`.
 This may be different, however what is listed on the *FlashForge* when I
 took the photo.
 
-![](/img/Picture9-fmiqu7unmunbcl63lkn67nt2f526.png){width="50%"}
+![](attachments/Picture9-fmiqu7unmunbcl63lkn67nt2f526.png){width="50%"}
 
 Back at the PC and within the *FlashForge* application,
 connect machine window, click on `IP Address` and you should see
 something like below. 
 
-![](/img/Picture10-g2wytlafh2cbb5fstqm7flitgufa.png){width="50%"}
+![](attachments/Picture10-g2wytlafh2cbb5fstqm7flitgufa.png){width="50%"}
 
 The IP address showing on the *FlashForge* is `192.168.2.238` and yet on the app 
 it's `192.168.2.237`. So, if we change the 7 to 8 and then at the bottom of the window click

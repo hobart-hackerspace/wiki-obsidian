@@ -338,7 +338,7 @@ The tool head is shown as a white, inverted cone.
 height="3.5324857830271217in"}
 
 The Preview display can be manipulated by the following commands:
-![](/img/preview-sqmqtehl2yaev3drrlg7vdl4gqxf.svg){width="50%"}
+![](attachments/preview-sqmqtehl2yaev3drrlg7vdl4gqxf.svg){width="50%"}
 
 > ![Zoom In](media/image17.png){width="0.22916666666666666in"
 > height="0.22916666666666666in"} Zoom In

@@ -106,7 +106,7 @@ account" that you connect to with a user-ID and password and
     details to be secure" or similar wording.
 8.  Once you've successfully logged in, you should be presented with a
     screen that looks something like this:\
-    ![](/img/MS365_Home_page_on_first_login_-_Committee_member-psq5npqobwqe7w5dmduoe2w5ygi4.png)
+    ![](attachments/MS365_Home_page_on_first_login_-_Committee_member-psq5npqobwqe7w5dmduoe2w5ygi4.png)
 9.  You can select Microsoft 365 applications from the bar down the
     right-hand side or from the "channel nine" icon in the top right.
     The bar on the right won't always be there, but the "channel nine
@@ -133,7 +133,7 @@ Once you're logged in to Microsoft 365, you can use the OneDrive
 application by clicking on the OneDrive icon as shown in item 5 above.
 That will normally take you to a screen that looks like this (the actual
 files listed will be different):\
-![](/img/OneDrive_Home_page_-_Committee_member-ue3qmgjf5jcf432olc2jrob53zgr.png)
+![](attachments/OneDrive_Home_page_-_Committee_member-ue3qmgjf5jcf432olc2jrob53zgr.png)
 
 The first time that you log in the display above will be slightly
 different -- it may not have anything below the "Quick Access" heading.

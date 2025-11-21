@@ -47,7 +47,7 @@ Place the blank badge in the cutter with its left edge against the aluminium fra
 Download copy of the file ["Single name.beam"](https://hobarthackerspace.sharepoint.com/:u:/s/Committee/Ebp5MX0jrB1MtPRjpT0NJtMBv8HkgwjwowR5FktcYobYAw?e=vu4gFm) to use as your working file, then start up *Beam Studio* and load the file. 
 Ensure that the document resolution is set to 250dpi (`Edit` >> `Document settings`). 
 Zoom in (~150-200%) to look at the object in the top LH corner. 
-It should look like this:![It should look like this](/img/Single_name.beam-tuxj5xijaxmmsbrocvl7mxcugpb2.png){width="30%"}
+It should look like this:![It should look like this](attachments/Single_name.beam-tuxj5xijaxmmsbrocvl7mxcugpb2.png){width="30%"}
 
 Use the camera to verify that the blank is aligned under the green outline in the image. 
 If necessary, move the blank to align it. 
@@ -80,7 +80,7 @@ The process to do this is simple:
 1. "Paste in place" the contents of the paste buffer (`Edit` >> `Paste in place`).
 1. Individually select each of the firstname and family name and activate the "Infill" attribute (the little paintpot that shows up in the object attributes panel). 
 
-You should see the text fill out to be solid instead of outline, like this: ![](/img/Text_object_settings-ff4e34jxytnpmjb7rij6fm2wyipf.png){width="350px"}
+You should see the text fill out to be solid instead of outline, like this: ![](attachments/Text_object_settings-ff4e34jxytnpmjb7rij6fm2wyipf.png){width="350px"}
 
 ### Engraving
 Verify that the setting for each of the layers are:
@@ -140,7 +140,7 @@ The "Hacky" image in the corner adds badging without taking much area.
 The typeface (*Westminster*) was chosen after discussion with Sara, who had agreed to help with the design. It was chosen for its "geeky" ambience (combined with the fact that it's freely downloadable).
 
 ## Lettering
-As indicated above, the typeface is [![](/img/Westminster-g44v4awa36mr4ecdkpbaottbwpao.png){width="114px"}](https://fontzone.net/font-download/westminster). 
+As indicated above, the typeface is [![](attachments/Westminster-g44v4awa36mr4ecdkpbaottbwpao.png){width="114px"}](https://fontzone.net/font-download/westminster). 
 Font files are freely downloadable from FontZone (at [https://fontzone.net/font-download/westminster](https://fontzone.net/font-download/westminster)) and other online typeface repositories.
 Note that there are at least two different *Westminster* typefaces available on the net -- ours is the 1960's techno font based on that used for machine-readable bank cheques.
 

@@ -316,7 +316,7 @@ Note that you will have to have imported the QIF file for both accounts before b
 To properly reconcile these, we need to combine their information and reduce them to a single transaction, as below:
 The final result should look something like this:
 
-![Example transaction split showing transfer between accounts](/img/transfer-between-accounts-vu45qniuwpaeaa7a6nenlnkbbqia.png)
+![Example transaction split showing transfer between accounts](attachments/transfer-between-accounts-vu45qniuwpaeaa7a6nenlnkbbqia.png)
 
 The cleanest way to achieve this is:  
 
@@ -430,7 +430,7 @@ subtract the amount that was on-hand last time we recorded it.
     - Less previous on-hand balance (also against the "Cash on hand" account, but as "income")
     - Cash received for <period> (as income to the "Snacks cash" account)
 
-![Example transaction recording cash-on-hand](/img/cash-on-hand-transaction-p3nkviwngcsnaibeoqpwwbvscuqe.png)
+![Example transaction recording cash-on-hand](attachments/cash-on-hand-transaction-p3nkviwngcsnaibeoqpwwbvscuqe.png)
 
 
 ## Non-banking transactions
@@ -609,23 +609,23 @@ Note that the changed accounting periods will create inappropriate reports if th
 These are screen captures of the settings I'm using (in the same order as offered by GC). I've skipped several as they relate to capabilities we don't use, like scheduled transactions and online banking.
 
 
-![Accounting Period](/img/prefs-accounting-period-15cmx144-h7vya2tru32nijwucakyqogk7ava.png)
+![Accounting Period](attachments/prefs-accounting-period-15cmx144-h7vya2tru32nijwucakyqogk7ava.png)
 
-![Accounts](/img/prefs-accounts-15cmx144-tekdaeuydtyovdufyyn3mpwijdbl.png)
+![Accounts](attachments/prefs-accounts-15cmx144-tekdaeuydtyovdufyyn3mpwijdbl.png)
 
-![General](/img/prefs-general-15cmx144-7tazmvuz5soxhmtulxigqlgno5fo.png)
+![General](attachments/prefs-general-15cmx144-7tazmvuz5soxhmtulxigqlgno5fo.png)
 
-![Imports](/img/prefs-import-15cmx144-y6eoitwzejwhpt3eahvjihbdvtu7.png)
+![Imports](attachments/prefs-import-15cmx144-y6eoitwzejwhpt3eahvjihbdvtu7.png)
 
-![Numbers, Date, Time](/img/prefs-numbers-etc-15cmx144-itvl7nirylrvomooxvrnow3tb7zs.png)
+![Numbers, Date, Time](attachments/prefs-numbers-etc-15cmx144-itvl7nirylrvomooxvrnow3tb7zs.png)
 
-![Register](/img/prefs-register-15cmx144-66paatjmuv7hyfhe6phdw2biqduk.png)
+![Register](attachments/prefs-register-15cmx144-66paatjmuv7hyfhe6phdw2biqduk.png)
 
-![Register Defaults](/img/prefs-register-defaults-15cmx144-uf2movry3lv4ciymtgaoipa5ymgl.png)
+![Register Defaults](attachments/prefs-register-defaults-15cmx144-uf2movry3lv4ciymtgaoipa5ymgl.png)
 
-![Reports](/img/prefs-reports-15cmx144-3mq3vy5oonele7gm7bp5y5qfncoj.png)
+![Reports](attachments/prefs-reports-15cmx144-3mq3vy5oonele7gm7bp5y5qfncoj.png)
 
-![Windows](/img/prefs-windows-15cmx144-spl5nafzgwhofelac3ht7i26t73g.png)
+![Windows](attachments/prefs-windows-15cmx144-spl5nafzgwhofelac3ht7i26t73g.png)
  
  
 ## Revisions

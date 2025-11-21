@@ -34,7 +34,7 @@ Power to the Rasperry Pi (5V DC) comes from a Power-over-Ethernet (PoE) adapter 
 
 The RFID reader and door strike are powered by a second (12VDC) power supply. The door strike requires power to remain locked, so the door is unlocked whenever there is a power outage.
 
-![The Raspberry Pi](/img/Door_Controller_Pi_Box-czlm3ux4jimcnjy723wmh2sytyhd.jpg)
+![The Raspberry Pi](attachments/Door_Controller_Pi_Box-czlm3ux4jimcnjy723wmh2sytyhd.jpg)
 
 ## [Remote access](/Access%20Controller%20Remote%20access)
 

@@ -1,4 +1,4 @@
-![](/img/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
+![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
 # This machine must not be used by anyone who is not a Hackerspace-approved Operator
 
