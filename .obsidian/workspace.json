@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Wiki_Migration.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -187,6 +187,9 @@
   },
   "active": "b6a0b9e9a39330c7",
   "lastOpenFiles": [
+    "Notes on settings for Wiki.md",
+    "attachments/favicon.ico",
+    "attachments/logo-192x192.png",
     "Migration_sequence.md",
     "Wiki_Migration.md"
   ]
