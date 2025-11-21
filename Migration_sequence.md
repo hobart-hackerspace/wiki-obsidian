@@ -6,6 +6,16 @@
 1. Duplicate that & call it `hhs-wiki-working-copy`
 1. Within `hhs-wiki-working-copy`, delete the entire `.git` directory
 	- We now have a clean slate from which to start a new `GitHub` repository
+2. We add a `.gitignore` file for future use so that we don't end up tracking changes to files that only store state.
+	- Create a file called `.gitignore` and add to it the following content:
+``` git
+# Ignore volatile UI-related state
+.obsidian/workspace.json
+
+.DS_Store
+Thumbs.db
+```
+(Note that I omitted this step and had to add it later. It's since been added into each of the branches, so there is a second commit to what should be the base of the repository.)
 ## `GitHub`
 1. Before you can work with the `GitHub` repository you have to have relevant access and authentication set up.
 	- A working `GitHub` account
@@ -18,17 +28,21 @@
 1. Log into `GitHub` and create a new repository.
 	- Call it `wiki-obsidian`
 1. Make the `hhs-wiki-working-copy` directory a local `git` repository
-	- `git init`
-	- `git add *`
-	- `git add */*`
-	- `git add .*`
-	- `git add .*/.*`
-	- `git commit -m "Initial commit of all from WikMD except the git repository"`
-	- `git branch -M wikmd`
+``` bash
+git init
+git add *
+git add */*
+git add .*
+git add .*/.*
+git commit -m "Initial commit of all from WikMD except the git repository"
+git branch -M wikmd`
+```
 2. We now have a branch against which we can compare future changes between the captured `wikmd` version and the live version, by re-importing all files and `git diff`-ing.
 3. At this point we can push it up to `GitHub`
-	- `git remote add origin git@github.com:hobart-hackerspace/wiki-obsidian.git`
-	- `git push -u origin wikmd`
+``` bash
+git remote add origin git@github.com:hobart-hackerspace/wiki-obsidian.git
+git push -u origin wikmd
+```
 
 ## Working repository
 
@@ -49,8 +63,7 @@ git checkout draft
 git push --set-upstream origin draft
 ```
 
-Note that we end up with the `draft` branch checked out. That's where we'll do most of the work.
-
+Note that we end up with the **`draft`** branch checked out. That's where we'll do most of the work.
 ### Obsidian setup
 This assumes that you've got Obsidian installed on a suitable device. It runs on Linux, MacOS & Win. While it also runs on Android & iOS, I'm not sure if they will run it in conjunction with `git` -- someone please tell me...
 
@@ -77,7 +90,7 @@ Before turning our working directory into an Obsidian vault, it's worth making o
 - Remove the empty `attachments` directory
 - Change the name of the `img` directory to `attachments`
 - Add that change to `git`, `commit` it and `push` to `GitHub`
-```
+``` bash
 git mv img attachments
 git commit -m "changed `img` directory to `attachments` to fit with obsidian"
 git push
@@ -134,4 +147,12 @@ git commit -m "Adjusted attachment links"
 	- all leading 4-space groups to tabs, then
 	- tab followed by 4 spaces to 2 tabs
 	- this was repeated until no more existed
-- (Of course, I'm sure `sed` would do it, too:-)
+- (Of course, I'm sure `sed` could do it, too:-)
+- ... and then commit.
+#### Logo & favicon
+- We have logo files and a favicon set in the MS365 file store, so copy those to the `attachments` folder. (`logo-192x192.png` and `favicon.ico`)
+- When publishing we identify the logo file to `Publish`; it will find the favicon automatically.
+### Test publish
+Yay!!
+
+This gives the opportunity to check that we got things basically right.
