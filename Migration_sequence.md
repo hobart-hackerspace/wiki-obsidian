@@ -123,3 +123,8 @@ git commit -m "created obsidian vault"
 	- The omission of the leading "`/`" is deliberate as the setting for new attachments is for local sub-folders.
 	- It reported 66 links in 19 files.
 	- So we commit that:
+``` bash
+git add *.md
+git commit -m "Adjusted attachment links"
+```
+1. 
