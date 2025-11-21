@@ -1,7 +1,7 @@
 # Wiki software
 - The software we're using is Wikimd. 
 	- [Github repo](https://github.com/Linbreux/wikmd)
-    - [Doco and installation instructions](https://linbreux.github.io/wikmd/)
+	- [Doco and installation instructions](https://linbreux.github.io/wikmd/)
 - This is available as a python install (via `pip` or `git`) or as a docker container. 
 
 # A dedicated user-id for the wiki
@@ -21,18 +21,18 @@ The first trial was a docker container.
 
 - Make a storage space for it:
 ```
-    docker volume create wiki_data
-    docker volume inspect wiki_data  # ( a check step )
-    sudo chown wiki-user /var/lib/docker/volumes/wiki_data \
-    	/var/lib/docker/volumes/wiki_data/_data
+	docker volume create wiki_data
+	docker volume inspect wiki_data  # ( a check step )
+	sudo chown wiki-user /var/lib/docker/volumes/wiki_data \
+		/var/lib/docker/volumes/wiki_data/_data
 ```
 
 - For some reason the directory `/var/lib/docker` was not readble, preventing non-root access to anything below it. There seemed no reason for this as some of its sub-directories are world-readable, so this was adjusted.
 ```
-    sudo chmod +x /var/lib/docker
-    # this allowed:
-    touch /var/lib/docker/volumes/wiki_data/_data/test
-    rm /var/lib/docker/volumes/wiki_data/_data/test
+	sudo chmod +x /var/lib/docker
+	# this allowed:
+	touch /var/lib/docker/volumes/wiki_data/_data/test
+	rm /var/lib/docker/volumes/wiki_data/_data/test
 ```
 
 - Ran a trial installation direct from the repository, [per the instructions](https://linbreux.github.io/wikmd/installation/docker.html), to avoid any issues:
@@ -66,7 +66,7 @@ git config --global --add safe.directory /wiki'
 ```
 
 - In theory, it should be possible to get access to a shell in the working directory within the container while it is running, with: `docker exec -it wikmd /bin/bash`.
-    But when that was tried, the response was:
+	But when that was tried, the response was:
 ```
 OCI runtime exec failed: exec failed: unable to start container process: exec: "/bin/bash": stat /bin/bash: no such file or directory: unknown
 ```

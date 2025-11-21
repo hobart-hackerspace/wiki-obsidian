@@ -11,7 +11,7 @@ The membership system at the moment is TidyHQ (often abbreviated in this documen
 1. Check that in the `Groups` box is included `Current Members`. You should also see an `Active` membership in the list below that.
 1. If you're setting up a member's RFID:
 	- In the page that comes up there is a `Contact Details` block that includes an `ID Number`. 
-    	You'll need that ID number to give to the door controller.
+		You'll need that ID number to give to the door controller.
 	- Keep that page open - you'll need to go back to it to provide the RFID number when you've allocated and confirmed it.
 
 # Getting a list of members
@@ -36,7 +36,7 @@ The membership system at the moment is TidyHQ (often abbreviated in this documen
 6. `Export CSV` and choose a file name.
 1. There is [a Python script](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/Eps4lcgNIO9MvPD3DqaEmdcBnXzkc4ulAWxUGtWNAX-HUg?e=IkrVGl) to process this file.
 	- The script will read an export file of the above form to produce:
-    	- a complete SQLite3 database and
-        - a Mailgun import file. 
-    - Note that this script needs to be run from a directory on your local machine.
+		- a complete SQLite3 database and
+		- a Mailgun import file. 
+	- Note that this script needs to be run from a directory on your local machine.
 

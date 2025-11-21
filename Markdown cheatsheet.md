@@ -6,56 +6,56 @@ Note that Wikmd uses [`pandoc`](https://pandoc.org/MANUAL.html#pandocs-markdown)
 
 # Heading 1 #
 
-    Markup :  # Heading 1 #
+	Markup :  # Heading 1 #
 
-    -OR-
+	-OR-
 
-    Markup :  ============= (below H1 text)
+	Markup :  ============= (below H1 text)
 
 ## Heading 2 ##
 
-    Markup :  ## Heading 2 ##
+	Markup :  ## Heading 2 ##
 
-    -OR-
+	-OR-
 
-    Markup: --------------- (below H2 text)
+	Markup: --------------- (below H2 text)
 
 ### Heading 3 ###
 
-    Markup :  ### Heading 3 ###
+	Markup :  ### Heading 3 ###
 
 #### Heading 4 ####
 
-    Markup :  #### Heading 4 ####
+	Markup :  #### Heading 4 ####
 
 
 Normal text
 
-    Markup :  Normal text
+	Markup :  Normal text
 
 _Emphasized text_
 
-    Markup :  _Emphasized text_ or *Emphasized text*
+	Markup :  _Emphasized text_ or *Emphasized text*
 
 ~~Strikethrough text~~
 
-    Markup :  ~~Strikethrough text~~
+	Markup :  ~~Strikethrough text~~
 
 __Strong text__
 
-    Markup :  __Strong text__ or **Strong text**
+	Markup :  __Strong text__ or **Strong text**
 
 ___Strong emphasized text___
 
-    Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
+	Markup :  ___Strong emphasized text___ or ***Strong emphasized text***
 
 [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
-    Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
+	Markup :  [Named Link](http://www.google.fr/ "Named link title") and http://www.google.fr/ or <http://example.com/>
 
 [heading-1](#heading-1 "Goto heading-1")
-    
-    Markup: [heading-1](#heading-1 "Goto heading-1")
+	
+	Markup: [heading-1](#heading-1 "Goto heading-1")
 
 Table, like this one :
 
@@ -101,57 +101,57 @@ Content Cell  | Content Cell | Content Cell
 
 `code()`
 
-    Markup :  `code()`
+	Markup :  `code()`
 
 ```javascript
-    var specificLanguage_code = 
-    {
-        "data": {
-            "lookedUpPlatform": 1,
-            "query": "Kasabian+Test+Transmission",
-            "lookedUpItem": {
-                "name": "Test Transmission",
-                "artist": "Kasabian",
-                "album": "Kasabian",
-                "picture": null,
-                "link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
-            }
-        }
-    }
+	var specificLanguage_code = 
+	{
+		"data": {
+			"lookedUpPlatform": 1,
+			"query": "Kasabian+Test+Transmission",
+			"lookedUpItem": {
+				"name": "Test Transmission",
+				"artist": "Kasabian",
+				"album": "Kasabian",
+				"picture": null,
+				"link": "http://open.spotify.com/track/5jhJur5n4fasblLSCOcrTp"
+			}
+		}
+	}
 ```
 
-    Markup : ```javascript
-             ```
+	Markup : ```javascript
+			 ```
 
 * Bullet list
-    * Nested bullet
-        * Sub-nested bullet etc
+	* Nested bullet
+		* Sub-nested bullet etc
 * Bullet list item 2
 
 ~~~
  Markup : * Bullet list
-              * Nested bullet
-                  * Sub-nested bullet etc
-          * Bullet list item 2
+			  * Nested bullet
+				  * Sub-nested bullet etc
+		  * Bullet list item 2
 
 -OR-
 
  Markup : - Bullet list
-              - Nested bullet
-                  - Sub-nested bullet etc
-          - Bullet list item 2 
+			  - Nested bullet
+				  - Sub-nested bullet etc
+		  - Bullet list item 2 
 ~~~
 
 1. A numbered list
-    1. A nested numbered list
-    2. Which is numbered
+	1. A nested numbered list
+	2. Which is numbered
 2. Which is numbered
 
 ~~~
  Markup : 1. A numbered list
-              1. A nested numbered list
-              2. Which is numbered
-          2. Which is numbered
+			  1. A nested numbered list
+			  2. Which is numbered
+		  2. Which is numbered
 ~~~
 
 - [ ] An uncompleted task
@@ -159,33 +159,33 @@ Content Cell  | Content Cell | Content Cell
 
 ~~~
  Markup : - [ ] An uncompleted task
-          - [x] A completed task
+		  - [x] A completed task
 ~~~
 
 - [ ] An uncompleted task
-    - [ ] A subtask
+	- [ ] A subtask
 
 ~~~
  Markup : - [ ] An uncompleted task
-              - [ ] A subtask
+			  - [ ] A subtask
 ~~~
 
 > Blockquote
 >> Nested blockquote
 
-    Markup :  > Blockquote
-              >> Nested Blockquote
+	Markup :  > Blockquote
+			  >> Nested Blockquote
 
 _Horizontal line :_
 - - - -
 
-    Markup :  - - - -
+	Markup :  - - - -
 
 _Image with alt :_
 
 ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
-    Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
+	Markup : ![picture alt](http://via.placeholder.com/200x150 "Title is optional")
 
 Foldable text:
 
@@ -198,10 +198,10 @@ Foldable text:
   <p>Content 2 Content 2 Content 2 Content 2 Content 2</p>
 </details>
 
-    Markup : <details>
-               <summary>Title 1</summary>
-               <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
-             </details>
+	Markup : <details>
+			   <summary>Title 1</summary>
+			   <p>Content 1 Content 1 Content 1 Content 1 Content 1</p>
+			 </details>
 
 ```html
 <h3>HTML</h3>
@@ -212,8 +212,8 @@ Link to a specific part of the page:
 
 [Go To TOP](#TOP)
    
-    Markup : [text goes here](#section_name)
-              section_title<a name="section_name"></a>    
+	Markup : [text goes here](#section_name)
+			  section_title<a name="section_name"></a>    
 
 Hotkey:
 
@@ -221,7 +221,7 @@ Hotkey:
 
 <kbd>⇧⌘F</kbd>
 
-    Markup : <kbd>⌘F</kbd>
+	Markup : <kbd>⌘F</kbd>
 
 Hotkey glyph (symbol) list:
 
@@ -248,4 +248,4 @@ Emoji:
 
 :exclamation: Use emoji icons to enhance text. :+1:  Look up emoji codes at [emoji-cheat-sheet.com](http://emoji-cheat-sheet.com/)
 
-    Markup : Code appears between colons :EMOJICODE:
+	Markup : Code appears between colons :EMOJICODE:

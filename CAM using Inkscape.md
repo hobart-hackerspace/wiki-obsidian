@@ -36,22 +36,22 @@ with the CNC.
 
 1.	Open a document, or create a new document.
 1.	Create an object, or enter text.  
-    If necessary place the object precisely by using the X and Y coordinate 
-    fields at the top of the window.
+	If necessary place the object precisely by using the X and Y coordinate 
+	fields at the top of the window.
 
 1.	Select the object.
-    a.	Convert to Path:  
-    	Select `Path > Object to Path`
+	a.	Convert to Path:  
+		Select `Path > Object to Path`
 
-    a.	Add Orientation Points:  
-    	These tell the system where the origin point is on the object.  
-    	i. 	Select `Extensions > Gcodetools > Orientation Points...`  
-           	![](attachments/image1-yk5cnegv5dd5k6sqhuvlmxpu2mor.png){width="4in"}  
+	a.	Add Orientation Points:  
+		These tell the system where the origin point is on the object.  
+		i. 	Select `Extensions > Gcodetools > Orientation Points...`  
+		   	![](attachments/image1-yk5cnegv5dd5k6sqhuvlmxpu2mor.png){width="4in"}  
 		i. 	Leave the Orientation type as 2-points mode.
-    	i. 	The Z surface should normally be 0.0.
-        i. 	Set the Z depth of the cut, say -2.5 mm.
-        i. 	Leave the Units as mm.
-        i. 	Click Apply then Close.
+		i. 	The Z surface should normally be 0.0.
+		i. 	Set the Z depth of the cut, say -2.5 mm.
+		i. 	Leave the Units as mm.
+		i. 	Click Apply then Close.
 
 	a.	The Orientation Points appear as a text-like object at the bottom of the page.  
 		i.	Move them up, near to other object so that the left arrow is at your origin point for the job.  
@@ -62,24 +62,24 @@ with the CNC.
  
 1.  Select the object again and start the conversion to GCode:  
 	a.	Select `Extensions > Gcodetools > Path to Gcode...`  
-    	![](attachments/image3-xwjw6rddus5n4xgnjjdkbsmjnh3z.png){width="3.6in"}  
+		![](attachments/image3-xwjw6rddus5n4xgnjjdkbsmjnh3z.png){width="3.6in"}  
 	a.	Select the `Preferences` tab:  
-    		![](attachments/image4-itp6avoxbvf5ojaufgxitjigmlfk.png){width="3.6in"}  
-        i.	Set the File name of the GCode file to be generated.
-        i.	Check that the Save Directory is correct.
-        i.	Set the Safe Height for non-cutting movement of the CNC head. 
-    		This must be above the height of any part of the base material,
-            clamps, bolts and any other obstructions.
-        i.	Set the Units to mm.
+			![](attachments/image4-itp6avoxbvf5ojaufgxitjigmlfk.png){width="3.6in"}  
+		i.	Set the File name of the GCode file to be generated.
+		i.	Check that the Save Directory is correct.
+		i.	Set the Safe Height for non-cutting movement of the CNC head. 
+			This must be above the height of any part of the base material,
+			clamps, bolts and any other obstructions.
+		i.	Set the Units to mm.
 	a.	Select the `Options` tab:  
-    	![](attachments/image5-a2u7nw54m6g2hl6yb6tgwmnabq52.png){width="3in"}  
-        i.	Leave the Scale along Z axis as 1.0.
+		![](attachments/image5-a2u7nw54m6g2hl6yb6tgwmnabq52.png){width="3in"}  
+		i.	Leave the Scale along Z axis as 1.0.
 	a.	Select the `Path to Gcode` tab:  
-    	![](attachments/image6-miyeiso4atowi6pizu25hxa5spil.png){width="3.7in"}  
-        i.	Set the Depth function to the depth to be cut, -2.5mm in this case.
-        i.	Click Apply and the following is displayed:  
-    		![](attachments/image7-biwepxpmqiau6bnhudhz5wofxwiv.png){width="3.7in"}  
-    a.	Click OK.
+		![](attachments/image6-miyeiso4atowi6pizu25hxa5spil.png){width="3.7in"}  
+		i.	Set the Depth function to the depth to be cut, -2.5mm in this case.
+		i.	Click Apply and the following is displayed:  
+			![](attachments/image7-biwepxpmqiau6bnhudhz5wofxwiv.png){width="3.7in"}  
+	a.	Click OK.
 	a.	Click Close on the Path to Gcode dialogue box.
 
 1.	The current Gcode parameters are displayed in an enormous green textbox.

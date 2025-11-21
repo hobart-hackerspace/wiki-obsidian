@@ -16,10 +16,11 @@ Some notes on where I'm at, what has to be done and what has been done in migrat
 	- Given that I've part started, I'll pause in this directory and start with a new "virgin" copy
 		- Then when that's checked in, replace all files with those in my part-started directory and check those in as changes on a new branch: "`draft`"
 - Change `/img/` dir to `attachments/`
-	- Make the same change globally in the markdown files
+	- Make the same change globally in the links within markdown files
+- Change all indenting to tabs
 - Look for some easy way to url-encode the link references
 	- append their names with `.md`
-- change all indenting to tabs
 - Then work through each page & check for mis-formatting
+	- Adjust image sizes - post-link {} to prefix []
 - Add a logo file
 - And a suitable theme...

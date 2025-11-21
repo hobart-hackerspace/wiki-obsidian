@@ -1,7 +1,7 @@
 # Software
 - The software we're using is Wikimd. 
 	- [Github repo](https://github.com/Linbreux/wikmd)
-    - [More details](#wiki-software-details)
+	- [More details](#wiki-software-details)
 - We run it in a `docker` container.
 	- [Details of the docker container are below](#active-docker-configuration)
 
@@ -27,7 +27,7 @@ Access it from within our LAN at `http://wiki.local` or, if for some reason `ngi
 # Managing the wiki files
 - The wiki pages are all Markdown files, with `.md` extensions.
 	- Image files can be uploaded for embedding in  pages (or simply linking to)
-    - As yet we can't upload PDF files.
+	- As yet we can't upload PDF files.
 - The files reside in the directory `~/wikmd/wiki/` and its subdirectories.
 - Contents can be created and/or updated through the web interface.
 - Files can also be manipulated with any text editor on another machine and copied to/from the above directory with `scp`, for example:
@@ -66,7 +66,7 @@ The `rsync`ed files are then pulled off-site daily to a server at Brian's house 
 
 - The software we're using is Wikimd. 
 	- [Github repo](https://github.com/Linbreux/wikmd)
-    - [Doco and installation instructions](https://linbreux.github.io/wikmd/)
+	- [Doco and installation instructions](https://linbreux.github.io/wikmd/)
 - This is available as a python install (via `pip` or `git`) or as a `docker` container. We're running the `docker` container.
 	- [Details of the docker container are below](#active-docker-configuration)
 	- [We went through a few different approaches to before settling on the Docker container.](Wiki software trial installations)
@@ -79,7 +79,7 @@ A couple of explanations:
 - The TCP port `7008` was chosen for the service (7008 is the New Town postcode).
 - The user and group ID numbers of `1002` are that given by the system when the user and its group were created.
 	- If you're working on a new/replacement installation, you can verify the user & group IDs with:
-    - `grep wiki-user /etc/passwd`
+	- `grep wiki-user /etc/passwd`
 
 ## Active Docker configuration
 

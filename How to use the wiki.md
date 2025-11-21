@@ -2,7 +2,7 @@
 - The usual Markdown formatting options apply. [See the cheatsheet here](Markdown cheatsheet).
 - Links 
 	- Links are constructed in classic markdown form -- `[`label text`](`destination URL`)`
-    - Links to other pages in the wiki can be inserted by putting the name of the page (without the `.md` extension) in brackets, eg: `[How to use the wiki](How to use the wiki)` would link back to this page. [How to use the wiki](How to use the wiki)
+	- Links to other pages in the wiki can be inserted by putting the name of the page (without the `.md` extension) in brackets, eg: `[How to use the wiki](How to use the wiki)` would link back to this page. [How to use the wiki](How to use the wiki)
 
 ## Plugins
 
@@ -13,7 +13,7 @@ For now there are only a few supported.
 - `[[ page: some-page ]]` Allows to show an other page in the current one.
 - **Banners**  
 	- Can be: `[[info]]`, `[[warning]]`, `[[danger]]`, `[[success]]`  
-    - for example,  the text `[[success]] You are ready to go!` gives:
+	- for example,  the text `[[success]] You are ready to go!` gives:
 
 [[success]] You are ready to go!
 
@@ -96,8 +96,8 @@ author: your name
 date: 05-11-2020
 geometry: margin=2.5cm
 header-includes: |
-        \usepackage{caption}
-        \usepackage{subcaption}
+		\usepackage{caption}
+		\usepackage{subcaption}
 lof: true
 ---
 ```

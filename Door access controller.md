@@ -22,9 +22,9 @@ It uses:
 	- This could constrian upgrading of the Raspbian version -- no Python2 is available on Bookworm (12) or later)
 - The `pigpio` software library 
 	- `pigpio` provides a low-latency interface between the Python software and the Raspberry Pi GPIO ports.
-    - The GPIO ports are used to:
-    	- sense the output of the RFID reader and the state of the door latch and *Alarm* button; and
-        - control the locked/unlocked state of the door latch and turn on/off the beeper
+	- The GPIO ports are used to:
+		- sense the output of the RFID reader and the state of the door latch and *Alarm* button; and
+		- control the locked/unlocked state of the door latch and turn on/off the beeper
 	- `pigpio` is at version 1.35; the most recent is 1.78.
 - MQTT is used to communicate with other systems. 
   MQTT allows for loosely-coupled systems that don't break if the link is inoperative.
@@ -56,10 +56,10 @@ The RFID reader and door strike are powered by a second (12VDC) power supply. Th
 ## System maintenance
 - Backups
 	- Database
-    - Logs
-    - File system
-    - System images
+	- Logs
+	- File system
+	- System images
 - Physical maintenance
 	- Door strike
-    - Raspberry Pi box
-    	- SD card removal & re-insertion
+	- Raspberry Pi box
+		- SD card removal & re-insertion

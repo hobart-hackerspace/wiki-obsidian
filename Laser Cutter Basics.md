@@ -30,9 +30,9 @@ The machine requires *Beam Studio* to run.
 This is supplied by the manufacturer, 
 and you have three choices as to mode of running it:
 	- The software is downloadable on to your Windows, Mac or Linux machine;
-    - There are machines in the Space with it installed; or
-    - There is a web version (for which you need to create a free account).
-    - See [Software] below for more details.
+	- There are machines in the Space with it installed; or
+	- There is a web version (for which you need to create a free account).
+	- See [Software] below for more details.
 
 # Basic of laser cutters
 (Skip this bit if you've used a laser cutter before. Go straight to [Making it work])
@@ -96,28 +96,28 @@ Before you can use the laser cutter you need to:
 
 - Power it up. 
 	- The power switch is on the wall to the left of the laser cutter, beside the window.
-      There is a sign above it to point it out.
-    - Turn on the power point switch and check that you can hear the exhaust fan running. 
-    	It's behind the laser cutter, in the middle of the ductwork that runs out the window. 
+	  There is a sign above it to point it out.
+	- Turn on the power point switch and check that you can hear the exhaust fan running. 
+		It's behind the laser cutter, in the middle of the ductwork that runs out the window. 
 - Go through the startup process 
 	- Press the power switch on the laser cutter control panel (the round metal one).
-    - Wait while it boots up. 
-    - When the display stabilises with a safety warning message, 
-    	read the message and press the "Accept" button.
-    - The machine is ready for use when the display shows a big **"Start"** message.
+	- Wait while it boots up. 
+	- When the display stabilises with a safety warning message, 
+		read the message and press the "Accept" button.
+	- The machine is ready for use when the display shows a big **"Start"** message.
 
 ![Power point, Exhaust fan & Control panel](attachments/Laser_cutter_startup-ckf5l6tqr2rbtiqktt37t2jgkweh.webp){width="500px"}
 
 - Have access to the *Beam Studio* software. See header notes or [detailed notes below](Software).
 - Have a suitable design file 
 	- Beam Studio can create design files from scratch, but it's very limited.
-    - You can download ready-to-burn design files from many sources, 
-    	in either DXF or SVG format.
-    - You can create your designs using a recognised graphics package, 
-    	- either a 2D CAD program such as [LibreCAD](https://librecad.org/), 
-        - a graphical image package such as [Inkscape](https://inkscape.org/) or
-        - an online alternative to either of those (there are many!)
-        - (those listed above are both free -- there are also many commercial products as well)
+	- You can download ready-to-burn design files from many sources, 
+		in either DXF or SVG format.
+	- You can create your designs using a recognised graphics package, 
+		- either a 2D CAD program such as [LibreCAD](https://librecad.org/), 
+		- a graphical image package such as [Inkscape](https://inkscape.org/) or
+		- an online alternative to either of those (there are many!)
+		- (those listed above are both free -- there are also many commercial products as well)
 
 # Still to do...
 

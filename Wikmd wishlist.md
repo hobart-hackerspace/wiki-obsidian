@@ -12,7 +12,7 @@ Either of these would allow us to develop some of the capabilities listed below 
 ## Author identification/authentication
 - We need to be able to track who is adding/editing content
 	- Maybe link create/update to github users?
-    	- Would this be too much of an inhibitor?
+		- Would this be too much of an inhibitor?
 - Do we want pages to be publicly visible?
 	- Maybe authenticate using emmail address & RFID no
 
@@ -31,7 +31,7 @@ Either of these would allow us to develop some of the capabilities listed below 
 
 - Multi-level page structure (this may actually exist - yet to be explored)
 	- Recognition of "/" in page name
-    - Multi-level site ToC in `/list` ("All files" page)
+	- Multi-level site ToC in `/list` ("All files" page)
 
 ## Attachment handling
 

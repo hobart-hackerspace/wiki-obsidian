@@ -36,14 +36,14 @@ Before you can use the laser cutter you need to:
 
 - Power it up. 
 	- The power switch is on the wall to the left of the laser cutter, beside the window.
-      There is a sign above it to point it out.
-    - Turn on the power point switch and check that you can hear the exhaust fan running. 
-    	It's behind the laser cutter, in the middle of the ductwork that runs out the window. 
+	  There is a sign above it to point it out.
+	- Turn on the power point switch and check that you can hear the exhaust fan running. 
+		It's behind the laser cutter, in the middle of the ductwork that runs out the window. 
 - Go through the startup process 
 	- Press the power switch on the laser cutter control panel (the round metal one).
-    - Wait while it boots up. 
-    - When the display stabilises with a safety warning message, 
-    	read the message and press the "Accept" button.
-    - The machine is ready for use when the display shows a big **"Start"** message.
+	- Wait while it boots up. 
+	- When the display stabilises with a safety warning message, 
+		read the message and press the "Accept" button.
+	- The machine is ready for use when the display shows a big **"Start"** message.
 
 ![Power point, Exhaust fan & Control panel](attachments/Laser_cutter_startup-ckf5l6tqr2rbtiqktt37t2jgkweh.webp){width="500px"}

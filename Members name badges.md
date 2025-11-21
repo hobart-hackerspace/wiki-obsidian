@@ -175,21 +175,21 @@ BS import places the image in the top LH corner. You will have to move the image
 Arrange the layers into this sequence for reliable engraving before cutting.
 
 - Hacky (Red `#FF0000`):  
-    - Power: `15`
-    - Speed: `20`
-    - Execute: `1`
+	- Power: `15`
+	- Speed: `20`
+	- Execute: `1`
 - Lettering outline (Black `#000000`):  
-    - Power: `15`
-    - Speed: `15`
-    - Execute: `1`
+	- Power: `15`
+	- Speed: `15`
+	- Execute: `1`
 - Lettering fill (Blue `#0000FF`):  
-    - Power: `15`
-    - Speed: `30`
-    - Execute: `1`
+	- Power: `15`
+	- Speed: `30`
+	- Execute: `1`
 - Outline (Green `#008000`):  
-    - Power: `55`
-    - Speed: `7`
-    - Execute: `1`
+	- Power: `55`
+	- Speed: `7`
+	- Execute: `1`
 
 
 # Doing the lettering in *Beam Studio*:
@@ -199,15 +199,15 @@ Arrange the layers into this sequence for reliable engraving before cutting.
 - Place a gauge block at top edge and align blank nameplate to block (top) and to frame (side).
 - Go to preview mode and image the nameplate with the camera (ie scan over its area : x10-90, y20-50), then exit preview mode
 - Create some guide lines (these will be removed before printing).
-    - Set a horizontal line at 33.5mm and another at 42mm from 30mm to 90mm.
-    - Set a vertical line at 60mm from 10mm to 50mm.
+	- Set a horizontal line at 33.5mm and another at 42mm from 30mm to 90mm.
+	- Set a vertical line at 60mm from 10mm to 50mm.
 - Create a new outline layer (P15 S20 E1) and select it
 - Select the text tool (big "T") and click near the intersection of the upper and vertical guide lines.
 - Type or paste the familyname. This should appear in a text box growing towards the right from the point you clicked. By default it will appear as outline text.
 - With the text box selected, in the RH "Object Panel"/"Layer Panel" area, select the "sliders" icon at the top which makes that area the Object Panel.
 - Under `Options`:  
-    - select the "Westminster" type face from the dropdown box.
-    - select 140px as the size.
+	- select the "Westminster" type face from the dropdown box.
+	- select 140px as the size.
 - Move the location of the text box so that the baseline of the type is on the upper guide line and the centre handles are lined up with the vertical guide line.
 - Repeat the above to enter the familyname on the lower guideline. Make this 90px in size.
 
@@ -216,8 +216,8 @@ BS does not offer the option of having the text outline & fill on different laye
 
 - Create another layer - this will be a raster layer so set it to P15 S30 E1
 - For each of the firstname and familyname:
-    - Select the text and then from the `Edit` top drop-down menu choose `Copy` and then `Paste in place`. This will select the new copy of the text (not visible because it overlays the original).
-    - Switch to filled text by clicking on the paint beaker in the Object Panel Options area.
-    - Right-click on the selected text, choose `Move elements to:` and select the newly-created layer.
-    - You should now have two copies of the text on different layers. Verify this by turning visibility of each layer on and off to see if the fill and outline are on separate layers.
+	- Select the text and then from the `Edit` top drop-down menu choose `Copy` and then `Paste in place`. This will select the new copy of the text (not visible because it overlays the original).
+	- Switch to filled text by clicking on the paint beaker in the Object Panel Options area.
+	- Right-click on the selected text, choose `Move elements to:` and select the newly-created layer.
+	- You should now have two copies of the text on different layers. Verify this by turning visibility of each layer on and off to see if the fill and outline are on separate layers.
 

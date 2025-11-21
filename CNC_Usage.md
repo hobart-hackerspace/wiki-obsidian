@@ -78,9 +78,9 @@ I have added a few more items for discussion at the end of the document - David 
 
 - Log your use on the sheets provided
 	- Date
-    - Name
-    - Approx Hours
-    - Class of use
+	- Name
+	- Approx Hours
+	- Class of use
 
 # 3. Maintenance Schedule
 

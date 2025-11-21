@@ -19,16 +19,16 @@ The machine requires the `UCCNC` control software -- this is installed on the PC
 Full machine documentation is provided [on the manufacturer's website](https://i2rcnc.com/pages/help-center), and some specific documents are listed below.  
 
 - [Users manual](https://hobarthackerspace.sharepoint.com/:b:/s/Committee/ETBBKSRNzlVJvRZ_Yxh6kOIBG_WRBPJezKqdhnsiJMUf6g?e=d4jVGf)
-- [Technical specifications of our I2R A23 CNC](/img/Tech_specs-hi77xxxxotic3ayiopo2qpjkj43o.svg)
+- [Technical specifications of our I2R A23 CNC](attachments/Tech_specs-hi77xxxxotic3ayiopo2qpjkj43o.svg)
 
 ### Supplied manuals
 
 The machine came with an excellent set of manuals - it's recommended that prospective users read through all before starting.
-Note that, as noted above, the machine requires the UCCNC software to drive it, but that software can take G-Code files from any appropriate 2D or 2.5D CAD design program. The manufacturer supports use of the machine with the Vectric software in [Section 5](/img/I2R_manual_Sec_5.pdf) -- even if you're using other design software it's still worth reading that section as it has some useful pointers.
+Note that, as noted above, the machine requires the UCCNC software to drive it, but that software can take G-Code files from any appropriate 2D or 2.5D CAD design program. The manufacturer supports use of the machine with the Vectric software in [Section 5](attachments/I2R_manual_Sec_5.pdf) -- even if you're using other design software it's still worth reading that section as it has some useful pointers.
 
-- [Section 1 - READ ME - Introduction to CNC V1.0](/img/I2R_manual_Sec_1.pdf)
-- [Section 2 - Familiarise yourself with UCCNC V1.0](/img/I2R_manual_Sec_2.pdf)
-- [Section 3 - i2R A Series V1.0](/img/I2R_manual_Sec_3.pdf)
-- [Section 4 - Spindle Configuration, Tool holding and Cutting Tools V1.0](/img/I2R_manual_Sec_4.pdf)
-- [Section 5 - Cut2D\~Vcarve\~Aspire setup v1.0](/img/I2R_manual_Sec_5.pdf)
-- [Section 6 - Part Machining and UCCNC Detailed Operation V1.0](/img/I2R_manual_Sec_6.pdf)
+- [Section 1 - READ ME - Introduction to CNC V1.0](attachments/I2R_manual_Sec_1.pdf)
+- [Section 2 - Familiarise yourself with UCCNC V1.0](attachments/I2R_manual_Sec_2.pdf)
+- [Section 3 - i2R A Series V1.0](attachments/I2R_manual_Sec_3.pdf)
+- [Section 4 - Spindle Configuration, Tool holding and Cutting Tools V1.0](attachments/I2R_manual_Sec_4.pdf)
+- [Section 5 - Cut2D\~Vcarve\~Aspire setup v1.0](attachments/I2R_manual_Sec_5.pdf)
+- [Section 6 - Part Machining and UCCNC Detailed Operation V1.0](attachments/I2R_manual_Sec_6.pdf)
