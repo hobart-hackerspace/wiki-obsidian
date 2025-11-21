@@ -117,14 +117,21 @@ git commit -m "created obsidian vault"
 
 
 ### Low-hanging fruit
-1. **Attachment links**
-	- We changed the `img` directory to `attachments`. We have to adjust all attachment links to match.
-	- No doubt there's a simple `sed` script to do that, but I simply used a project-wide replace in my favourite IDE, replacing all occurrences of "`(/img/`" with "`(attachments/`". 
-	- The omission of the leading "`/`" is deliberate as the setting for new attachments is for local sub-folders.
-	- It reported 66 links in 19 files.
-	- So we commit that:
+#### Attachment links
+- We changed the `img` directory to `attachments`. We have to adjust all attachment links to match.
+- No doubt there's a simple `sed` script to do that, but I simply used a project-wide replace in my favourite IDE, replacing all occurrences of "`(/img/`" with "`(attachments/`". 
+- The omission of the leading "`/`" is deliberate as the setting for new attachments is for local sub-folders.
+- It reported 66 links in 19 files.
+- So we commit that:
 ``` bash
 git add *.md
 git commit -m "Adjusted attachment links"
 ```
-1. 
+#### Line indentation character
+- `WikMD` is agnostic as to whether lines are indented using tab characters or multiple spaces; `Obsidian` is less flexible. It either uses tabs or precisely 4 spaces.
+- So our documents have ended up with a mix, wihich causes confused formatting when published.
+- So a global change was made of:
+	- all leading 4-space groups to tabs, then
+	- tab followed by 4 spaces to 2 tabs
+	- this was repeated until no more existed
+- (Of course, I'm sure `sed` would do it, too:-)
