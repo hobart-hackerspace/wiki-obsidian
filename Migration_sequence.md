@@ -15,6 +15,7 @@
 .DS_Store
 Thumbs.db
 ```
+(Note that I omitted this step and had to add it later. It's since been added into each of the branches, so there is a second commit to what should be the base of the repository.)
 ## `GitHub`
 1. Before you can work with the `GitHub` repository you have to have relevant access and authentication set up.
 	- A working `GitHub` account
@@ -155,12 +156,3 @@ git commit -m "Adjusted attachment links"
 Yay!!
 
 This gives the opportunity to check that we got things basically right.
-
-
-
-# Some notes for Brian
-
-## Records of stuff-ups etc that won't be repeated if the sequence above is followed
-
-### The `.gitignore` file
-I omitted to create this at the beginning and had to do it later. The file has since been added into each of the branches, so `wikmd` and `published` branches each have a second commit at what should be the start of the repository history.
