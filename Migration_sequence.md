@@ -15,7 +15,6 @@
 .DS_Store
 Thumbs.db
 ```
-(Note that I omitted this step and had to add it later. It's since been added into each of the branches, so there is a second commit to what should be the base of the repository.)
 ## `GitHub`
 1. Before you can work with the `GitHub` repository you have to have relevant access and authentication set up.
 	- A working `GitHub` account
@@ -152,7 +151,99 @@ git commit -m "Adjusted attachment links"
 #### Logo & favicon
 - We have logo files and a favicon set in the MS365 file store, so copy those to the `attachments` folder. (`logo-192x192.png` and `favicon.ico`)
 - When publishing we identify the logo file to `Publish`; it will find the favicon automatically.
-### Test publish
-Yay!!
-
+# Publication
+## First try
+Having done all the above, we tried publishing, using Brian's `Obsidian Publish` subscription.
 This gives the opportunity to check that we got things basically right.
+
+Yay!! It worked. 
+### First `Publish` settings:
+#### Site
+- Publishing to: `hhs-wiki`
+- Published URL: [`https://publish.obsidian.md/hhs-wiki/`](https://publish.obsidian.md/hhs-wiki/)
+#### General
+- `Site name`: Hobart Hackerspace Wki
+- `Homepage file`: Hackerspace Wiki
+- `Logo`: attachments/logo-192x192.png
+- `Site collaboration`: None initially
+- `Custom domain`: none initially
+- `Search engines`: disallowed
+#### Appearance
+- `Theme`: light
+- `toggle`: on
+#### Reading
+- `Hover`: on
+- `Hide page title`: off
+- `Readable line length`: off (but doesn't seem to work...)
+- `Strict line breaks`: on
+- `stack pages`: on
+#### Components
+- `Nav`: yes
+- `Custom nav`: home page at top, others unchanged
+	- `hidden`: attachments folder
+- `search`, `graph`, `ToC` & `backlinks`: all on
+#### Other settings- ``:
+- `passwords`: one -- "spacehackers@#"
+
+## Shared publication
+The next step was to publish using another `Obsidian` account.
+
+### Hackerspace account
+- As the trial publication had been done using Brian's account, a shared publication was tried with a new Hackerspace account, with email address `obsidian@hobarthackerspace.org.au`.
+- The account is set up as an email address list in MS365, currently forwarding only to Brian.
+- The account was registered with Obsidian. 
+	- But no subscription fees were paid nor payment details supplied.
+	- Password is (as usual) in the vault.
+- This account was recorded in the `Publish` settings as a collaborator.
+
+### Publication process
+Couldn't have been easier.
+
+- Obsidian was installed on a linux machine (with desktop - Obsidian is a GUI application)
+- The `GitHub` repository was cloned
+	- `git clone git@github.com:hobart-hackerspace/wiki-obsidian.git`
+- Obsidian was opened and the `wiki-obsidian` directory opened as a vault.
+- a simple change was made to one file (this one) and publication initiated
+	- the changed file was identified by Obsidian, selected and published
+	- It duly shoed up on the website
+- The change was then committed to `git` and pushed to the repository
+
+## Shared publication takeaways
+1. A paid `Publish` subscription is required for the site
+1. Paid accounts are ***not*** required by individual contributors
+1. Change management (`git commands`) discipline is essential
+	- Pull from `GitHub` before making edits
+		- merge with local changes or otherwise resolve conflicts if necessary
+	- Edit and review in Obsidian
+	- Publish and review on site
+		- Not forgetting to force refresh
+	- Commit and push to `GitHub` after publication
+
+# Links
+`WikMD` is as ill-disciplined with link formats as it is with indentation. In particular:
+ - it allows both standard MarkDown links `[displayed words](hidden URL)` and Wiki links `[[words which are also the link]]`.
+ - For internal links:
+	 - It allows the "URL" bit to have embedded spaces
+	 - It doesn't add the `.md` suffix to file titles
+
+So we have a random mix of all the above in our Wiki Markdown.
+
+It may be necessary to manually convert these, but it'll be a bit of work; a quick `grep` shows over 300 links (although many may be external).
+
+``` bash
+❯ grep \]\( *.md | wc
+     315    3841   41041
+❯ grep \]\] *.md | wc
+      20     311    2134
+❯ grep http *.md | wc
+     148    2036   22916
+```
+
+So I'll experiment with a bit of scripting first.
+
+# Some notes for Brian
+
+## Records of stuff-ups etc that won't be repeated if the sequence above is followed
+
+### The `.gitignore` file
+I omitted to create this at the beginning and had to do it later. The file has since been added into each of the branches, so `wikmd` and `published` branches each have a second commit at what should be the start of the repository history.

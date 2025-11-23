@@ -26,7 +26,7 @@ Our home is a shared space and a heritage building. Please respect these when us
 The heritage issue means that we have to be careful how we look after the building, especially the older stone parts.
 
 ### Sharing the Space safely
-[We have a set of guidelines for all those who use our Space](Sharing our Space)
+[We have a set of guidelines for all those who use our Space](Sharing%20our%20Space.md)
 
 ### Leaving the building
 [Here's a checklist to follow when leaving, to make sure the building is left safe & secure.](Building departure checklist)
