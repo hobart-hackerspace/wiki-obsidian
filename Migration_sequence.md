@@ -19,7 +19,7 @@ Thumbs.db
 1. Before you can work with the `GitHub` repository you have to have relevant access and authentication set up.
 	- A working `GitHub` account
 	- Read-write access granted to the `hobart-hackerspace` `GitHub` repositories
-		- If you don' have that, ask someone to set you up. Currently the owners are: Alistair, Tom, Leo, Brian, Trent & Shane
+		- If you don't have that, ask someone to set you up. Currently the owners are: Alistair, Tom, Leo, Brian, Trent & Shane
 	- Authentication set up for your account so that you can push changes.
 		- With command-line `push`es that's easiest if you provide a `ssh` key. [(GitHub doco tells you how)](https://docs.github.com/en/authentication).
 		- With a GUI tool, that tool should guide you.
