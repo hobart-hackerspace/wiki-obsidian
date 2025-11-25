@@ -1,4 +1,4 @@
-**A Glossary of terms used in CNC design and machining**
+# A Glossary of terms used in CNC design and machining
 
 4th Axis
 : An additional axis to a traditional 3-axis machine that enables the CNC to operate as a lathe.

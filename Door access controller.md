@@ -36,7 +36,7 @@ The RFID reader and door strike are powered by a second (12VDC) power supply. Th
 
 ![The Raspberry Pi](attachments/Door_Controller_Pi_Box-czlm3ux4jimcnjy723wmh2sytyhd.jpg)
 
-## [Remote access](/Access%20Controller%20Remote%20access)
+## [Remote access](/Access%20Controller%20Remote%20access.md)
 
 (more to come ...)
 
@@ -63,3 +63,7 @@ The RFID reader and door strike are powered by a second (12VDC) power supply. Th
 	- Door strike
 	- Raspberry Pi box
 		- SD card removal & re-insertion
+
+- Transcoded from WikMD on Tue Nov 25 12:13:31 2025
+	- 65 lines written, 1 changed.
+	- Lines: 39

@@ -1,6 +1,6 @@
 Some doco on our monitoring cameras (NVR, CCTV, video surveillance, ....)
 
-- [Zoneminder](Zoneminder) was tried (fully FOSS), but is not well supported or up-to-date, so the experiment was discontinued.
+- [Zoneminder](Zoneminder.md) was tried (fully FOSS), but is not well supported or up-to-date, so the experiment was discontinued.
 - Now using [Agent-DVR](https://www.ispyconnect.com/):
 	- It runs on the Docker server as a container
 		- To start:
@@ -45,3 +45,8 @@ Some doco on our monitoring cameras (NVR, CCTV, video surveillance, ....)
 
 
 *More to come*  *BWM 2025-11-09*
+
+
+- Transcoded from WikMD on Tue Nov 25 12:13:33 2025
+	- 47 lines written, 1 changed.
+	- Lines: 3

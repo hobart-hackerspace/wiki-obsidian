@@ -1,12 +1,3 @@
----
-title: HHS GnuCash Usage
-author:
-	- Brian Marriott, Hobart Hackerspace Inc.
-subtitle: How we use GnuCash for accounts within HobartHackerspace Inc.
-abstract:
-	- Notes for the Treasurer on how & why we use various aspects of GnuCash to manage  financial record-keeping and reporting for Hobart Hackerspace Inc. 
-	  This guide is set up both to assist an incoming Treasurer in coming to terms with the role and also to remind an ongoing Treasurer about doing the rarer activities such as end-of-financial-year rollover.
----
 # HHS GnuCash Notes
 
 ## Introduction

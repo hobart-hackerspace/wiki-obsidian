@@ -6,7 +6,7 @@ This is because its too easy to break things, including the machine, if you make
 If you have a G code file that you've tested on a simulator and that you'd like to run, please consult a committee member (yellow badge).
 
 ## Rules for use
-[CNC Usage Rules](CNC_Usage)
+[CNC Usage Rules](CNC_Usage.md)
 
 ## Software
 ### Control software
@@ -32,3 +32,8 @@ Note that, as noted above, the machine requires the UCCNC software to drive it, 
 - [Section 4 - Spindle Configuration, Tool holding and Cutting Tools V1.0](attachments/I2R_manual_Sec_4.pdf)
 - [Section 5 - Cut2D\~Vcarve\~Aspire setup v1.0](attachments/I2R_manual_Sec_5.pdf)
 - [Section 6 - Part Machining and UCCNC Detailed Operation V1.0](attachments/I2R_manual_Sec_6.pdf)
+
+
+- Transcoded from WikMD on Tue Nov 25 12:13:31 2025
+	- 34 lines written, 1 changed.
+	- Lines: 9

@@ -220,11 +220,13 @@ Couldn't have been easier.
 	- Commit and push to `GitHub` after publication
 
 # Links
-`WikMD` is as ill-disciplined with link formats as it is with indentation. In particular:
+`WikMD` is as flexible with link formats as it is with indentation. In particular:
  - it allows both standard MarkDown links `[displayed words](hidden URL)` and Wiki links `[[words which are also the link]]`.
  - For internal links:
 	 - It allows the "URL" bit to have embedded spaces
 	 - It doesn't add the `.md` suffix to file titles
+	 - It allows image references, of the form `![](url){scaling info}`. 
+		 - Where `Obsidian` uses the form `![|width](url)`
 
 So we have a random mix of all the above in our Wiki Markdown.
 
@@ -240,6 +242,39 @@ It may be necessary to manually convert these, but it'll be a bit of work; a qui
 ```
 
 So I'll experiment with a bit of scripting first.
+
+The bit that will need to be adjusted is the "URL" bit. Some are fine: external (`http:` or `https:`) links and links to anchors in the same document (`#` prefixes). The ones to treat are those to other files within the wiki. 
+
+## Target forms:
+### Markdown links
+#### Form
+The following form (usually without line breaks): 
+``` bash
+"["
+<some text, possibly including pairs of "[]", backtick pairs and HTML links>
+"]("
+<more text, possibly including space characters but not starting with "#" or URL prefix strings ("html:", "mailto:", etc)>
+")"
+```
+#### Regular expressions
+I'm going for simplicity here - edge cases can be handled manually, as each page will need to be proof-read, anyway.
+
+- Basic Markdown link, including the `<a>` body text:
+	- This looks at the entire line
+	- `\[.*\]\(.*\)`
+-  Looking within the link portion only:
+	- External link
+		- Defined by  having a non-empty "scheme" component and non-empty "path"
+		- `^.+\:.+`
+	- Anchor within the document
+		- A "`#`" at the start
+		- `^\#.+`
+#### Action
+1. URL encode the link text
+2. If the final `")"` is not preceded by "`.md`", then that suffix is to be inserted.
+### WikiLinks
+
+
 
 # Some notes for Brian
 

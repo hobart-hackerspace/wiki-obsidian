@@ -4,7 +4,7 @@ Most domains are registered and their records hosted and managed by [VentraIP](h
 
 One domain (`hobarthackerspace.onmicrosoft.com`) is separately managed, as part of our free NFP Microsoft365 subscription.
 
-Relevant access credentials are in [the password vault](Password vault).
+Relevant access credentials are in [the password vault](Password%20vault.md).
 
 ## The domain names 
 ### Base level names
@@ -81,3 +81,8 @@ Typically these are created on request for or on the recommendation of the provi
 | SRV | `_sipfederationtls._tcp` | Microsoft Teams | `10 25 5061 sipfed.online.lync.com` |  |  Used by Microsoft Teams as part of our Microsoft365 subscription
 
 The text values of keys marked `[redacted]` above are held in our password vault
+
+
+- Transcoded from WikMD on Tue Nov 25 12:13:31 2025
+	- 83 lines written, 1 changed.
+	- Lines: 7
