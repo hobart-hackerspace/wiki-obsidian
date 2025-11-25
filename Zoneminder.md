@@ -35,24 +35,24 @@ In particular:
 - The files `.env` and `docker-compose.yml` were downloaded into the working directory.
 - Minimal changes were made to the files:
 	- One change to `.env`:
-    ```
-    ❯ diff env*
-    5c5
-    < TZ=America/Chicago
-    ---
-    > TZ=Australia/Hobart
-    >
+	```
+	❯ diff env*
+	5c5
+	< TZ=America/Chicago
+	---
+	> TZ=Australia/Hobart
+	>
 	```
 	- And one to `docker-compose.yml`:
-    ```
-    ❯ diff docker-compose*
-    26c26
-    <       - 80:80
-    ---
-    >       - 7009:80
+	```
+	❯ diff docker-compose*
+	26c26
+	<       - 80:80
+	---
+	>       - 7009:80
 	>
-    ```
+	```
 	- We have to adjust the port number because `wikmd` is already exposed at port `80` via `nginx`.
-    
+	
 
 

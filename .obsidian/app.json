@@ -1,0 +1,6 @@
+{
+  "readableLineLength": false,
+  "strictLineBreaks": true,
+  "attachmentFolderPath": "./attachments",
+  "useMarkdownLinks": true
+}

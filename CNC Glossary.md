@@ -1,4 +1,4 @@
-**A Glossary of terms used in CNC design and machining**
+# A Glossary of terms used in CNC design and machining
 
 4th Axis
 : An additional axis to a traditional 3-axis machine that enables the CNC to operate as a lathe.
@@ -107,95 +107,95 @@ File Type
 
 - **2D File Formats**:
 
-    AI
-    : Adobe Illustrator (.ai) is a proprietary file format developed by Adobe Systems for representing single-page vector-based drawings.
+	AI
+	: Adobe Illustrator (.ai) is a proprietary file format developed by Adobe Systems for representing single-page vector-based drawings.
 
-    CRV
-    : CRV (.crv) is a CAD file created by Vecric software that saves the vector design geometry and includes toolpaths for machining the design.
+	CRV
+	: CRV (.crv) is a CAD file created by Vecric software that saves the vector design geometry and includes toolpaths for machining the design.
 
 	CRV3D
-    : CRV3D (.crv3d) is similar to CRV above but is used for Aspire software only to be able to retain all of the 3D data.
-    
-    DWG
-    : Drawing (.dwg) is a proprietary binary file format used for storing two and three dimensional design data and metadata. Typically used by AutoCAD software.
-    
-    DXF
-    : Drawing eXchange Format (.dxf) is a file extension for a graphic image format typically used with AutoCAD. (DXF files usually add more nodes to smooth curve lines, making machining time longer. This requires additional node editing work to clean them up before making toolpaths.)
-    
-    EPS
-    : Encapsulated PostScript (.eps) is a Document Structuring Conventions–conforming (DSC) PostScript document format usable as a graphics file format.
-    
-    PDF
-    : Portable Document Format (.pdf) is a file format developed by Adobe to present documents and vector graphics.
-    
-    SVG
-    : Scalable Vector Graphics (.svg) is a file extension for a vector image format for two-dimensional graphics.
-    
+	: CRV3D (.crv3d) is similar to CRV above but is used for Aspire software only to be able to retain all of the 3D data.
+	
+	DWG
+	: Drawing (.dwg) is a proprietary binary file format used for storing two and three dimensional design data and metadata. Typically used by AutoCAD software.
+	
+	DXF
+	: Drawing eXchange Format (.dxf) is a file extension for a graphic image format typically used with AutoCAD. (DXF files usually add more nodes to smooth curve lines, making machining time longer. This requires additional node editing work to clean them up before making toolpaths.)
+	
+	EPS
+	: Encapsulated PostScript (.eps) is a Document Structuring Conventions–conforming (DSC) PostScript document format usable as a graphics file format.
+	
+	PDF
+	: Portable Document Format (.pdf) is a file format developed by Adobe to present documents and vector graphics.
+	
+	SVG
+	: Scalable Vector Graphics (.svg) is a file extension for a vector image format for two-dimensional graphics.
+	
 - **3D File Formats**:
 
-    3DCLIP
-    : 3D Clipart files that are exported from Aspire. This format maintains the component structure of clipart pieces at the time of saving, so will import all the components comprising the clipart piece.
-    
-    3DM
-    : 3DM (.3dm) is an open-source file format which is used for 3D graphics software.
-    
-    3DS
-    : 3DS (.3ds) is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software.
-    
-    ASC
-    : Action Script Communication (.asc) is a file written in script and is used by a particular application or program.
-    
-    CRV3D
-    : CRV3D (.crv3d) is similar to CRV above but is used for Aspire software only to be able to retain all of the 3D data.
-    
-    DXF
-    : 3D DXF (.dxf) files from AutoCAD and many other CAD orientated modeling packages, these must be 3D meshes and not just wireframe data of the models vertices.
-    
-    LWO
-    : LWO (.lwo)Three-dimensional file created by LightWave 3D, a program used for 3D modeling, animation, and rendering.
-    
-    OBJ
-    : Object (.obj) is a simple data-format that represents 3D geometry developed by Wavefront Technologies.
-    
-    PRJ
-    : Project (.prj) file contains a project that may be created by a variety of different programs, such as AutoCAD.
-    
-    RLF
-    : RFL (.rfl) is an ArtCAM 3D Relief model file format.
-    
-    SKP
-    : Sketchup (.skp) is a three-dimensional model file created by SketchUp software.
-    
-    STL
-    : Standard Triangle Language (.stl) is a fairly standard file extension for 3D objects. These models can be completely 3 dimensional (i.e. have a front, back, etc.), this means that when this type of file is opened that it must first be sized and oriented before a Component can be created (Aspire only represents base-relief so cannot work with a completely 3D object). Once the file becomes a Component it will have the same name as the original STL file.
-    
-    V3M
-    : Vectric 3D Model (.v3m) is a proprietary file format developed by Vectric for Design and Make. Files in this format can be purchased from www.designandmake.com and when imported into Aspire will create a new Component with the same name as the file. This will be imported at the size and position the part was saved in the original file.
-    
-    WRL
-    : WRL (.wrl) is a standard file format for representing 3D interactive vector graphics. It has been superseded by X3D file format.
-    
-    X
-    : X (.x) is a simple file containing geometry meshes and material information that can be viewed in the DirectX Viewer.
-    
+	3DCLIP
+	: 3D Clipart files that are exported from Aspire. This format maintains the component structure of clipart pieces at the time of saving, so will import all the components comprising the clipart piece.
+	
+	3DM
+	: 3DM (.3dm) is an open-source file format which is used for 3D graphics software.
+	
+	3DS
+	: 3DS (.3ds) is one of the file formats used by the Autodesk 3ds Max 3D modeling, animation and rendering software.
+	
+	ASC
+	: Action Script Communication (.asc) is a file written in script and is used by a particular application or program.
+	
+	CRV3D
+	: CRV3D (.crv3d) is similar to CRV above but is used for Aspire software only to be able to retain all of the 3D data.
+	
+	DXF
+	: 3D DXF (.dxf) files from AutoCAD and many other CAD orientated modeling packages, these must be 3D meshes and not just wireframe data of the models vertices.
+	
+	LWO
+	: LWO (.lwo)Three-dimensional file created by LightWave 3D, a program used for 3D modeling, animation, and rendering.
+	
+	OBJ
+	: Object (.obj) is a simple data-format that represents 3D geometry developed by Wavefront Technologies.
+	
+	PRJ
+	: Project (.prj) file contains a project that may be created by a variety of different programs, such as AutoCAD.
+	
+	RLF
+	: RFL (.rfl) is an ArtCAM 3D Relief model file format.
+	
+	SKP
+	: Sketchup (.skp) is a three-dimensional model file created by SketchUp software.
+	
+	STL
+	: Standard Triangle Language (.stl) is a fairly standard file extension for 3D objects. These models can be completely 3 dimensional (i.e. have a front, back, etc.), this means that when this type of file is opened that it must first be sized and oriented before a Component can be created (Aspire only represents base-relief so cannot work with a completely 3D object). Once the file becomes a Component it will have the same name as the original STL file.
+	
+	V3M
+	: Vectric 3D Model (.v3m) is a proprietary file format developed by Vectric for Design and Make. Files in this format can be purchased from www.designandmake.com and when imported into Aspire will create a new Component with the same name as the file. This will be imported at the size and position the part was saved in the original file.
+	
+	WRL
+	: WRL (.wrl) is a standard file format for representing 3D interactive vector graphics. It has been superseded by X3D file format.
+	
+	X
+	: X (.x) is a simple file containing geometry meshes and material information that can be viewed in the DirectX Viewer.
+	
 - **Image File Formats**:
 
-    BMP
-    : Bitmap (.bmp) is a raster graphics image file format developed by Microsoft used to store bitmap digital images.
-    
-    GIF
-    : Graphics Interchange Format (.gif) is a bitmap image file format.
-    
-    JPG/JPEG
-    : Joint Photographic Experts Group (.jpg or .jpeg) is a commonly used image file for compressed digital images. JPG is typically lower resolution quality than a PNG file format.
-    
-    PNG
-    : Portable Graphics Format (.png) is an uncompressed raster image file format. This is typically the highest quality image format and also has the ability to have transparent backgrounds.
-    
-    TIF/TIFF
-    : Tag Image File Format (.tif or .tiff) is a file format for storing raster graphics images.
-    
-    
+	BMP
+	: Bitmap (.bmp) is a raster graphics image file format developed by Microsoft used to store bitmap digital images.
+	
+	GIF
+	: Graphics Interchange Format (.gif) is a bitmap image file format.
+	
+	JPG/JPEG
+	: Joint Photographic Experts Group (.jpg or .jpeg) is a commonly used image file for compressed digital images. JPG is typically lower resolution quality than a PNG file format.
+	
+	PNG
+	: Portable Graphics Format (.png) is an uncompressed raster image file format. This is typically the highest quality image format and also has the ability to have transparent backgrounds.
+	
+	TIF/TIFF
+	: Tag Image File Format (.tif or .tiff) is a file format for storing raster graphics images.
+	
+	
 Finish 3D Toolpath
 : A 3D toolpath that reduces or eliminates the irregular contours left by the rough cut.
 

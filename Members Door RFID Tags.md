@@ -33,65 +33,65 @@ This is done by logging into the controller from a terminal. Any terminal progra
 
 1. Connect to the controller:
 
-     ~~~ {.sh}
-     ssh -p 8386 pi@office.hobarthackerspace.org.au
-     # (password is same as wifi)
-     ~~~
+	 ~~~ {.sh}
+	 ssh -p 8386 pi@office.hobarthackerspace.org.au
+	 # (password is same as wifi)
+	 ~~~
 
 1. Change to the controller's working directory
 
-     ~~~ {.sh}
-     cd ~/HHSAccessControlV4/
-     ~~~
+	 ~~~ {.sh}
+	 cd ~/HHSAccessControlV4/
+	 ~~~
 
 1. If you've scanned the tag to test it, it will show up in the log. Print the recent log entries to see it
 
-     ~~~ {.sh}
-     tail -20 access_log.log
-     ~~~
+	 ~~~ {.sh}
+	 tail -20 access_log.log
+	 ~~~
 
 1. You should see some records like:
 
-     ~~~ {.sh}
-     2024-07-11 19:13:40,929;Tag scanned: 9520825
-     2024-07-11 19:13:40,951;Unknown ID.
-     2024-07-11 19:13:40,959;Multiple invalid tag attempts for Unknown
-     ~~~
+	 ~~~ {.sh}
+	 2024-07-11 19:13:40,929;Tag scanned: 9520825
+	 2024-07-11 19:13:40,951;Unknown ID.
+	 2024-07-11 19:13:40,959;Multiple invalid tag attempts for Unknown
+	 ~~~
 
 1. Take note of the number after `Tag scanned: ` as that's the tag's RFID code. It should match the number printed on the outside of the tag.
 
 1. Before modifying the controller database, we should copy the file to another name as a backup:
 
-     ~~~ {.sh}
-     cp -p members.db members_backup.db
-     ~~~
+	 ~~~ {.sh}
+	 cp -p members.db members_backup.db
+	 ~~~
 
 1. Listed towards the bottom of this document are several boilerplate SQL code blocks. There are examples there for:
-    - [a new tag](#add-a-new-member), 
-    - [updating a tag](#change-tag-for-a-member), 
-    - [suspending a member](#suspend-a-member),
-    - [reinstating a member](#re-activate-a-member) and
-    - [deleting a member](#remove-a-member).
+	- [a new tag](#add-a-new-member), 
+	- [updating a tag](#change-tag-for-a-member), 
+	- [suspending a member](#suspend-a-member),
+	- [reinstating a member](#re-activate-a-member) and
+	- [deleting a member](#remove-a-member).
 
 1. Pick the one that's relevant to what you're about to do and copy it into a text editor on your local machine. Then replace the relevant sample field contents (the ones with single quotes around them) with the actual values for `THQ_ID`,`firstname`,`lastname`&`RFID_no` as required for the particular need. THQ_ID is the "ID Number" from the THQ "Contact" information page.
 
 1. Start the SQLite command processor by typing `sqlite3` at the linux command line
-     1. Then copy your changed command sequence from your text editor and paste into `sqlite3`.
-          Note that it's a classic Unix-style command so it won't tell you that you got things right, only if you have an error.
-     1. You can verify that your update went ok by typing:
+	 1. Then copy your changed command sequence from your text editor and paste into `sqlite3`.
+		  Note that it's a classic Unix-style command so it won't tell you that you got things right, only if you have an error.
+	 1. You can verify that your update went ok by typing:
 
 ~~~ {.sql}
-        select * from members where 
-            first_name = 'the_members_first_name';
-        -- Don't forget the semicolon at the end.
+		select * from members where 
+			first_name = 'the_members_first_name';
+		-- Don't forget the semicolon at the end.
 ~~~~
 
 You should see a terse listing of the member's database entry. Something like:
 
 ~~~ {.sql }
-        sqlite> select * from members where first_name = 'Jason';
-        3000015|Jason|Hammond|7922112|activated|
-        sqlite>
+		sqlite> select * from members where first_name = 'Jason';
+		3000015|Jason|Hammond|7922112|activated|
+		sqlite>
 ~~~~
 
 
@@ -111,17 +111,17 @@ Now that you've identified the RFID code on the member's tag, you need to add th
 
 - When you're done, copy the newly-updated .db file to one with today's date in the filename in the `DBarchive/` sub-directory within the controller's working directory:
 
-    ~~~~ {.sh }
-    cp -p members.db DBarchive/members_`date -Idate`.db
-    ~~~~
+	~~~~ {.sh }
+	cp -p members.db DBarchive/members_`date -Idate`.db
+	~~~~
 
 - and then copy that to offline storage (preferably to our `Microsoft365 OneDrive` store, but at least to your local machine.) 
-     - The relevant OneDrive directory is:  
-        `/Committee - Documents/Systems/Door controller/db archive/`
-     - Here is a link to that folder online:  
-      - [you'll need to log in with your `name.family@hobarthackerspace.org.au` credentials](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/Ejbz-OQDDitGpETFAIVa2zcBEG_7fRNVQRTWhyNrZAdhTQ?e=5vh7rM)
+	 - The relevant OneDrive directory is:  
+		`/Committee - Documents/Systems/Door controller/db archive/`
+	 - Here is a link to that folder online:  
+	  - [you'll need to log in with your `name.family@hobarthackerspace.org.au` credentials](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/Ejbz-OQDDitGpETFAIVa2zcBEG_7fRNVQRTWhyNrZAdhTQ?e=5vh7rM)
 - If you can't copy it to the OneDrive, please copy the updated .db file to your local machine and then email it to:  
-    - [door.system@hobarthackerspace.org.au](mailto:door.system@hobarthackerspace.org.au)
+	- [door.system@hobarthackerspace.org.au](mailto:door.system@hobarthackerspace.org.au)
 
 - Note that for a long time we kept copies of the members database under git control with the source code for the door controller. This is now no longer the case as it caused confusion when updating the code. There is a copy in the source directory, but it's not kept up-to-date. Up-to-date copies are now only held in the archive directory.
 
@@ -138,9 +138,9 @@ Copy the relevant code snippet into an editor, replace the sample field contents
 .open members.db
 BEGIN TRANSACTION;
 INSERT INTO "members" 
-    ("id", "first_name", "last_name", "rfid", "status")
+	("id", "first_name", "last_name", "rfid", "status")
   VALUES 
-    ('THQ_ID','firstname','lastname','RFID_no','activated');
+	('THQ_ID','firstname','lastname','RFID_no','activated');
 COMMIT;
 .exit
 ~~~~
@@ -150,7 +150,7 @@ COMMIT;
 .open members.db
 BEGIN TRANSACTION;
 UPDATE "members" set "rfid" = 'New_Number'
-     WHERE "id" = 'THQ_ID';
+	 WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
 ~~~
@@ -160,7 +160,7 @@ COMMIT;
 .open members.db
 BEGIN TRANSACTION;
 UPDATE "members" set "status" = 'suspended'
-     WHERE "id" = 'THQ_ID';
+	 WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
 ~~~
@@ -170,7 +170,7 @@ COMMIT;
 .open members.db
 BEGIN TRANSACTION;
 UPDATE "members" set "status" = 'activated'
-     WHERE "id" = 'THQ_ID';
+	 WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
 ~~~

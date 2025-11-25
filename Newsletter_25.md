@@ -1,0 +1,50 @@
+- 2025 ACTIVITIES: 
+	- Lift Off! :
+		- Make a picture on acrylic with a scriber
+		- Assemble a flashing LED kit
+	- Beaker Street : 
+		- Made over 200 LED light up badges for the speakers
+	- Festival Of Bright Ideas : 
+		- Infinity mirror
+		- glowing planets
+		- LED racing game
+		- zoetrope
+		- smoke cannon
+	- Bruny Island science day : 
+		- Infinity mirror
+		- glowing planets
+		- LED racing game
+		- zoetrope
+		- smoke cannon
+
+- REMINDERS:
+	- Don't use the flexible filament, because it adheres to the bed
+	- New how to tutorial, for the flash forge 
+	- supply of build plate stickers for the flashforge
+	- waterbottles are now $0.50
+	- small milks are now $1
+	- Please pay your honesty shop account before it goes over $50. If you pay more then your debt then mark it as a negative number on the board.
+	- The laser cutter has been realigned so the bed is actually flat now 
+	- network upgrade
+	- new CNC installed
+	- The Bertrand Russel room is cuurently being converted to a low-sensory space, we would love members to contribute artworks for the gallery wall! 
+
+- Quotes collected from members about making:
+	- Completion is better then perfection 
+	- Perfection of design is only acheived not when no more can be added but when no more can be taken away 
+	- make it exist first, you can make it perfect later
+	- Document, document, document! 
+
+- Members current hyperfixations
+	- the mathematics of sunflowers 
+	- polynesian wayfinding and memorisation 
+	- the etymology of words that contain the word 'chor", such as petrichor & velichor
+	- electronic, farm equipment & engine repair videos
+	- the RBMK 1000 graphite moderated nuclear reactor
+	- nebulabrot rendering of fractals
+	- converting a 2011 IMAC to a 2k monitor
+	- creative essay writing about carabiners
+	- posting old school memes with slow scan tv
+	- neatening up my house
+	- self hosting AI models, I was having a conversation with my graphics card about what ingredients to add to my noodles today.. .
+	- a desktop app called audio focus that plays lofi music and rain sound simultaneously to help you focus while you program

@@ -49,4 +49,4 @@ The backdoor way to fix this is to `ssh` into the box (as `root`: `ssh root@192.
 ha addons start core_letsencrypt # update the certificates
 reboot # certs don't get used until reboot
 ```
-    
+	

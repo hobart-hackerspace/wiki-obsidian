@@ -3,4 +3,4 @@
 - [Sidewinder X1](https://hobarthackerspace.org.au/facilities/3d-printers/#sidewinder-x1)
 
 ## Guide to the Flashforge
-[Flashforge Quick Start Guide](Flashforge_QS)
+- [Flashforge Quick Start Guide](Flashforge_QS.md)

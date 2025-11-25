@@ -47,7 +47,7 @@ Place the blank badge in the cutter with its left edge against the aluminium fra
 Download copy of the file ["Single name.beam"](https://hobarthackerspace.sharepoint.com/:u:/s/Committee/Ebp5MX0jrB1MtPRjpT0NJtMBv8HkgwjwowR5FktcYobYAw?e=vu4gFm) to use as your working file, then start up *Beam Studio* and load the file. 
 Ensure that the document resolution is set to 250dpi (`Edit` >> `Document settings`). 
 Zoom in (~150-200%) to look at the object in the top LH corner. 
-It should look like this:![It should look like this](/img/Single_name.beam-tuxj5xijaxmmsbrocvl7mxcugpb2.png){width="30%"}
+It should look like this:![It should look like this](attachments/Single_name.beam-tuxj5xijaxmmsbrocvl7mxcugpb2.png){width="30%"}
 
 Use the camera to verify that the blank is aligned under the green outline in the image. 
 If necessary, move the blank to align it. 
@@ -80,7 +80,7 @@ The process to do this is simple:
 1. "Paste in place" the contents of the paste buffer (`Edit` >> `Paste in place`).
 1. Individually select each of the firstname and family name and activate the "Infill" attribute (the little paintpot that shows up in the object attributes panel). 
 
-You should see the text fill out to be solid instead of outline, like this: ![](/img/Text_object_settings-ff4e34jxytnpmjb7rij6fm2wyipf.png){width="350px"}
+You should see the text fill out to be solid instead of outline, like this: ![](attachments/Text_object_settings-ff4e34jxytnpmjb7rij6fm2wyipf.png){width="350px"}
 
 ### Engraving
 Verify that the setting for each of the layers are:
@@ -140,7 +140,7 @@ The "Hacky" image in the corner adds badging without taking much area.
 The typeface (*Westminster*) was chosen after discussion with Sara, who had agreed to help with the design. It was chosen for its "geeky" ambience (combined with the fact that it's freely downloadable).
 
 ## Lettering
-As indicated above, the typeface is [![](/img/Westminster-g44v4awa36mr4ecdkpbaottbwpao.png){width="114px"}](https://fontzone.net/font-download/westminster). 
+As indicated above, the typeface is [![](attachments/Westminster-g44v4awa36mr4ecdkpbaottbwpao.png){width="114px"}](https://fontzone.net/font-download/westminster). 
 Font files are freely downloadable from FontZone (at [https://fontzone.net/font-download/westminster](https://fontzone.net/font-download/westminster)) and other online typeface repositories.
 Note that there are at least two different *Westminster* typefaces available on the net -- ours is the 1960's techno font based on that used for machine-readable bank cheques.
 
@@ -175,21 +175,21 @@ BS import places the image in the top LH corner. You will have to move the image
 Arrange the layers into this sequence for reliable engraving before cutting.
 
 - Hacky (Red `#FF0000`):  
-    - Power: `15`
-    - Speed: `20`
-    - Execute: `1`
+	- Power: `15`
+	- Speed: `20`
+	- Execute: `1`
 - Lettering outline (Black `#000000`):  
-    - Power: `15`
-    - Speed: `15`
-    - Execute: `1`
+	- Power: `15`
+	- Speed: `15`
+	- Execute: `1`
 - Lettering fill (Blue `#0000FF`):  
-    - Power: `15`
-    - Speed: `30`
-    - Execute: `1`
+	- Power: `15`
+	- Speed: `30`
+	- Execute: `1`
 - Outline (Green `#008000`):  
-    - Power: `55`
-    - Speed: `7`
-    - Execute: `1`
+	- Power: `55`
+	- Speed: `7`
+	- Execute: `1`
 
 
 # Doing the lettering in *Beam Studio*:
@@ -199,15 +199,15 @@ Arrange the layers into this sequence for reliable engraving before cutting.
 - Place a gauge block at top edge and align blank nameplate to block (top) and to frame (side).
 - Go to preview mode and image the nameplate with the camera (ie scan over its area : x10-90, y20-50), then exit preview mode
 - Create some guide lines (these will be removed before printing).
-    - Set a horizontal line at 33.5mm and another at 42mm from 30mm to 90mm.
-    - Set a vertical line at 60mm from 10mm to 50mm.
+	- Set a horizontal line at 33.5mm and another at 42mm from 30mm to 90mm.
+	- Set a vertical line at 60mm from 10mm to 50mm.
 - Create a new outline layer (P15 S20 E1) and select it
 - Select the text tool (big "T") and click near the intersection of the upper and vertical guide lines.
 - Type or paste the familyname. This should appear in a text box growing towards the right from the point you clicked. By default it will appear as outline text.
 - With the text box selected, in the RH "Object Panel"/"Layer Panel" area, select the "sliders" icon at the top which makes that area the Object Panel.
 - Under `Options`:  
-    - select the "Westminster" type face from the dropdown box.
-    - select 140px as the size.
+	- select the "Westminster" type face from the dropdown box.
+	- select 140px as the size.
 - Move the location of the text box so that the baseline of the type is on the upper guide line and the centre handles are lined up with the vertical guide line.
 - Repeat the above to enter the familyname on the lower guideline. Make this 90px in size.
 
@@ -216,8 +216,8 @@ BS does not offer the option of having the text outline & fill on different laye
 
 - Create another layer - this will be a raster layer so set it to P15 S30 E1
 - For each of the firstname and familyname:
-    - Select the text and then from the `Edit` top drop-down menu choose `Copy` and then `Paste in place`. This will select the new copy of the text (not visible because it overlays the original).
-    - Switch to filled text by clicking on the paint beaker in the Object Panel Options area.
-    - Right-click on the selected text, choose `Move elements to:` and select the newly-created layer.
-    - You should now have two copies of the text on different layers. Verify this by turning visibility of each layer on and off to see if the fill and outline are on separate layers.
+	- Select the text and then from the `Edit` top drop-down menu choose `Copy` and then `Paste in place`. This will select the new copy of the text (not visible because it overlays the original).
+	- Switch to filled text by clicking on the paint beaker in the Object Panel Options area.
+	- Right-click on the selected text, choose `Move elements to:` and select the newly-created layer.
+	- You should now have two copies of the text on different layers. Verify this by turning visibility of each layer on and off to see if the fill and outline are on separate layers.
 

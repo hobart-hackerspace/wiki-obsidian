@@ -56,87 +56,86 @@ All coordinates are in millimetres.
 
 1.  Turn on the power switch and check the status of the CNC Controller.
 
-    -   The DRIVE switch should be turned on, and lit. It is turned on
-        in the UP position.
+	-   The DRIVE switch should be turned on, and lit. It is turned on
+		in the UP position.
 
-    -   The Emergency button may be depressed. To ensure that it is not
-        depressed, rotate it clockwise until it either clicks out, or
-        can't be turned any further.\
-        \
-        **The Emergency button is the Panic button. When something goes
-        wrong, press it to immediately stop the CNC.**\
-        \
-        Once pressed, the Emergency button will remain pressed until it is released by turning it.
+	-   The Emergency button may be depressed. To ensure that it is not
+		depressed, rotate it clockwise until it either clicks out, or
+		can't be turned any further.\
+		\
+		**The Emergency button is the Panic button. When something goes
+		wrong, press it to immediately stop the CNC.**\
+		\
+		Once pressed, the Emergency button will remain pressed until it is released by turning it.
 
-![A blue machine with buttons and a
-button](media/image3.jpeg){width="2.1875in"
+![A blue machine with buttons and a button](media/image3.jpeg){width="2.1875in"
 height="2.9167366579177605in"}
 
 2.  Start the PC by pressing the On button. The PC will boot into
-    LinuxCNC, which is a version of Linux with a Real Time kernel to
-    ensure that it meets the timing demands of communication with the
-    CNC.
+	LinuxCNC, which is a version of Linux with a Real Time kernel to
+	ensure that it meets the timing demands of communication with the
+	CNC.
 
 	Login into the PC using the username/password: `hacker/cnc`
 
 3.  Run the CNC interface software, which is confusingly called
-    LinuxCNC, by clicking on the "Launch CNC6040" icon. This will
-    display the LinuxCNC user interface. There are many interfaces to
-    the LinuxCNC system -- this version is the original, called Axis.
+	LinuxCNC, by clicking on the "Launch CNC6040" icon. This will
+	display the LinuxCNC user interface. There are many interfaces to
+	the LinuxCNC system -- this version is the original, called Axis.
 
-    ![](media/image4.png){width="7.672520778652668in" height="5.625in"}
+	![](media/image4.png){width="7.672520778652668in" height="5.625in"}
 
-    The interface has the following components:
+	The interface has the following components:
 
-    -   Top row menu for File handling, Machine control and changing the
-        Preview panel.
-    -   A list of command buttons, discussed below
-    -   A Manual Control panel that allows the user to Home the CNC, jog the
-        head, and set the spindle speed
-    -   A Manual Data Interface (MDI) panel (currently hidden) that allows
-        the user to directly enter and execute G-Code commands
-    -   A list of G-Code options that are currently enabled on the CNC
-    -   Near the bottom, a list of G-Code that is currently being executed.
-        This is scrolled up as G-Code commands are executed.
-    -   In the centre, the Preview Panel which graphically shows the tool
-        path of the currently loaded G-Code program.
-    -   At the top of the Preview Panel are some positional data, given the
-        current coordinates of the tool head on the CNC. This positional
-        data is also shown in the Digital Read-Out panel, which is currently
-        hidden.
-    -   At the bottom, below the Preview Panel, the Position status is
-        shown: as using either Machine or Work Coordinates -- these will be
-        discussed further below.
-    -   On the right a panel with:
-        -   The current spindle speed. This speed can either be set
-            manually, or by G-Code commands;
-        -   A Clear Offsets button that sets the machine coordinates to
-            known values;
-        -   A Clear Job Coordinates which resets the current Work
-            Coordinates;
-        -   A Touch Off Z button which resets the Z coordinate of the tool
-            head to zero.
+	-   Top row menu for File handling, Machine control and changing the
+		Preview panel.
+	-   A list of command buttons, discussed below
+	-   A Manual Control panel that allows the user to Home the CNC, jog the
+		head, and set the spindle speed
+	-   A Manual Data Interface (MDI) panel (currently hidden) that allows
+		the user to directly enter and execute G-Code commands
+	-   A list of G-Code options that are currently enabled on the CNC
+	-   Near the bottom, a list of G-Code that is currently being executed.
+		This is scrolled up as G-Code commands are executed.
+	-   In the centre, the Preview Panel which graphically shows the tool
+		path of the currently loaded G-Code program.
+	-   At the top of the Preview Panel are some positional data, given the
+		current coordinates of the tool head on the CNC. This positional
+		data is also shown in the Digital Read-Out panel, which is currently
+		hidden.
+	-   At the bottom, below the Preview Panel, the Position status is
+		shown: as using either Machine or Work Coordinates -- these will be
+		discussed further below.
+	-   On the right a panel with:
+		-   The current spindle speed. This speed can either be set
+			manually, or by G-Code commands;
+		-   A Clear Offsets button that sets the machine coordinates to
+			known values;
+		-   A Clear Job Coordinates which resets the current Work
+			Coordinates;
+		-   A Touch Off Z button which resets the Z coordinate of the tool
+			head to zero.
 
-    You may see a dialogue box that complains about not being able to see
-    the Pendant -- ignore this because we are not using the Pendant.
+	You may see a dialogue box that complains about not being able to see
+	the Pendant -- ignore this because we are not using the Pendant.
 
 ![A screenshot of a computer Description automatically
 generated](media/image5.png){width="2.2916666666666665in"
 height="1.2065671478565179in"}
 
 4.  Before using the CNC interface you need to click on the Emergency
-    Stop (E-Stop) button ![](media/image6.emf)
-    ![](media/image7.png){width="0.27774278215223097in"
-    height="0.27774278215223097in"} in the top left corner. This is the
-    software equivalent of the Emergency Stop button on the controller,
-    and will stop any existing activity.
+	Stop (E-Stop) button ![](media/image6.emf)
+	![](media/image7.png){width="0.27774278215223097in"
+	height="0.27774278215223097in"} in the top left corner. This is the
+	software equivalent of the Emergency Stop button on the controller,
+	and will stop any existing activity.
 
 5.  Next click on the Machine Power button
-    ![](media/image8.png){width="0.2916305774278215in"
-    height="0.2916305774278215in"} near the top left corner. This
-    effectively turns the CNC interface on and enables the buttons under
-    Manual Control \> Axis & Spindle. The CNC interface is now ready to
-    use.
+	![](media/image8.png){width="0.2916305774278215in"
+	height="0.2916305774278215in"} near the top left corner. This
+	effectively turns the CNC interface on and enables the buttons under
+	Manual Control \> Axis & Spindle. The CNC interface is now ready to
+	use.
 
 ## Coordinate Systems
 
@@ -203,34 +202,34 @@ the far limit on the Y axis (coordinate 585), and the upper limit on the
 Z axis.
 
 1.  Ensure that the bed of the CNC is free from any obstruction or
-    clutter.
+	clutter.
 2.  Click on the Home All button.\
-    The head should now start to each of the limit switches in the order
-    Z, X, Y. As it does so, it will update the coordinates in DRO
-    display of LinuxCNC screen.
+	The head should now start to each of the limit switches in the order
+	Z, X, Y. As it does so, it will update the coordinates in DRO
+	display of LinuxCNC screen.
 3.  Click on the **Clear Offsets** button. This sets the machine
-    coordinates to known values that correspond to the positions of the
-    limit switches on each of the axes.
+	coordinates to known values that correspond to the positions of the
+	limit switches on each of the axes.
 
 	![](media/image9.png){width="7.268055555555556in" height="5.9319444444444445in"}
 
 	Unfortunately, this leaves the head at the positive end of the Y axis.
 
-    In the DRO panel the machine coordinates are set to the pre-defined
-    positions of the limit switches (0, 595,58).
+	In the DRO panel the machine coordinates are set to the pre-defined
+	positions of the limit switches (0, 595,58).
 
-    The Distance-To-Go (DTG) coordinates are set for each move, and indicate
-    the distance that the current move needs to make along each axis before
-    completion of the current move.
+	The Distance-To-Go (DTG) coordinates are set for each move, and indicate
+	the distance that the current move needs to make along each axis before
+	completion of the current move.
 
-    The G54 coordinates are the part being processed. The coordinates are
-    relative to the machine coordinates.
+	The G54 coordinates are the part being processed. The coordinates are
+	relative to the machine coordinates.
 
-    The G92 coordinates are the work coordinates, relative to the work
-    origin, defined by the G92 command.
+	The G92 coordinates are the work coordinates, relative to the work
+	origin, defined by the G92 command.
 
-    The Tool Length Offset (TLO) coordinates are the position of the tool
-    tip, relative to the spindle.
+	The Tool Length Offset (TLO) coordinates are the position of the tool
+	tip, relative to the spindle.
 
 ## Jogging
 
@@ -248,11 +247,11 @@ To jog the head:
 	![](media/image10.png){width="2.7079943132108486in" height="0.26385608048993875in"}
 
 2.  Select either **Continuous** or step mode, by selecting one of the
-    options, 5mm, 1mm, 0.5mm, 0.1mm, 0.05mm, 0.01mm or 0.005mm.
+	options, 5mm, 1mm, 0.5mm, 0.1mm, 0.05mm, 0.01mm or 0.005mm.
 
 3.  Click on either the **+** or **--** buttons to jog the head in the
-    required direction. You will notice the coordinates change in the
-    upper right window as the head is moved.
+	required direction. You will notice the coordinates change in the
+	upper right window as the head is moved.
 
 > In Step mode the head will move one step at the specified length and
 > direction on each click of the **+** or **--** button.
@@ -286,13 +285,13 @@ To stop the spindle, click on the **Stop** button.
 The spindle speed will be determined by:
 
 -   The type of stock material -- plastics and polymers require must
-    lower speeds than wood or aluminium, otherwise they melt
+	lower speeds than wood or aluminium, otherwise they melt
 
 -   The type of tools -- some tool bits are designed to operate at
-    higher or lower speeds than others
+	higher or lower speeds than others
 
 -   The type of finish -- depending on the type of stock material,
-    different speeds will give different quality results
+	different speeds will give different quality results
 
 The current spindle speed is shown in the top right of the interface
 screen.
@@ -326,9 +325,9 @@ As the program is run and the tool head moves, it leaves a back-plot
 trace:
 
   -----------------------------------------------------------------------
-     Manual jogs    Non-cutting Moves   Straight Cuts     Circular Cuts
+	 Manual jogs    Non-cutting Moves   Straight Cuts     Circular Cuts
   ----------------- ----------------- ----------------- -----------------
-       Yellow             Green              Red             Magenta
+	   Yellow             Green              Red             Magenta
 
   -----------------------------------------------------------------------
 
@@ -338,7 +337,7 @@ The tool head is shown as a white, inverted cone.
 height="3.5324857830271217in"}
 
 The Preview display can be manipulated by the following commands:
-![](/img/preview-sqmqtehl2yaev3drrlg7vdl4gqxf.svg){width="50%"}
+![](attachments/preview-sqmqtehl2yaev3drrlg7vdl4gqxf.svg){width="50%"}
 
 > ![Zoom In](media/image17.png){width="0.22916666666666666in"
 > height="0.22916666666666666in"} Zoom In
@@ -384,15 +383,15 @@ The stock material needs to be clamped to the bed of the CNC. There are
 2 types of clamps normally used:
 
 -   **Stays**, Clamps or Hold-downs are levers that are bolted to the
-    T-slot channels in CNC bed to securely hold the stock material from
-    moving. During machining there is a lot of lateral force on the
-    stock, and there needs to be sufficient Stays that are securely
-    tightened to hold the stock.
+	T-slot channels in CNC bed to securely hold the stock material from
+	moving. During machining there is a lot of lateral force on the
+	stock, and there needs to be sufficient Stays that are securely
+	tightened to hold the stock.
 
 -   **Stops** are solid pieces, typically cylindrical or square that are
-    bolted to the T-slot channels in the CNC bed, and used for multiple
-    jobs, so that for each job the stock material can be aligned to the
-    same position for machining.
+	bolted to the T-slot channels in the CNC bed, and used for multiple
+	jobs, so that for each job the stock material can be aligned to the
+	same position for machining.
 
 > The Stays, Stops and their Bolts must not be in the path of the head
 > or any part of the head assembly, otherwise a collision will occur,
@@ -431,18 +430,18 @@ position is normally marked on the stock material.
 a.  Ensure that the tool head is at a Safe height before proceeding.
 
 b.  If the spindle is on, turn it off so that it doesn't scar the stock
-    material.
+	material.
 
 c.  Jog the tool head along the X and Y axes to the marked zero point.
 
 d.  Slowly jog the tool head down along the Z axis using 0.1mm steps or
-    less, until the tool head is just above the height of the stock
-    material. This can be done by placing a piece of 80 gsm paper on top
-    of the stock material, and jogging the head down until the tool just
-    touches the paper, so that the paper can only be moved with some
-    resistance. If the paper cannot be moved, the tool is too low. 80
-    gsm paper is about 0.1 mm thick, so this gives a good consistent
-    positioning of the tool in the Z axis.
+	less, until the tool head is just above the height of the stock
+	material. This can be done by placing a piece of 80 gsm paper on top
+	of the stock material, and jogging the head down until the tool just
+	touches the paper, so that the paper can only be moved with some
+	resistance. If the paper cannot be moved, the tool is too low. 80
+	gsm paper is about 0.1 mm thick, so this gives a good consistent
+	positioning of the tool in the Z axis.
 
 e.  Set the origin of the work coordinates by using the G-Code command:
 
@@ -494,51 +493,51 @@ A G-Code job can be run using the following buttons:
 While the job is running:
 
 -   Keep a close watch on the job. Errors in design can frequently
-    occur, and you may need to hit the Emergency Stop to avoid further
-    damage to the stock material and the CNC.
+	occur, and you may need to hit the Emergency Stop to avoid further
+	damage to the stock material and the CNC.
 
 -   Watch for overheating. If the bit is stationary in wood it can start
-    smouldering and ultimately catch alight. When cutting metal, such as
-    aluminium, it is important to have a mist spray of water on the
-    cutting tool to avoid overheating.
+	smouldering and ultimately catch alight. When cutting metal, such as
+	aluminium, it is important to have a mist spray of water on the
+	cutting tool to avoid overheating.
 
 -   Watch for melting when cutting plastics or other synthetics. These
-    materials have low melting points and require low spindle speeds to
-    be cut accurately, without the cut surface melting.
+	materials have low melting points and require low spindle speeds to
+	be cut accurately, without the cut surface melting.
 
 -   Watch for movement of the stock material, typically caused by
-    insufficient or weak clamping. This usually means discarding the
-    ruined stock material.
+	insufficient or weak clamping. This usually means discarding the
+	ruined stock material.
 
 -   Remove cut waste with a vacuum cleaner. This keeps the cut space
-    tidy, allows you to see what is happening, reduces dust, and reduces
-    the chances of cut shards falling into the cut area and marking the
-    cut surface. This is particularly the case with plastics and
-    aluminium.
+	tidy, allows you to see what is happening, reduces dust, and reduces
+	the chances of cut shards falling into the cut area and marking the
+	cut surface. This is particularly the case with plastics and
+	aluminium.
 
 -   Ensure that the cut path and cut order are efficient to achieve the
-    best result in a reasonable time.
+	best result in a reasonable time.
 
 -   Watch for the tool bit becoming blunt. The best option is usually to
-    start again with a new tool.
+	start again with a new tool.
 
 -   Watch for the spindle overheating. This spindle is air cooled, and
-    may overheat on long, hard jobs.
+	may overheat on long, hard jobs.
 
 -   Watch for the final cut of a loose object. When cutting a complete
-    object out of the stock material, then final cut will sever the
-    object from the surrounding material. At this point it is easy for
-    the object to fall back against the rotating tool bit and be ruined.
-    You need to plan to capture the final object before it is damaged.
+	object out of the stock material, then final cut will sever the
+	object from the surrounding material. At this point it is easy for
+	the object to fall back against the rotating tool bit and be ruined.
+	You need to plan to capture the final object before it is damaged.
 
 -   Make sure that when the job is finished you raise the tool bit to a
-    Safe Height before returning to Home, so that the tool bit doesn't
-    cut through your finished object. Often the return to Home is
-    programming in the G-Code as a penultimate instruction. This also
-    applies to moving the tool bit between different objects in the one
-    job.
+	Safe Height before returning to Home, so that the tool bit doesn't
+	cut through your finished object. Often the return to Home is
+	programming in the G-Code as a penultimate instruction. This also
+	applies to moving the tool bit between different objects in the one
+	job.
 
 -   In the event of a power failure, give and start again.
 
 -   The job may be paused and resumed at any time to allow adjustments
-    or a break.
+	or a break.
