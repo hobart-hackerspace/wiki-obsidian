@@ -2,5 +2,11 @@
 .obsidian/workspace.json
 
 
+# Basic OS files
 .DS_Store
 Thumbs.db
+
+# Transition files
+*_new.md
+*_old.md
+changes_2025-11-25.md
