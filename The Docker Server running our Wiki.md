@@ -57,12 +57,7 @@
 	sudo usermod -aG docker wiki-user
 ```
 
-- Now we're set up to install our wiki. 
-	- (In fact, this took a few trials. If you're interested, you can follow [the history here](Wiki%20software%20trial%20installations.md) ).
-
-## The working wiki installation
-- [See here for details of our working wiki...](The%20Wikmd%20server.md)
-
+The WikMD software is no longer in use, but the docker server remains.
 <a id="URL_Adjustments"></a>
 
 ## URL Adjustments
@@ -110,7 +105,7 @@ sudo systemctl start wiki-mdns-cname.service && sudo journalctl -u wiki-mdns-cna
 ~~~
 
 ### Reverse proxy
-`Nginx` is used to provide a reverse proxy service. A longer-term aspiration is to use it to provide authenticated access from ourside our local network.
+`Nginx` is used to provide a reverse proxy service. A longer-term aspiration is to use it to provide authenticated access from outside our local network.
 
 `Nginx` was installed with: `sudo apt install nginx` 
 and an appropriate config file created in `/etc/nginx/sites-available/wiki.conf`, containing:
