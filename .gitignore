@@ -6,6 +6,10 @@
 .DS_Store
 Thumbs.db
 
+# Syncthing device-dependent files
+.stfolder
+
+
 # Transition files
 *_new.md
 *_old.md
