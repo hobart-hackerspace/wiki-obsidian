@@ -48,3 +48,5 @@
 	- neatening up my house
 	- self hosting AI models, I was having a conversation with my graphics card about what ingredients to add to my noodles today.. .
 	- a desktop app called audio focus that plays lofi music and rain sound simultaneously to help you focus while you program
+
+There was more in the email...
