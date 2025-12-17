@@ -1,5 +1,7 @@
 # Ignore volatile UI-related state
 .obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/*sync\-conflict*.json
 
 
 # Basic OS files
