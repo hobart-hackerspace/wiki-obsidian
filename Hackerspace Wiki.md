@@ -95,7 +95,7 @@ The heritage issue means that we have to be careful how we look after the buildi
 				- e: [michael.rowley@dhhs.tas.gov.au](mailto:michael.rowley@dhhs.tas.gov.au)
 			- In an after hours emergency at Hackerspace we need to call the RHH switchboard (6166 8308) and ask for Facilities On Call
 		- Electricity distribution
-			- [Here is a plan of the power outlets and circuits](power_distribution.md)
+			- [Here is a plan of the power outlets and circuits](Power_distribution.md)
 
 # This wiki
 Our wiki runs on Wikmd software. It’s a file-based wiki that aims for simplicity. 
