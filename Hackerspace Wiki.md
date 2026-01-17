@@ -77,7 +77,8 @@ The heritage issue means that we have to be careful how we look after the buildi
 		- [Domain Names and DNS records](Domain%20Name%20records.md)
 		- [Exposed IP ports](Internet%20connection%20and%20firewall%23static-ip-assignments-and-exposed-ip-ports.md)
 	- Branding assets (logo, letterhead, etc etc)
-		- Logo ![](attachments/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg){width="27px"}
+		- Logo 
+			- ![|50](attachments/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg)
 			- Our logo is called *Hacky* -- a friendly take on the skull & crossbones, courtesy of Shane. It's inspired, we're told, by the *Sea Shepherds'* logo. [Here's a page of usable image files.](Hacky_images.md)
 		 - QR Codes
 			- We're moving to set up QR codes pointing to all our equipment documentation pages. [Here's a page showing how to make one, customised for a particular page and with *Hacky* in the middle.](QR_Codes.md)
