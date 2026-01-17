@@ -21,7 +21,7 @@ Thumbs.db
 	- Read-write access granted to the `hobart-hackerspace` `GitHub` repositories
 		- If you don't have that, ask someone to set you up. Currently the owners are: Alistair, Tom, Leo, Brian, Trent & Shane
 	- Authentication set up for your account so that you can push changes.
-		- With command-line `push`es that's easiest if you provide a `ssh` key. [(GitHub doco tells you how)](https://docs.github.com/en/authentication).
+		- If you're using `git push` from the command-line, that's easiest if you provide a `ssh` key. [(GitHub doco tells you how)](https://docs.github.com/en/authentication).
 		- With a GUI tool, that tool should guide you.
 ## Base repository
 1. Log into `GitHub` and create a new repository.
@@ -273,7 +273,19 @@ I'm going for simplicity here - edge cases can be handled manually, as each page
 1. URL encode the link text
 2. If the final `")"` is not preceded by "`.md`", then that suffix is to be inserted.
 ### WikiLinks
+#### Form
+They take the following form: 
+`"[["<link text>"]]"`
+#### Regular expressions
+A simple target of `\[\[.*?\]\]` suffices.
+#### Action
+Expand by dropping to single "`]`"s and then repeating the link text,
+in braces ("`()`"), URL encoded and with "`.md`" appended.
 
+## Links script
+I ended up with a Python script to do the above in one pass over each file.
+
+The script is simply `main.py` in the directory `wiki-convert-markdown`. This  is in the GitHub repository [`hobart-hackerspace/wiki-convert-markdown`](https://github.com/hobart-hackerspace/wiki-convert-markdown).
 
 
 # Some notes for Brian
