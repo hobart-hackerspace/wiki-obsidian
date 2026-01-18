@@ -1,6 +1,13 @@
 # Ignore volatile UI-related state
 .obsidian/workspace.json
 
+# we don't need or want the WikMD drawings
+.drawings/*
+
+# we need to be able to hide things for short- or long-term 
+# without necessarily updating .gitignore
+# in particular this relates to workfiles in the migration process
+hidden/
 
 .DS_Store
 Thumbs.db
