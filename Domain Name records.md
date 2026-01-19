@@ -80,9 +80,4 @@ Typically these are created on request for or on the recommendation of the provi
 | TXT | `mailo._domainkey` |  | `k=rsa; p=[redacted]` |  |  
 | SRV | `_sipfederationtls._tcp` | Microsoft Teams | `10 25 5061 sipfed.online.lync.com` |  |  Used by Microsoft Teams as part of our Microsoft365 subscription
 
-The text values of keys marked `[redacted]` above are held in our password vault
-
-
-- Transcoded from WikMD on Tue Nov 25 12:13:31 2025
-	- 83 lines written, 1 changed.
-	- Lines: 7
+The text values of keys marked `[redacted]` above are held in our password vault.

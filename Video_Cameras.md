@@ -47,6 +47,3 @@ Some doco on our monitoring cameras (NVR, CCTV, video surveillance, ....)
 *More to come*  *BWM 2025-11-09*
 
 
-- Transcoded from WikMD on Tue Nov 25 12:13:33 2025
-	- 47 lines written, 1 changed.
-	- Lines: 3
