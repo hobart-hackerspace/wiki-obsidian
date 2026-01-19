@@ -9,5 +9,21 @@
 # in particular this relates to workfiles in the migration process
 hidden/
 
+# Basic OS files
 .DS_Store
 Thumbs.db
+
+# Obsidian variable settings
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/*sync\-conflict*.json
+
+
+# Syncthing device-dependent files
+.stfolder
+
+
+# Transition files
+*_new.md
+*_old.md
+
