@@ -1,5 +1,7 @@
 # Migration sequence from `Wikmd` to `Obsidian Publish`
 
+(*This is really notes for Brian because he forgets so much these days...*)
+
 ## Initial copy
 1. Copy entire backup directory on to Brian's Mac
 1. Entitle it `hhs-wikmd-capture-unchanged`
@@ -285,8 +287,7 @@ in braces ("`()`"), URL encoded and with "`.md`" appended.
 ## Links script
 I ended up with a Python script to do the above in one pass over each file.
 
-The script is simply `main.py` in the directory `wiki-convert-markdown`. This  is in the GitHub repository [`hobart-hackerspace/wiki-convert-markdown`](https://github.com/hobart-hackerspace/wiki-convert-markdown).
-
+The script is simply `main.py` in the directory `wiki-convert-markdown`. This  is in the GitHub repository [`hobart-hackerspace/wiki-convert-markdown`](https://github.com/hobart-hackerspace/wiki-convert-markdown). Run it in the relevant `uv` venv using the command `python -m main -f "filename.md"`
 
 # Some notes for Brian
 

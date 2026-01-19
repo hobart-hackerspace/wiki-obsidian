@@ -13,7 +13,7 @@ The firewall device is a [Ubiquiti Router & WiFi controller](WiFi7%20upgrade%202
 # Static IP assignments and exposed IP ports
 Some of the devices in our LAN are given reserved IP addresses, rather than receiving a random address from the DHCP server. This is done for some to ensure a consistent IP address to allow NATing an external port to that device, so that it can provide member services (such as updating this wiki) or to allow maintenence or security services. For others it is a way of ensuring a consistent, specific address for device control or device-device interaction.
 
-## [IP address reservations](IP_address_leases.md)
+## [IP address reservations](IP%20address%20leases.md)
 
 ## [Externally exposed hosts](Exposed_ports.md)
 

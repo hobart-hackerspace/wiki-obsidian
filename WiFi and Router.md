@@ -1,3 +1,7 @@
+# Basics
+The main wifi SSIDs are `hackerspace` and `hackerspace-iot`
+
+# WiFi 7 Upgrade
 # Background
 Quite some years ago we set up WiFi in the Hackerspace using two Ubiquiti Unifi access points. These were 2.4GHz only and were placed in the Tesla and Shannon rooms. They are now both slow and limited in features.
 
@@ -43,7 +47,7 @@ The UX7 serves as both a WiFi access point and a controller for other access poi
 - Both the UX7 access point and the U7 AP that we purchased earlier both support WiFi 7 (802.11be). This offers multi-gigabit throughput utilising RF in the 2.4, 5 and 6GHz bands. 
 - These newer devices also support the WPA3 security features that were unavailable on the older APs. 
 - Both APs have been set up to utilise any of the WiFi 7 features supported by connecting devices, but not to enforce their use that so that older devices can also connect. 
-- Despite that flexibility, some of the more primitive IoT devices won't connect to WiFi 7 APs. It's become standard practice to provide a separate 2.4GHz-only SSID to obviate this and that's recommended by Ubiquiti. See [IoT Wifi](#IoT%20Wifi) below.
+- Despite that flexibility, some of the more primitive IoT devices won't connect to WiFi 7 APs. It's become standard practice to provide a separate 2.4GHz-only SSID to obviate this and that's recommended by Ubiquiti. See [#IoT Wifi](#IoT Wifi.md) below.
 
 ### Access point locations
 
@@ -73,4 +77,5 @@ The UX7 serves as both a WiFi access point and a controller for other access poi
 
 - [Addresses](IP%20address%20leases.md)
 - [Port forwarding](Exposed_ports.md)
+
 

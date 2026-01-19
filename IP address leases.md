@@ -20,6 +20,9 @@
 | back-light | | Committee | 192.168.2.165 | `bc:dd:c2:36:ac:83` | Outside light (Sonoff/Tasmota) |  |
 | kitchen-light | | Committee | 192.168.2.207 | `f8:17:2d:80:17:50` | Kitchen light |  |
 | Google-Home-Mini | | Committee | 192.168.2.244 | `38:8b:59:b3:2e:17` | Internal IP speaker |  |
+| IPCam_07 | | | 192.168.2.4 | `04:e6:76:00:05:af` | Babakuarea camera | |
+| IPCam_08 | | | 192.168.2.9 | `04:e6:76:00:05:b2` | Bertrand Russell Room camera | |
+| IPCam_09 | | | 192.168.2.5 | `04:e6:76:00:05:b6` | Margaret Hamilton Room camera | |
 |  |  |  | |  |  | |
 
 ## Members' devices
@@ -39,7 +42,4 @@ These devices were reserved IP addresses on the old router but haven't properly 
 | AP-BackRoom | 192.168.2.64 | `24:a4:3c:64:6f:c3` | WiFi access point
 | AP-ServerRoom | 192.168.2.79 | `24:a4:3c:64:6f:d2` | WiFi access point
 | Google-Home-Mini | 192.168.2.86 | `20:df:b9:d2:82:5a` | External IP speaker
-| IPCam_07 | 192.168.2.113 | `04:e6:76:00:05:af` | Babakuarea Camera
-| IPCam_08 | 192.168.2.116 | `04:e6:76:00:05:b2` | Bertrand Russell Room camera
-| IPCam_09 | 192.168.2.120 | `04:e6:76:00:05:b6` | Margaret Hamilton Room camera
 |  |  |  | |
