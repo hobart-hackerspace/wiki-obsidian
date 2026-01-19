@@ -22,7 +22,7 @@ Creating or altering pages from outside the Space will require you to log in. Th
 - If you see an issue that needs attention, please [report it to the Committee](mailto:committee@hobarthackerspace.org.au?subject=Safety%20issue&body=OH%26S%20Incident%20Report). Please use an Incident Report form, either paper or electronic. Paper forms are in the labelled box opposite the main entrance door. Electronic forms are either [PDF](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.pdf) or [MS Word](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.docx).
 
 ## Our Building
-Our home is a shared space and a heritage building. Please respect these when using it.
+Our home is a shared space and [a heritage building](Gatehouses). Please respect these when using it.
 The heritage issue means that we have to be careful how we look after the building, especially the older stone parts.
 
 ### Sharing the Space safely
@@ -38,6 +38,12 @@ The heritage issue means that we have to be careful how we look after the buildi
 - [Electronics](Electronics Lab)
 - [Radio](Radio Station)
 
+### Borrowing of equipment
+Members may borrow items of the Hackerspace portable tools, but there are restrictions:
+
+- All loans must be recorded on the loan forms above the tools drawers
+- You may not borrow tools which are in heavy use or are the only examples we possess
+- Tools may be borrowed for no more than two weeks, without express approval from the Committee
 
 ## Events
 - [Open Night](https://hobarthackerspace.org.au/events/open-night/)
@@ -73,7 +79,7 @@ The heritage issue means that we have to be careful how we look after the buildi
     	- [Internet connection](Internet connection and firewall)
         - Internal (LAN) network and WiFi
         	- [Ethernet network](Ethernet_network)
-            - [WiFi and router](WiFi7_upgrade)
+            - [WiFi and router](WiFi_and_Router)
     	- [Domain Names and DNS records](Domain Name records)
         - [Exposed IP ports](Internet connection and firewall#static-ip-assignments-and-exposed-ip-ports)
     - Branding assets (logo, letterhead, etc etc)
@@ -96,6 +102,8 @@ The heritage issue means that we have to be careful how we look after the buildi
             - In an after hours emergency at Hackerspace we need to call the RHH switchboard (6166 8308) and ask for Facilities On Call
         - Electricity distribution
         	- [Here is a plan of the power outlets and circuits](power_distribution)
+            - [Electrical work required 2025](Electrical work 2025)
+        - [Heritage report](Gatehouses)
 
 # This wiki
 Our wiki runs on Wikmd software. It’s a file-based wiki that aims for simplicity. 

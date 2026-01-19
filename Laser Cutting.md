@@ -1,4 +1,5 @@
 - [The Laser Cutter](Laser Cutter)
 	- [Laser cutter basics](Laser Cutter Basics)
 	- [Beam Studio intro documents](https://support.flux3dp.com/hc/en-us/categories/360000126835-Beam-Studio)
+    - [Using gauge blocks to assist alignment](Gauge blocks)
 - [Making members name badges](Members name badges) 

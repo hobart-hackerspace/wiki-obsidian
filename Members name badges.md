@@ -38,6 +38,10 @@ banner: https://hobarthackerspace.org.au/assets/documents/hhs_banner_v4.pdf
 - You will need a computer with the *Westminster* font files installed. [See "Lettering" below](#lettering). 
 - The computer next to the Flashforge 3D printer has both the font and the software.
 
+### Your name
+- Please use your real name on the badge. This is important as other members use it to identify you.
+	- In particular, game-syle cryptic handles are inappropriate.
+
 ### Setup
 
 Use one of the individual blank badges from the step below. Spare blanks are kept in the top drawer of the drawers in the back of the Bertram Russell room.
