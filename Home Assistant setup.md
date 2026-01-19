@@ -3,7 +3,7 @@
 # HTTPS address
 [office.hobarthackerspace.org.au:8123](https://office.hobarthackerspace.org.au:8123/)
 
-We use a Let's Encrypt SSL certificate. [See below.](#letsencrypt)
+We use a *`Let's Encrypt`* SSL certificate. [See below](#Let's%20Encrypt%20SSL%20certificate)
 
 # Video cameras
 ## Hikvision NVR
@@ -42,11 +42,12 @@ A second Home Assistant helper ([`Alarm pre-warning`](https://office.hobarthacke
 <a name="letsencrypt"></a>
 
 # Let's Encrypt SSL certificate
-We have the `Let's Encrypt` add-on installed to update the certificate. It requires port 80 to be open on a machine in this domain (it doesn't matter which). If the certificate doesn't get updated for whatever reason, we can be locked out of the web GUI.
+We have the `Let's Encrypt` add-on installed to update the certificate. It requires port 80 to be open on some machine in this domain (it doesn't matter which, so long as it listens on port 80 and responds to `HTTP` requests). 
 
-The backdoor way to fix this is to `ssh` into the box (as `root`: `ssh root@192.168.2.42`) and run:
+If the certificate doesn't get updated for whatever reason, we can be locked out of the web GUI.
+The backdoor way to resolve this is to `ssh` into the box from within our LAN, as `root`: `ssh root@192.168.2.42` and run:
 ``` bash
 ha addons start core_letsencrypt # update the certificates
 reboot # certs don't get used until reboot
 ```
-    
+	

@@ -29,35 +29,35 @@ We keep source files of our documents in a simple, universal format and and *ren
 ## Source files
 - Our documents start out as Markdown (`.md`) formatted files.
 - Markdown is used because:
-    1. It is clean and easy to compose, without details of format interrupting your thinking. You think at the level of document structure, not format.
-    1. It is pure text and so doesn't require any particular proprietary software or operating environment. Any text editor can be used.
-    1. As documents are pure text, it's extremely easy to apply source control to them.
-    1. It is (relatively) standard.
-    1. It's familiar to many of us as it's used across many tech environments, in particular:
-        - GitHub
-        - Discord and other online forums and instant messaging platforms
-        - Software documentation, ReadMe files etc. (eg Python Docstrings)
-    1. We already use it in some of our systems:
-        - Our website (running on GitHub Docs)
-        - Our Wiki
+	1. It is clean and easy to compose, without details of format interrupting your thinking. You think at the level of document structure, not format.
+	1. It is pure text and so doesn't require any particular proprietary software or operating environment. Any text editor can be used.
+	1. As documents are pure text, it's extremely easy to apply source control to them.
+	1. It is (relatively) standard.
+	1. It's familiar to many of us as it's used across many tech environments, in particular:
+		- GitHub
+		- Discord and other online forums and instant messaging platforms
+		- Software documentation, ReadMe files etc. (eg Python Docstrings)
+	1. We already use it in some of our systems:
+		- Our website (running on GitHub Docs)
+		- Our Wiki
 
 ## Rendering the documents for viewing
 We render the Markdown documents into both PDF and HTML for viewing. HTML is used for Wiki pages and PDF provides standalone documents that can be printed or viewed off-line. (The process of taking a code-like source file and creating a formatted, human-readable document is called "rendering".)
 
 - Rendering the Wiki documents is easy - we simply post the text of the documents to the wiki and it formats them.
-    - Behind the scenes the `wikmd` uses both `pandoc` and `LaTeX` in the same way that we do for the PDF files. This means that we get some consistency in formatting between the PDF & Wiki presentation.
+	- Behind the scenes the `wikmd` uses both `pandoc` and `LaTeX` in the same way that we do for the PDF files. This means that we get some consistency in formatting between the PDF & Wiki presentation.
 - Rendering the PDF documents is a bit more complicated:
   - Briefly:
-    - First they are processed with `pandoc`, which is a versatile document format converter. This transforms them to `TeX` format. (`TeX` is a typesetting language.)
-    - `Pandoc` then passes them automatically to `LaTeX` (strictly: `xelatex`) for typesetting. This transforms a mixed stream of text and commands into (hopefully) cleanly-presented, easily readable document.
+	- First they are processed with `pandoc`, which is a versatile document format converter. This transforms them to `TeX` format. (`TeX` is a typesetting language.)
+	- `Pandoc` then passes them automatically to `LaTeX` (strictly: `xelatex`) for typesetting. This transforms a mixed stream of text and commands into (hopefully) cleanly-presented, easily readable document.
   - In detail:
-    - There are some format settings that are consistent across all our documents. For these settings there is a header file in "YAML" format that is used for all documents. This is `hhs_header.yaml`.
-    - There are other (content-related) metadata settings that are specific to each document (things like title, subtitle etc). These sit in a YAML header within the markdown document.
-    - We also have some consistent settings for `LaTeX` that are applied via a `pandoc` template file (`hhs_template.latex`).
-    - So we have:
-      - (format header + markdown source) + (template file) => `pandoc` => `LaTeX` => PDF document
-    - Each program within that sequence has some specific settings to get a clean & consistent result.
-    - This whole process is automated with a small script to ensure that the right arguments are applied to the various programs.
+	- There are some format settings that are consistent across all our documents. For these settings there is a header file in "YAML" format that is used for all documents. This is `hhs_header.yaml`.
+	- There are other (content-related) metadata settings that are specific to each document (things like title, subtitle etc). These sit in a YAML header within the markdown document.
+	- We also have some consistent settings for `LaTeX` that are applied via a `pandoc` template file (`hhs_template.latex`).
+	- So we have:
+	  - (format header + markdown source) + (template file) => `pandoc` => `LaTeX` => PDF document
+	- Each program within that sequence has some specific settings to get a clean & consistent result.
+	- This whole process is automated with a small script to ensure that the right arguments are applied to the various programs.
 
 # Tweaks for `pandoc`
 In addition to customising the template that `pandoc` uses to generate `LaTeX` code (discussed below), there are some settings passed to `pandoc` that directly affect the process.

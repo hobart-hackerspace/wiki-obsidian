@@ -20,16 +20,16 @@ The gauge blocks are sized such that, when placed inside the top of the honeycom
 ### In Beam studio
 - Select the layer in your design which shows the exact outline of the piece.
 	- It can be useful to have such a layer, even if you hide it when doing the cutting/engraving. It enables easy aligning using the camera as well as repeatable location using displayed dimensions.
-    - Choose the `Object` display tab in `Beam Studio`.
-    - The X-Y position and will be shown
-    - This also shows the width & depth, whch allows you to ensure you have any scaling right.
+	- Choose the `Object` display tab in `Beam Studio`.
+	- The X-Y position and will be shown
+	- This also shows the width & depth, whch allows you to ensure you have any scaling right.
 - The left-most edge of the workpiece will have an X dimension of just under 15mm
 	- This is more precisely 14.8mm, but will vary depending on how your piece sits against the frame
 - The top edge will have a Y dimension of  just under 21mm
 	- Again, this is more precisely 20.7mm, but can vary slightly
 
 
-![An example of the X-Y location display](/img/Example_workpiece_location_highlighted-v3bcgihxrcgg7ys52u3m7qxwkz3m.png)
+![An example of the X-Y location display](attachments/Example_workpiece_location_highlighted-v3bcgihxrcgg7ys52u3m7qxwkz3m.png)
 
 ## Making more Gauge Blocks
 The blocks are sacrificial - it's all too easy to accidently trim the lower edge if you get the placement of the work slightly wrong. But it's easy to replace them. We make them from scrap MDF or acrylic sheet. 3-4mm is best as it usually sits level with or lower than the surface of the work.

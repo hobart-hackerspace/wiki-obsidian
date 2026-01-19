@@ -14,7 +14,7 @@ When exporting member lists from TidyHQ to update the door controller or get mem
 	- First col
 		- Membership Level	
 		- Contact
-        - Contact ID
+		- Contact ID
 		- Start Date	
 		- End Date	
 		- Status	
@@ -35,7 +35,7 @@ When exporting member lists from TidyHQ to update the door controller or get mem
 6. Click `Search` then sort by End Date descending
 7. Click `Export CSV` and save to the `Members` directory.
 	- If you have a replica of the Committee OneDrive folder, this is a single step process.
-    - Otherwise, export it to you local storage and then upload to the OneDrive folder (see below).
+	- Otherwise, export it to you local storage and then upload to the OneDrive folder (see below).
 8. Adjust the file name if necessary.
 9. Move the previous dated CSV to the `Archive` directory.
 
@@ -53,7 +53,7 @@ When exporting member lists from TidyHQ to update the door controller or get mem
 	- This should populate the spreadsheet with the current values and update the "Membership counts" table in the top right corner.
 1. Ensure that the page layout includes just the "Membership counts" table, then either:
 	- Print to PDF or
-    - Select the "Membership counts" table and `Save as` a PDF.
+	- Select the "Membership counts" table and `Save as` a PDF.
 
 ## Processing to update door system
 The TidyHQ CSV can be processed by Brian's Python script (thq2db.py),

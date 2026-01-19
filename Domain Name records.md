@@ -4,38 +4,38 @@ Most domains are registered and their records hosted and managed by [VentraIP](h
 
 One domain (`hobarthackerspace.onmicrosoft.com`) is separately managed, as part of our free NFP Microsoft365 subscription.
 
-Relevant access credentials are in [the password vault](Password vault).
+Relevant access credentials are in [the password vault](Password%20vault.md).
 
 ## The domain names 
 ### Base level names
 - [`hobarthackerspace.org.au`](https://hobarthackerspace.org.au)
 	- This is used for:
-    	- our website
-        - our email addresses
-        - and as a base address for more specific subdomains.
-    - The website is hosted as a [**`pages.github.com`**](https://pages.github.com) service, so the **A** and **AAAA** records are set per [their specs for hosting web sites](https://docs.github.com/en/pages):
-        - **A** (IPv4) records are set directing to:
-            - `185.199.108.153`
-            - `185.199.109.153`
-            - `185.199.110.153`
-            - `185.199.111.153`
-        - **AAAA** (IPv6) records are set directing to:
-            - `2606:50c0:8000::153`
-            - `2606:50c0:8001::153`
-            - `2606:50c0:8002::153`
-            - `2606:50c0:8003::153`
-        - These work in conjunction with a **CNAME** record for
-        	[`www.hobarthackerspace.org.au`](https://www.hobarthackerspace.org.au). 
-            See below and [the pages.github.com specs](https://docs.github.com/en/pages).
+		- our website
+		- our email addresses
+		- and as a base address for more specific subdomains.
+	- The website is hosted as a [**`pages.github.com`**](https://pages.github.com) service, so the **A** and **AAAA** records are set per [their specs for hosting web sites](https://docs.github.com/en/pages):
+		- **A** (IPv4) records are set directing to:
+			- `185.199.108.153`
+			- `185.199.109.153`
+			- `185.199.110.153`
+			- `185.199.111.153`
+		- **AAAA** (IPv6) records are set directing to:
+			- `2606:50c0:8000::153`
+			- `2606:50c0:8001::153`
+			- `2606:50c0:8002::153`
+			- `2606:50c0:8003::153`
+		- These work in conjunction with a **CNAME** record for
+			[`www.hobarthackerspace.org.au`](https://www.hobarthackerspace.org.au). 
+			See below and [the pages.github.com specs](https://docs.github.com/en/pages).
 	- There is also an **MX** record to identify where to send incoming email to addresses like 
-    	`joe.bloggs@hobarthackerspace.org.au`.
-    	- Incoming mail is handled as part of our free Microsoft365 subscription, 
-        	so it's set to priority `0` and redirects to
-        	`hobarthackerspace-org-au.mail.protection.outlook.com`
+		`joe.bloggs@hobarthackerspace.org.au`.
+		- Incoming mail is handled as part of our free Microsoft365 subscription, 
+			so it's set to priority `0` and redirects to
+			`hobarthackerspace-org-au.mail.protection.outlook.com`
 - `hobarthackerspace.com`
 - `hobarthackerspace.org`
 	- These are both secondary names, registered to prevent domain name poaching by others. 
-    	There are no current DNS records for them.
+		There are no current DNS records for them.
 	- Both are registered with [VentraIP](https://vip.ventraip.com.au/dashboard)
 
 ### Subdomains used for other web-based access 
@@ -43,16 +43,16 @@ These all use **A** records
 
 - [`office.hobarthackerspace.org.au`](https://office.hobarthackerspace.org.au:8123/)
 	- This gives access to our Home Assistant instance
-    	- An **A** record points to `100.67.51.201`,
-        	the current IP address for our NBN connection.
+		- An **A** record points to `100.67.51.201`,
+			the current IP address for our NBN connection.
 - [`wiki.hobarthackerspace.org.au`](http://wiki.hobarthackerspace.org.au:7008)
 	- This gives access to this wiki from outside the space
-    	- An **A** record points to `100.67.51.201`,
-        	the current IP address for our NBN connection.
+		- An **A** record points to `100.67.51.201`,
+			the current IP address for our NBN connection.
 - [`cnc.hobarthackerspace.org.au`](https://cnc.hobarthackerspace.org.au)
 	- This is a Shane special page hosting CNC documentation
-        - An **A** record points to `103.13.100.230`,
-        	the IP address for Shane's NISS server.
+		- An **A** record points to `103.13.100.230`,
+			the IP address for Shane's NISS server.
 
 
 ### "Subdomains" registered to support specific services 
@@ -81,3 +81,8 @@ Typically these are created on request for or on the recommendation of the provi
 | SRV | `_sipfederationtls._tcp` | Microsoft Teams | `10 25 5061 sipfed.online.lync.com` |  |  Used by Microsoft Teams as part of our Microsoft365 subscription
 
 The text values of keys marked `[redacted]` above are held in our password vault
+
+
+- Transcoded from WikMD on Tue Nov 25 12:13:31 2025
+	- 83 lines written, 1 changed.
+	- Lines: 7

@@ -1,49 +1,47 @@
 # Basics
-## Server
-
-[[info]] Server setup
+## Server setup
 
 - We're using the previous "hhs-security" machine that sits in the "server" rack. (A small Lenovo desktop box.)
 - The OS was re-installed, using Ubuntu version 24.04 LTS on a clean file system.
 	- some apps were installed at OS load time but later removed. These were installed as "snap" installations by the OS installer. Doco on `docker` installation strongly recommends against installing with snap, so it, `mosquitto` and `microk8s` were removed. 
-    - Problems had been encountered with docker across some reboots. This cleanup seems to have resolved that.
+	- Problems had been encountered with docker across some reboots. This cleanup seems to have resolved that.
 - Base machine has hostname `hhs-docker-svr` and responds as `hhs-docker-svr.lan`
-- Initially, just one user was set up: `hhs-admin`, with [password in our vault](Password vault). (To start with, it is the usual "spacehackers@#".)
+- Initially, just one user was set up: `hhs-admin`, with [password in our vault](Password%20vault.md). (To start with, it is the usual "spacehackers@#".)
 - SSH service was enabled to provide admin access. Authorized_keys can be added as required for convenience.
 - Installed `avahi-daemon` and `avahi-utils` with `apt`. 
-	This enables an internal HHS network address of `hhs-docker-svr.local`, and sets us up to do a fiddle to allow addressing as `wiki.local`. See [URL Adjustments](#URL_Adjustments) below.
+	This enables an internal HHS network address of `hhs-docker-svr.local`, and sets us up to do a fiddle to allow addressing as `wiki.local`. See [URL Adjustments](#URL%20Adjustments) below.
 
 ## Docker software
 
-[[info]] Base Docker
+### Base Docker
 
 - Installed `docker` and `portainer`. 
 - Docker is installed with `apt`, after adding the relevant `apt` config stuff:
 ```
-    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor \
-    	-o /usr/share/keyrings/docker-archive-keyring.gpg
+	curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor \
+		-o /usr/share/keyrings/docker-archive-keyring.gpg
 	echo "deb [arch=$(dpkg --print-architecture) \
-    	signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
-    	$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
-    sudo apt update
-    sudo apt-get install docker-ce docker-ce-cli containerd.io
-    sudo systemctl status docker
-    sudo docker run hello-world
+		signed-by=/usr/share/keyrings/docker-archive-keyring.gpg] https://download.docker.com/linux/ubuntu \
+		$(lsb_release -cs) stable" | sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+	sudo apt update
+	sudo apt-get install docker-ce docker-ce-cli containerd.io
+	sudo systemctl status docker
+	sudo docker run hello-world
 ```
 - Noting that the last bits ("run hello-world" & "status docker") are checks that it worked ok
 
 - Then we installed `portainer`:
 ```
-    sudo docker volume create portainer_data
-    sudo docker volume inspect portainer_data  # ( a check step )
-    sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always \
-    	-v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data \
-        portainer/portainer-ce:latest
-    sudo docker ps # should show it running
+	sudo docker volume create portainer_data
+	sudo docker volume inspect portainer_data  # ( a check step )
+	sudo docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always \
+		-v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data \
+		portainer/portainer-ce:latest
+	sudo docker ps # should show it running
 ```
 - Connecting to `https://hhs-docker-svr.local:9443` with a browser should show the portainer web GUI
 	- On first connection from a given browser, the browser may warn about insecure connections - this is because the certificate is locally-generated. Over-ride the warning.
-    - On first connection after (re)installation, Portainer will ask for an admin user to be created and a password supplied. The password to use is in the [vault](Password vault). (While testing it's simply: "spacehackers@#").
+	- On first connection after (re)installation, Portainer will ask for an admin user to be created and a password supplied. The password to use is in the [vault](Password%20vault.md). (While testing it's simply: "spacehackers@#").
 
 - Add the linux user to the `docker` group to avoid the need for `sudo` all the time:
 ```
@@ -51,25 +49,20 @@
 ```
 
 - Then we need a user-id on the docker server as owner of the wiki. This is to avoid permissions issues and to make it easy to work at the filesystem level for backup etc:
-	- User is "wiki-user"; password in [the vault](Password vault).
+	- User is "wiki-user"; password in [the vault](Password%20vault.md).
 ```
 	sudo adduser wiki-user
-    # and add it to the "sudo" group
-    sudo usermod -aG sudo wiki-user
-    sudo usermod -aG docker wiki-user
+	# and add it to the "sudo" group
+	sudo usermod -aG sudo wiki-user
+	sudo usermod -aG docker wiki-user
 ```
 
-- Now we're set up to install our wiki. 
-	- (In fact, this took a few trials. If you're interested, you can follow [the history here](Wiki%20software%20trial%20installations) ).
-
-## The working wiki installation
-- [See here for details of our working wiki...](The Wikmd server)
-
+The WikMD software is no longer in use, but the docker server remains.
 <a id="URL_Adjustments"></a>
 
 ## URL Adjustments
 
-[[info]] Simpler URLs
+### Aim: Simpler URLs
 
 The above is sufficient to get us up and running, but for convenience sake some networking "adjustments" have been made to provide for simpler URLs.
 
@@ -112,7 +105,7 @@ sudo systemctl start wiki-mdns-cname.service && sudo journalctl -u wiki-mdns-cna
 ~~~
 
 ### Reverse proxy
-`Nginx` is used to provide a reverse proxy service. A longer-term aspiration is to use it to provide authenticated access from ourside our local network.
+`Nginx` is used to provide a reverse proxy service. A longer-term aspiration is to use it to provide authenticated access from outside our local network.
 
 `Nginx` was installed with: `sudo apt install nginx` 
 and an appropriate config file created in `/etc/nginx/sites-available/wiki.conf`, containing:
@@ -126,19 +119,19 @@ server {
   access_log /var/log/nginx/wiki.log;
 
   location / {
-    proxy_pass http://hhs-docker-svr.local:7008;
+	proxy_pass http://hhs-docker-svr.local:7008;
 
-    proxy_set_header Host            $host;
-    proxy_set_header X-Real-IP       $remote_addr;
-    proxy_set_header X-Forwarded-For $remote_addr;
-    proxy_http_version 1.1;
+	proxy_set_header Host            $host;
+	proxy_set_header X-Real-IP       $remote_addr;
+	proxy_set_header X-Forwarded-For $remote_addr;
+	proxy_http_version 1.1;
 
-    proxy_set_header Upgrade $http_upgrade;
-    proxy_set_header Connection "upgrade";
-    proxy_cache_bypass 1;
-    proxy_no_cache 1;
+	proxy_set_header Upgrade $http_upgrade;
+	proxy_set_header Connection "upgrade";
+	proxy_cache_bypass 1;
+	proxy_no_cache 1;
 
-    port_in_redirect on;
+	port_in_redirect on;
   }
 }
 ~~~
@@ -150,3 +143,4 @@ cd ../sites-enabled
 sudo ln -s ../sites-available/wiki.conf .
 sudo systemctl restart nginx && sudo journalctl -u nginx -f
 ~~~
+

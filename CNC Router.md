@@ -1,7 +1,7 @@
 ## Using CNC Routers
 ### Background  
-- [CNC Glossary](CNC Glossary)
-- [CAM using Inkscape](CAM using Inkscape)
+- [CNC Glossary](CNC%20Glossary.md)
+- [CAM using Inkscape](CAM%20using%20Inkscape.md)
 - [Shane's CNC Links](https://cnc.hobarthackerspace.org.au)
 - [Some hints and tips on CNC cutting bits](https://cncrouterbits.com.au/pages/technical-resources-downloads)
 
@@ -28,6 +28,7 @@ The ability to practice and refine CNC programming without the need for a physic
 ## Our I2R A Series A23 CNC Router
 The machine has a 600x900mm bed and includes a manufacturer-supplied stand and a dust extractor.
 
-### [Conditions of Use](CNC_Conditions_of_Use)
-### [Rules for use](CNC_Usage)
-### [Full details and documentation](I2R CNC Router)
+### [Conditions of Use](CNC_Conditions_of_Use.md)
+### [Rules for use](CNC_Usage.md)
+### [Full details and documentation](I2R%20CNC%20Router.md)
+

@@ -1,7 +1,7 @@
 # The St Johns Park Gatehouses
 ## Gatehouse at 1 St Johns Avenue 1841 (Southern side)
 
-1 St Johns Avenue is one of a pair of Victorian Gothic Watch Houses/Gatehouses designed by James Blackburn in
+No. 1 St Johns Avenue is one of a pair of Victorian Gothic Watch Houses/Gatehouses designed by James Blackburn in
 1841 and built at about the same time. 
 
 The single-storey building was originally built entirely of sandstone, probably
@@ -19,7 +19,7 @@ potential as indicated in the Conservation Management Plan (Godden Mackay 1996).
 
 ## Gatehouse at 2 St Johns Avenue 1841 (Northern side)
 
-James Blackburn's design for 2 St Johns Avenue mirrors that for the watch house at 1 St Johns Avenue. 
+James Blackburn's design for No. 2 St Johns Avenue mirrors that for the watch house at 1 St Johns Avenue. 
 
 However,
 there is a stone addition to the north of no. 2, built in the style of the original and featuring a mediaeval-styled chimney
@@ -28,11 +28,9 @@ addition was made at the time of the original building or if it was added later.
 weatherboard additions, some of which may date from the nineteenth century and some from a later period. 
 
 The
-interior of 2 St Johns Avenue has been remodelled, although doors, skirting boards and one fire surround appear to be
-original. Interior walls are plastered and the ceiling is of lath and plaster construction. 
+interior of 2 St Johns Avenue has been remodelled, although doors, skirting boards and one fire surround appear to be original. Interior walls are plastered and the ceiling is of lath and plaster construction. 
 
-This site has identified
-archaeological potential as indicated in the Conservation Management Plan (Godden Mackay 1996).
+This site has identified archaeological potential as indicated in the Conservation Management Plan (Godden Mackay 1996).
 
 *We need to add here a scan of the building plan document we have from the Archives Office*
 

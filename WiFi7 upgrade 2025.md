@@ -43,7 +43,7 @@ The UX7 serves as both a WiFi access point and a controller for other access poi
 - Both the UX7 access point and the U7 AP that we purchased earlier both support WiFi 7 (802.11be). This offers multi-gigabit throughput utilising RF in the 2.4, 5 and 6GHz bands. 
 - These newer devices also support the WPA3 security features that were unavailable on the older APs. 
 - Both APs have been set up to utilise any of the WiFi 7 features supported by connecting devices, but not to enforce their use that so that older devices can also connect. 
-- Despite that flexibility, some of the more primitive IoT devices won't connect to WiFi 7 APs. It's become standard practice to provide a separate 2.4GHz-only SSID to obviate this and that's recommended by Ubiquiti. See [[#IoT Wifi]] below.
+- Despite that flexibility, some of the more primitive IoT devices won't connect to WiFi 7 APs. It's become standard practice to provide a separate 2.4GHz-only SSID to obviate this and that's recommended by Ubiquiti. See [IoT Wifi](#IoT%20Wifi) below.
 
 ### Access point locations
 
@@ -72,5 +72,5 @@ The UX7 serves as both a WiFi access point and a controller for other access poi
 # Static IP address leases and LAN ports opened
 
 - [Addresses](IP%20address%20leases.md)
-- [Port forwarding](Exposed_ports)
+- [Port forwarding](Exposed_ports.md)
 

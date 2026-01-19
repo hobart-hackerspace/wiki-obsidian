@@ -22,9 +22,9 @@ It uses:
 	- This could constrian upgrading of the Raspbian version -- no Python2 is available on Bookworm (12) or later)
 - The `pigpio` software library 
 	- `pigpio` provides a low-latency interface between the Python software and the Raspberry Pi GPIO ports.
-    - The GPIO ports are used to:
-    	- sense the output of the RFID reader and the state of the door latch and *Alarm* button; and
-        - control the locked/unlocked state of the door latch and turn on/off the beeper
+	- The GPIO ports are used to:
+		- sense the output of the RFID reader and the state of the door latch and *Alarm* button; and
+		- control the locked/unlocked state of the door latch and turn on/off the beeper
 	- `pigpio` is at version 1.35; the most recent is 1.78.
 - MQTT is used to communicate with other systems. 
   MQTT allows for loosely-coupled systems that don't break if the link is inoperative.
@@ -34,9 +34,9 @@ Power to the Rasperry Pi (5V DC) comes from a Power-over-Ethernet (PoE) adapter 
 
 The RFID reader and door strike are powered by a second (12VDC) power supply. The door strike requires power to remain locked, so the door is unlocked whenever there is a power outage.
 
-![The Raspberry Pi](/img/Door_Controller_Pi_Box-czlm3ux4jimcnjy723wmh2sytyhd.jpg)
+![The Raspberry Pi](attachments/Door_Controller_Pi_Box-czlm3ux4jimcnjy723wmh2sytyhd.jpg)
 
-## [Remote access](/Access%20Controller%20Remote%20access)
+## [Remote access](/Access%20Controller%20Remote%20access.md)
 
 (more to come ...)
 
@@ -56,10 +56,14 @@ The RFID reader and door strike are powered by a second (12VDC) power supply. Th
 ## System maintenance
 - Backups
 	- Database
-    - Logs
-    - File system
-    - System images
+	- Logs
+	- File system
+	- System images
 - Physical maintenance
 	- Door strike
-    - Raspberry Pi box
-    	- SD card removal & re-insertion
+	- Raspberry Pi box
+		- SD card removal & re-insertion
+
+- Transcoded from WikMD on Tue Nov 25 12:13:31 2025
+	- 65 lines written, 1 changed.
+	- Lines: 39

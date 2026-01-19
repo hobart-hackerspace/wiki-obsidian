@@ -51,7 +51,7 @@ robot Hacky!
 ## REMINDERS:
 - 3D Printing:
   - Don't use the flexible filament, because it
-       adheres to the bed
+	   adheres to the bed
   - New how to tutorial, for the flash forge 
   - Michael has arranged thesupply of build plate stickers for the flashforge
 - Honesty shop (in the kitchen)
@@ -61,9 +61,9 @@ robot Hacky!
 - Around the Space
   - The laser cutter has been realigned so the bed is actually flat now (it was tilted front to back) 
   - Network: We now have NBN fibre at 250MBps and upgraded WIFi to match
-    - If you have an older device or IoT device that won't connect, try connecting to "hackerspace-iot" instead of just "hackerspace".
+	- If you have an older device or IoT device that won't connect, try connecting to "hackerspace-iot" instead of just "hackerspace".
   - We have our new CNC installed and running, thanks to a grant from the government trhough the Tasmanian Mens Shed Association
-    - Note that you have to be suitably inducted before using this. See Mark Pearson for details.
+	- Note that you have to be suitably inducted before using this. See Mark Pearson for details.
   - The Bertrand Russell room is currently being converted to a low-sensory space, we would love members to contribute artworks for the gallery wall! 
 
 ## Quotes collected from members about making:

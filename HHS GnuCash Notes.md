@@ -1,12 +1,3 @@
----
-title: HHS GnuCash Usage
-author:
-    - Brian Marriott, Hobart Hackerspace Inc.
-subtitle: How we use GnuCash for accounts within HobartHackerspace Inc.
-abstract:
-    - Notes for the Treasurer on how & why we use various aspects of GnuCash to manage  financial record-keeping and reporting for Hobart Hackerspace Inc. 
-      This guide is set up both to assist an incoming Treasurer in coming to terms with the role and also to remind an ongoing Treasurer about doing the rarer activities such as end-of-financial-year rollover.
----
 # HHS GnuCash Notes
 
 ## Introduction
@@ -243,16 +234,16 @@ doesn't duplicate transactions if you cross over the date ranges.
 each of our bank accounts. This will inform your choice of the start date of the
 transactions export in the next step.
 1. On the Westpac select `Overview` >> `Exports and reports` >> `Transactions > Export` and follow your way through the prompts, including:
-    1. Set the date range required. You only need to do this once for each batch of exports.
-    1. Choose only one account per export (Westpac requires this for export to OFX format). You can repeat the export to produce multiple files for different accounts from the one screen.
-    1. Choose OFX format. 
-    1. Be consistent in choosing the date format. You may need to tell GnuCash what that is when 
+	1. Set the date range required. You only need to do this once for each batch of exports.
+	1. Choose only one account per export (Westpac requires this for export to OFX format). You can repeat the export to produce multiple files for different accounts from the one screen.
+	1. Choose OFX format. 
+	1. Be consistent in choosing the date format. You may need to tell GnuCash what that is when 
 you come to import the file, if it's indeterminate.
 Note that the date format provided does not affect the format of the file title, 
 just the format of the data.
-    1. Add to each filename the last three digits of the account number
+	1. Add to each filename the last three digits of the account number
 (eg `Data_export_15022023-717.ofx`) or otherwise identify the account.
-    1. Place the files in the 
+	1. Place the files in the 
 [`Bank export files`](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/EjbndnUwVaNJnk5f4wEdE14BitlI8G9yDMy59nnmQQ6Z4w?e=d3YhnT) 
 sub-folder of the GnuCash folder.
 1. Before you log out, grab a "Proof of balance and transactions" report (`Overview` >> `Exports 
@@ -293,10 +284,10 @@ Note also that the unassigned transactions should normally also be at the end of
 the "imbalance" one to the appropriate one from the chart of accounts, 
 ensuring that the actual purpose of each transaction (or split of a transaction) is clearly shown
 (see note below).  
-    - The process of showing the splits of a transaction depends on your settings, in particular, the setting `Register Defaults > Default Style`:  
-        1. If you have this set to `Basic ledger`, you have to right-click on the transaction line and select `Split Transaction`.
-        2. If you have it set to `Auto-split ledger` (recommended) then simply clicking the transaction line will show its splits.
-        3. If you have it set to `Transaction Journal` then all transactions will have their splits shown. This takes up a lot of screen space.  
+	- The process of showing the splits of a transaction depends on your settings, in particular, the setting `Register Defaults > Default Style`:  
+		1. If you have this set to `Basic ledger`, you have to right-click on the transaction line and select `Split Transaction`.
+		2. If you have it set to `Auto-split ledger` (recommended) then simply clicking the transaction line will show its splits.
+		3. If you have it set to `Transaction Journal` then all transactions will have their splits shown. This takes up a lot of screen space.  
 1. As you work through the list and assign a reporting account to a transaction, it will disappear from the "Imbalance - AUD" account listing, so simply do each one til none are left.  
 1. When you've done the lot, it's worth reviewing the recent transactions of each of the bank accounts 
 to verify that the assigned reporting account for each new transaction looks ok. 
@@ -316,34 +307,34 @@ Note that you will have to have imported the QIF file for both accounts before b
 To properly reconcile these, we need to combine their information and reduce them to a single transaction, as below:
 The final result should look something like this:
 
-![Example transaction split showing transfer between accounts](/img/transfer-between-accounts-vu45qniuwpaeaa7a6nenlnkbbqia.png)
+![Example transaction split showing transfer between accounts](attachments/transfer-between-accounts-vu45qniuwpaeaa7a6nenlnkbbqia.png)
 
 The cleanest way to achieve this is:  
 
 1. Open one of the transactions in GnuCash so that it shows the splits of the transaction (see above).
-    It doesn't matter which one you start with, but for the purpose of demonstration we'll presume
-    that it's the receiving account (the one into which a "deposit" is made).
+	It doesn't matter which one you start with, but for the purpose of demonstration we'll presume
+	that it's the receiving account (the one into which a "deposit" is made).
 1. Copy the line of text that is the bank's deposit transaction description and 
-    paste it into the split that refers to the receiving bank account.
+	paste it into the split that refers to the receiving bank account.
 1. Type a human-readable description of the joint transaction in the description column
-     of the entire transaction.
+	 of the entire transaction.
 1. Identify the second transaction (from the source account from which the "withdrawal" is made).
 1. Copy the bank's description from the "withdrawal" transaction into the split of the "deposit" 
-    transaction so that both the deposit and withdrawal descriptions are shown.
+	transaction so that both the deposit and withdrawal descriptions are shown.
 1. Delete the duplicate transaction so that you don't have two deposits or two withdrawals.
 
 #### Notes on transactions
 
 1. (**Important**) It's vital that you clearly identify the actual purpose of transactions
 (or splits of transactions). Without that, the reports will be far less useful or even misleading.
-    1. Often the bank account reference is sufficient 
+	1. Often the bank account reference is sufficient 
 (eg *PAYMENT BY AUTHORITY TO AURORA TAS R2573159* or *DEPOSIT STRIPE STRIPE-bA1b7u1xVjb*).
 In these cases those transactions can have only one purpose (unless we change to using Stripe for more than one kind of transaction:-).
-    1. But sometimes it's ambiguous
+	1. But sometimes it's ambiguous
 (eg *DEBIT CARD PURCHASE Core Electronics 0240582818   AUS Card No. ~078500*).
 In this case no-one can tell what the expenditure was for without reference to another document 
 such as the invoice.
-    1. In these cases, copy the bank reference from the summary line of the transaction to the split 
+	1. In these cases, copy the bank reference from the summary line of the transaction to the split 
 which directly refers to the bank account, and change the summary line into something meaningful. 
 (This keeps the Bank's original documentation with its account listing - this can be useful 
 when tracing clerical errors.)
@@ -425,12 +416,12 @@ subtract the amount that was on-hand last time we recorded it.
 1. Create a new split transaction, with a description something like "Cash on hand as at nnnn-nn-nn".
 
 1. Add splits for each of:
-    - Cash in the jar (against the "Cash on hand" account as a "charge")
-    - Cash in the cash tin (against the "Cash on hand" account as a "charge")
-    - Less previous on-hand balance (also against the "Cash on hand" account, but as "income")
-    - Cash received for <period> (as income to the "Snacks cash" account)
+	- Cash in the jar (against the "Cash on hand" account as a "charge")
+	- Cash in the cash tin (against the "Cash on hand" account as a "charge")
+	- Less previous on-hand balance (also against the "Cash on hand" account, but as "income")
+	- Cash received for <period> (as income to the "Snacks cash" account)
 
-![Example transaction recording cash-on-hand](/img/cash-on-hand-transaction-p3nkviwngcsnaibeoqpwwbvscuqe.png)
+![Example transaction recording cash-on-hand](attachments/cash-on-hand-transaction-p3nkviwngcsnaibeoqpwwbvscuqe.png)
 
 
 ## Non-banking transactions
@@ -457,26 +448,26 @@ followed by a transfer *from* that account to the purchaser.
 So we create a transaction that does the same, but skips the bank accounts bit:  
 
 1. Start by creating a new (empty) transaction. On any of the account listings there's a blank 
-    transaction at the bottom of the list. We'll start in the *Snacks Cash* account listing. 
-    Click in the bottom empty transaction line, and it will open a new transaction, 
-    with today's date and the cursor in the *Memo* column. Enter in that line something like 
-    "*Coles drinks & cleaning reimbursed from cash jar*". 
+	transaction at the bottom of the list. We'll start in the *Snacks Cash* account listing. 
+	Click in the bottom empty transaction line, and it will open a new transaction, 
+	with today's date and the cursor in the *Memo* column. Enter in that line something like 
+	"*Coles drinks & cleaning reimbursed from cash jar*". 
 1. The deposit would have withdrawn from the (external) *Snacks Cash* account and 
-    deposited into the debit card account. So the first part of our transaction 
-    withdraws $25 from the *Snacks Cash* account. Enter that by clicking in the next blank line, 
-    selecting the *Snacks Cash* account, entering the amount ($25)in the *Income* column and entering 
-    something appropriate like "*Reimbursement to Joe Bloggs from cash jar*" in the *Memo* column. 
+	deposited into the debit card account. So the first part of our transaction 
+	withdraws $25 from the *Snacks Cash* account. Enter that by clicking in the next blank line, 
+	selecting the *Snacks Cash* account, entering the amount ($25)in the *Income* column and entering 
+	something appropriate like "*Reimbursement to Joe Bloggs from cash jar*" in the *Memo* column. 
 1. The transfer to the purchaser would have involved withdrawing funds from the bank account  
-    and marking the amounts against the relevant expenditure account(s). So the second and subsequent 
-    part of our example transaction would be $20 in the *Charge* column against the *Snacks Out* 
-    account (for the Coke). This will immediately create an "Imbalance" line. 
-    Change that to show $5 against the *Cleaning costs* account for the towels,
-    and add appropriate *Memo* entries for each component. 
+	and marking the amounts against the relevant expenditure account(s). So the second and subsequent 
+	part of our example transaction would be $20 in the *Charge* column against the *Snacks Out* 
+	account (for the Coke). This will immediately create an "Imbalance" line. 
+	Change that to show $5 against the *Cleaning costs* account for the towels,
+	and add appropriate *Memo* entries for each component. 
 1. Note that, if you start the blank transaction in a different kind of account, the columns 
-    will have different labels. Expense accounts will have *Tot Expense* and *Tot Rebate* 
-    instead of *Charge* and *Income*, while a banking account will have *Tot Deposit* and *Tot Withdrawal*. 
-    But the principles are the same -- just make sure that you get them the right way round. 
-    You can check this easily: if the "receiving" account goes down afterwards, you've got it the wrong way round:-)
+	will have different labels. Expense accounts will have *Tot Expense* and *Tot Rebate* 
+	instead of *Charge* and *Income*, while a banking account will have *Tot Deposit* and *Tot Withdrawal*. 
+	But the principles are the same -- just make sure that you get them the right way round. 
+	You can check this easily: if the "receiving" account goes down afterwards, you've got it the wrong way round:-)
 
 ## Finishing up
 ### Quality assurance
@@ -503,39 +494,39 @@ Reports are provided to the Committee at the end of each month, summarising that
 The precise details of the reports are still evolving. As this is written (March 2023), three reports are provided:  
 
 1. Balance sheet as at end of month  
-    This shows the amounts in each of our accounts (including the cash on hand in the Space). 
-    This is the least detailed but most important measure as it is the actual funds that we have available.
+	This shows the amounts in each of our accounts (including the cash on hand in the Space). 
+	This is the least detailed but most important measure as it is the actual funds that we have available.
 
 2. Income and Expenditure for the month  
-    This shows those accounts in our chart of accounts that have had activity in the month, 
-    categorising them and sub-totalling them according to the account hierarchy. 
+	This shows those accounts in our chart of accounts that have had activity in the month, 
+	categorising them and sub-totalling them according to the account hierarchy. 
 
 3. Income and Expenditure for the financial year  
-    As for the monthly I&E, but totalled for the entire financial year.
+	As for the monthly I&E, but totalled for the entire financial year.
 
 4. Monthly expenditure transactions  
-    A list of the actual transactions from the expenditure accounts within a given month. 
-    This is provided to the Committee for information and ratification.
+	A list of the actual transactions from the expenditure accounts within a given month. 
+	This is provided to the Committee for information and ratification.
 
 ### Producing the reports  
 Reports are generated from the GnuCash `Reports` >> `Saved reports` menu. You will have to bring up the chosen saved report and then adjust its settings for the particular month.
 
 1. For the monthly Balance sheet, open the saved `Balance sheet` report.  
-    That will give a balance showing as being the end of the financial year (in reality the latest transaction).  
-    To customise it for the relevant month:  
-    1. Open the `Options` from the top-line menu and select `General`.  
-    2. Change the `Balance sheet date` to be the 1st of the current month & click OK.  
-    3. Select `Print`. This will offer a choice of printers. Choose `Print to file`.   
-        This will offer a choice of file name and location. 
-        (Note that there is no intermediate "where do you want to put this" type of dialog - 
-        it saves it without comment in the selected (or previously-used) location.)  
-    4. Download the PDF of the report and store it in the reports folder 
-        in preparation for distribution or addition to meeting agendas.
+	That will give a balance showing as being the end of the financial year (in reality the latest transaction).  
+	To customise it for the relevant month:  
+	1. Open the `Options` from the top-line menu and select `General`.  
+	2. Change the `Balance sheet date` to be the 1st of the current month & click OK.  
+	3. Select `Print`. This will offer a choice of printers. Choose `Print to file`.   
+		This will offer a choice of file name and location. 
+		(Note that there is no intermediate "where do you want to put this" type of dialog - 
+		it saves it without comment in the selected (or previously-used) location.)  
+	4. Download the PDF of the report and store it in the reports folder 
+		in preparation for distribution or addition to meeting agendas.
 
 2. For the two I&E reports the process is similar, starting with the saved `Income & Expenditure` report, 
-    with the exception that there are two dates to be set: `Start date` and `End date`.  
-    
-    Produce one report with the dates set to the first of the previous and this month, and one with the dates set to 1-July and the 1st of this month.
+	with the exception that there are two dates to be set: `Start date` and `End date`.  
+	
+	Produce one report with the dates set to the first of the previous and this month, and one with the dates set to 1-July and the 1st of this month.
 
 ### Annual reports
 The annual reporting structure is based on the monthly reports, but just using the year-to-date reports.
@@ -573,8 +564,8 @@ This approach may have issues if you need to report on some project, grant or si
 (Wait a few days after EOFY for the Bank accounts to record all transactions - they are sometimes a day or so behind.)  
 1. Generate all appropriate EOFY reports. In particular, you'll need a Balance Sheet report showing all current assets as at EOFY.  
 1. Open the production GnuCash file and select `File` >> `Export` >> `Export Accounts`. Ensuring that the "Data format" is selected as `XML` (unless you choose to use some other storage format), select a file title and location and click on `Save as`. For convenience:  
-    - Save the file in the same directory as the previous production file  
-    - Give it the same title, with "-NewYear" appended.  
+	- Save the file in the same directory as the previous production file  
+	- Give it the same title, with "-NewYear" appended.  
 1. This will create a GnuCash file with no transactions but with the same Chart of Accounts as the previous one.  
 
 When you're comfortable that all worked ok, exit GnuCash and re-arrange file titles so that:  
@@ -584,20 +575,20 @@ When you're comfortable that all worked ok, exit GnuCash and re-arrange file tit
 Now you can open the new year's file and set it up for the new financial year.
 
 - **Opening balances**  
-    - For each of the "Assets" accounts, create a deposit transaction that credits that account with the amount that was 
-    in it at the end of the previous period. 
-    These should all be listed in the Balance Sheet report that you saved when generating the EOFY reports.
-    
-    - Give each such transaction the date of the start of the financial year and the description "Transfer balance EOFY 20nn".  
-    
-    - Creation of the transaction will create a split with a matching amount in the "Withdrawal" column. Assign this split to the "Opening Balances" Equity account.  
+	- For each of the "Assets" accounts, create a deposit transaction that credits that account with the amount that was 
+	in it at the end of the previous period. 
+	These should all be listed in the Balance Sheet report that you saved when generating the EOFY reports.
+	
+	- Give each such transaction the date of the start of the financial year and the description "Transfer balance EOFY 20nn".  
+	
+	- Creation of the transaction will create a split with a matching amount in the "Withdrawal" column. Assign this split to the "Opening Balances" Equity account.  
 
 - **Accounting periods**  
-    - Go to `Settings` >> `Accounting Periods` and verify that the relevant periods have been adjusted:  
-        - "Relative" dates should be the start and end of the "previous month"  
-        - "Absolute" dates should be the actual dates of the start and end of the current financial year.  
-    - Go to `Reports` >> `Saved Report Configurations` and set the start date of the 
-    "Income and Expenditure for Financial year" report to be the actual date of the start of this financial year.
+	- Go to `Settings` >> `Accounting Periods` and verify that the relevant periods have been adjusted:  
+		- "Relative" dates should be the start and end of the "previous month"  
+		- "Absolute" dates should be the actual dates of the start and end of the current financial year.  
+	- Go to `Reports` >> `Saved Report Configurations` and set the start date of the 
+	"Income and Expenditure for Financial year" report to be the actual date of the start of this financial year.
 
 Note that the changed accounting periods will create inappropriate reports if those reports are run during the first month of the financial year. This is to be expected as they are set up to be run at the start of the subsequent month.
 
@@ -609,23 +600,23 @@ Note that the changed accounting periods will create inappropriate reports if th
 These are screen captures of the settings I'm using (in the same order as offered by GC). I've skipped several as they relate to capabilities we don't use, like scheduled transactions and online banking.
 
 
-![Accounting Period](/img/prefs-accounting-period-15cmx144-h7vya2tru32nijwucakyqogk7ava.png)
+![Accounting Period](attachments/prefs-accounting-period-15cmx144-h7vya2tru32nijwucakyqogk7ava.png)
 
-![Accounts](/img/prefs-accounts-15cmx144-tekdaeuydtyovdufyyn3mpwijdbl.png)
+![Accounts](attachments/prefs-accounts-15cmx144-tekdaeuydtyovdufyyn3mpwijdbl.png)
 
-![General](/img/prefs-general-15cmx144-7tazmvuz5soxhmtulxigqlgno5fo.png)
+![General](attachments/prefs-general-15cmx144-7tazmvuz5soxhmtulxigqlgno5fo.png)
 
-![Imports](/img/prefs-import-15cmx144-y6eoitwzejwhpt3eahvjihbdvtu7.png)
+![Imports](attachments/prefs-import-15cmx144-y6eoitwzejwhpt3eahvjihbdvtu7.png)
 
-![Numbers, Date, Time](/img/prefs-numbers-etc-15cmx144-itvl7nirylrvomooxvrnow3tb7zs.png)
+![Numbers, Date, Time](attachments/prefs-numbers-etc-15cmx144-itvl7nirylrvomooxvrnow3tb7zs.png)
 
-![Register](/img/prefs-register-15cmx144-66paatjmuv7hyfhe6phdw2biqduk.png)
+![Register](attachments/prefs-register-15cmx144-66paatjmuv7hyfhe6phdw2biqduk.png)
 
-![Register Defaults](/img/prefs-register-defaults-15cmx144-uf2movry3lv4ciymtgaoipa5ymgl.png)
+![Register Defaults](attachments/prefs-register-defaults-15cmx144-uf2movry3lv4ciymtgaoipa5ymgl.png)
 
-![Reports](/img/prefs-reports-15cmx144-3mq3vy5oonele7gm7bp5y5qfncoj.png)
+![Reports](attachments/prefs-reports-15cmx144-3mq3vy5oonele7gm7bp5y5qfncoj.png)
 
-![Windows](/img/prefs-windows-15cmx144-spl5nafzgwhofelac3ht7i26t73g.png)
+![Windows](attachments/prefs-windows-15cmx144-spl5nafzgwhofelac3ht7i26t73g.png)
  
  
 ## Revisions
