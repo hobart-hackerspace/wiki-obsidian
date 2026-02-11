@@ -5,9 +5,11 @@ Obsidian stores all its text information in [Markdown](https://help.obsidian.md/
 ## The repository
 All markdown source and assets (images etc) is stored in and shared from a [GitHub](https://github.com/hobart-hackerspace/wiki-obsidian) repository. [Obsidian](https://obsidian.md) is used to manage the content and to publish web pages to this site. 
 
-The GitHub repository is private, to protect our shared intellectual property. All members are entitled to have access — just ask a committee member if you’d like access. You can also use the GitHub *Issues* log to report problems or suggest changes.
+The GitHub repository is private, to protect our shared intellectual property. All members are entitled to have access — just ask a committee member if you’d like access. You can also use [the GitHub *Issues* log](https://github.com/hobart-hackerspace/wiki-obsidian/issues) to report problems or suggest changes.
 
 ## The gory details
+- [Contributing from platforms with a separately-installable *git* application](Contributing%20using%20`git`%20as%20a%20separate%20application.md)
+- [Contributing from pads and phones without a separate *git* application](Contributing%20from%20pads%20and%20phones%20without%20a%20separate%20git%20application.md)
 
 ## Maintainer
 The base system is maintained by [Brian Marriott](mailto:brian.marriott@hobarthackerspace.org.au) -- 
