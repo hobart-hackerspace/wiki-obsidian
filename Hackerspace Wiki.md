@@ -1,7 +1,3 @@
----
-updated: 2026-02-11T17:05
-created: 2026-01-21T11:08
----
 ![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
 # Hobart Hackerspace wiki ([wiki-test.local](#home))

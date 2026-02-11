@@ -1,7 +1,3 @@
----
-updated: 07-Feb-2026, 21:52
-created: 21-Jan-2026, 11:08
----
 # This needs review to describe that server now we’re using Obsidian
 
 # Basics

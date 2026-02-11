@@ -1,7 +1,3 @@
----
-updated: 07-Feb-2026, 22:15
-created: 21-Jan-2026, 11:08
----
 # Some basic Obsidian settings for editing the HHS Wiki
 
 ## Files and Links

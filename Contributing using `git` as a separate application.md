@@ -1,7 +1,3 @@
----
-updated: 2026-02-11T17:52
-created: 2026-02-08T08:00
----
 # Basic use of Obsidian for content management with separate `git`
 The best-supported way of using *Obsidian* with *git* and *Obsidian Publish* is when *git* is a separate application.
 

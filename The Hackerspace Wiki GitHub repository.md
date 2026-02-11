@@ -1,7 +1,3 @@
----
-created: 22-Jan-2026, 12:03
-updated: 07-Feb-2026, 22:14
----
 # The GitHub repository
 Our wiki operates under source control, using `git` as the source code manager and  [`GitHub`](https://github.com/hobart-hackerspace/wiki-obsidian) as our shared repository. This is a private repository, with access given to Hackerspace members only. If you'd like access, simply ask a committee member or send an email to committee@hobarthackerspace.org.au.
 
