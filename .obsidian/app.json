@@ -4,5 +4,14 @@
   "attachmentFolderPath": "./attachments",
   "useMarkdownLinks": true,
   "alwaysUpdateLinks": true,
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  },
+  "livePreview": false,
+  "defaultViewMode": "preview"
 }
