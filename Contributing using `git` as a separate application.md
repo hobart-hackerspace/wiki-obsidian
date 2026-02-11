@@ -60,7 +60,8 @@ You need to make the cloned directory into an *Obsidian* vault.
 ### Publish your drafts to see how they look
 When you’re happy with your contributions:
 1. [Publish them](https://help.obsidian.md/publish/setup#Open+Publish)
-2. Check their formatting on [the wiki website](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki)
+	- If you have any pages that have attachments (for example images or attached PDFs), ensure that you click on `Add linked` at the top of the **`Publish`** panel, so that the attachments get published along with their host pages.
+2. Check the page formatting on [the wiki website](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki)
 3. Make any adjustments and re-publish 
 
 ### Check your changes in
