@@ -58,15 +58,15 @@ account" that you connect to with a user-ID and password and
 	organisations. As noted above, they may be called "Microsoft 365"
 	or "Office365". If you have any such accounts, the next few points
 	are essential:
-	a.  Multiple Microsoft accounts can cause confusion in use. You need
+	-  Multiple Microsoft accounts can cause confusion in use. You need
 		to remain aware of which account you are using at any point in
 		time.
-	b.  If you (or others who use your computer) have multiple accounts,
+	- If you (or others who use your computer) have multiple accounts,
 		you can tell which account you are using by clicking on your
 		user icon (the little round icon in the top right-and corner of
 		your browser window that has in it your initials in it or your
 		personal photo, if you've created one).
-	c.  You can switch between such accounts simply by clicking on the
+	- You can switch between such accounts simply by clicking on the
 		user icon and selecting a different account.
 3.  To log in, open your favourite web browser and go to: 
 	[office.com](https://office.com/)
@@ -77,15 +77,15 @@ account" that you connect to with a user-ID and password and
 5.  There are many forms of the pages asking you to sign in, depending
 	on previous usage on your computer. But they have key things in
 	common:
-	a.  There may be a button that says "Sign in", without any
+	- There may be a button that says "Sign in", without any
 		associated email address. If so, click it.
-	b.  It will ask you for your email address or it may offer you one
+	- It will ask you for your email address or it may offer you one
 		or a list of ones it knows about. Either way, it wants your
 		Hobart Hackerspace email address, as mentioned in section 1
 		above. Ensure that the correct one is there, or type it in where
 		it says "Email , phone, or Skype", then click "Next" or "Sign
 		in".
-	c.  It will require your password. If you've logged in recently
+	- It will require your password. If you've logged in recently
 		using this computer and web browser, it may already know that
 		and present you with a line of dots. Otherwise, type in (or
 		paste in) your password. Press "Next".
@@ -93,9 +93,9 @@ account" that you connect to with a user-ID and password and
 	account that you are subscribed to, don't fuss, just click on your
 	personal user icon in the top RH corner and select "Log in with a
 	different account".
-	a.  It will then ask you to choose from a list of addresses by which
+	- It will then ask you to choose from a list of addresses by which
 		it knows you or to "Use another account".
-	b.  If your Hackerspace account is listed, click on it, otherwise select
+	- If your Hackerspace account is listed, click on it, otherwise select
 		"Use another account" and proceed to enter your Hackerspace address
 		and password as in 5 above.
 7.  If this is your first time logging in, you'll be asked to change
@@ -112,8 +112,8 @@ account" that you connect to with a user-ID and password and
 	The bar on the right won't always be there, but the "channel nine
 	icon" seems always to be present (albeit in different colours).
 10. The two most useful apps are:
-	a.  Outlook (for Hackerspace-related email and events) and
-	b.  OneDrive (for document storage and sharing).\
+	- Outlook (for Hackerspace-related email and events) and
+	- OneDrive (for document storage and sharing).\
 		You may need to open the App selector ("channel nine") to see
 		the OneDrive icon
 11. If you don't have Word or Excel installed, the online versions of
@@ -132,7 +132,7 @@ MacOS).
 Once you're logged in to Microsoft 365, you can use the OneDrive
 application by clicking on the OneDrive icon as shown in item 5 above.
 That will normally take you to a screen that looks like this (the actual
-files listed will be different):\
+files listed will be different):
 ![](attachments/OneDrive_Home_page_-_Committee_member-ue3qmgjf5jcf432olc2jrob53zgr.png)
 
 The first time that you log in the display above will be slightly

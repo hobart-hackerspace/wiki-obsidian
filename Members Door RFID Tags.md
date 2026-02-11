@@ -33,38 +33,38 @@ This is done by logging into the controller from a terminal. Any terminal progra
 
 1. Connect to the controller:
 
-	 ~~~ {.sh}
+	 ``` sh
 	 ssh -p 8386 pi@office.hobarthackerspace.org.au
 	 # (password is same as wifi)
-	 ~~~
+	 ```
 
 1. Change to the controller's working directory
 
-	 ~~~ {.sh}
+	 ``` sh
 	 cd ~/HHSAccessControlV4/
-	 ~~~
+	 ```
 
 1. If you've scanned the tag to test it, it will show up in the log. Print the recent log entries to see it
 
-	 ~~~ {.sh}
+	 ``` sh
 	 tail -20 access_log.log
-	 ~~~
+	 ```
 
 1. You should see some records like:
 
-	 ~~~ {.sh}
+	 ```
 	 2024-07-11 19:13:40,929;Tag scanned: 9520825
 	 2024-07-11 19:13:40,951;Unknown ID.
 	 2024-07-11 19:13:40,959;Multiple invalid tag attempts for Unknown
-	 ~~~
+	 ```
 
 1. Take note of the number after `Tag scanned: ` as that's the tag's RFID code. It should match the number printed on the outside of the tag.
 
 1. Before modifying the controller database, we should copy the file to another name as a backup:
 
-	 ~~~ {.sh}
+	 ``` sh
 	 cp -p members.db members_backup.db
-	 ~~~
+	 ```
 
 1. Listed towards the bottom of this document are several boilerplate SQL code blocks. There are examples there for:
 	- [a new tag](#add-a-new-member), 
@@ -80,19 +80,19 @@ This is done by logging into the controller from a terminal. Any terminal progra
 		  Note that it's a classic Unix-style command so it won't tell you that you got things right, only if you have an error.
 	 1. You can verify that your update went ok by typing:
 
-~~~ {.sql}
-		select * from members where 
-			first_name = 'the_members_first_name';
-		-- Don't forget the semicolon at the end.
-~~~~
+``` sql
+select * from members where 
+	first_name = 'the_members_first_name';
+-- Don't forget the semicolon at the end.
+```
 
 You should see a terse listing of the member's database entry. Something like:
 
-~~~ {.sql }
-		sqlite> select * from members where first_name = 'Jason';
-		3000015|Jason|Hammond|7922112|activated|
-		sqlite>
-~~~~
+``` sql
+sqlite> select * from members where first_name = 'Jason';
+3000015|Jason|Hammond|7922112|activated|
+sqlite>
+```
 
 
 Type `control/D` or `.exit` to terminate the command processor
@@ -111,9 +111,9 @@ Now that you've identified the RFID code on the member's tag, you need to add th
 
 - When you're done, copy the newly-updated .db file to one with today's date in the filename in the `DBarchive/` sub-directory within the controller's working directory:
 
-	~~~~ {.sh }
+	``` sh
 	cp -p members.db DBarchive/members_`date -Idate`.db
-	~~~~
+	```
 
 - and then copy that to offline storage (preferably to our `Microsoft365 OneDrive` store, but at least to your local machine.) 
 	 - The relevant OneDrive directory is:  
@@ -134,7 +134,8 @@ Copy the relevant code snippet into an editor, replace the sample field contents
 ## Code snippets
 
 ### Add a new member
-~~~~ {.sql }
+``` sql
+
 .open members.db
 BEGIN TRANSACTION;
 INSERT INTO "members" 
@@ -143,45 +144,45 @@ INSERT INTO "members"
 	('THQ_ID','firstname','lastname','RFID_no','activated');
 COMMIT;
 .exit
-~~~~
+```
 
 ### Change tag for a member
-~~~ {.sql}
+``` sql
 .open members.db
 BEGIN TRANSACTION;
 UPDATE "members" set "rfid" = 'New_Number'
 	 WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
-~~~
+```
 
 ### Suspend a member
-~~~ {.sql}
+``` sql
 .open members.db
 BEGIN TRANSACTION;
 UPDATE "members" set "status" = 'suspended'
 	 WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
-~~~
+```
 
 ### Re-activate a member
-~~~ {.sql}
+``` sql
 .open members.db
 BEGIN TRANSACTION;
 UPDATE "members" set "status" = 'activated'
 	 WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
-~~~
+```
 
 ### Remove a member
-~~~ {.sql}
+``` sql
 .open members.db
 BEGIN TRANSACTION;
 DELETE FROM "members" WHERE "id" = 'THQ_ID';
 COMMIT;
 .exit
-~~~
+```
 
 *Brian Marriott*

@@ -10,7 +10,7 @@
 	- We now have a clean slate from which to start a new `GitHub` repository
 2. We add a `.gitignore` file for future use so that we don't end up tracking changes to files that only store state.
 	- Create a file called `.gitignore` and add to it the following content:
-``` git
+``` ignore
 # Ignore volatile UI-related state
 .obsidian/workspace.json
 
@@ -65,6 +65,7 @@ git push --set-upstream origin draft
 ```
 
 Note that we end up with the **`draft`** branch checked out. That's where we'll do most of the work.
+
 ### Obsidian setup
 This assumes that you've got Obsidian installed on a suitable device. It runs on Linux, MacOS & Win. While it also runs on Android & iOS, I'm not sure if they will run it in conjunction with `git` -- someone please tell me...
 
