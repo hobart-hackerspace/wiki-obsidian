@@ -1,5 +1,5 @@
 ---
-updated: 2026-02-11T17:02
+updated: 2026-02-11T17:52
 created: 2026-02-08T08:00
 ---
 # Basic use of Obsidian for content management with separate `git`
