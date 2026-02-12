@@ -10,7 +10,7 @@ In the spirit of our *Make -- Learn -- Inspire* motto, use it to:
 - share how you **made** something (including the gory details *and* the mistakes) 
 - **inspire** others to explore and create!
 
-Connect from within our local network at: [wiki-test.local](#home) (`http` only — no `https` in`.local` hostnames). From outside, it's [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
+Connect from within our local network at: [wiki.local](#home) (`http` only — `https` isn’t possible in`.local` hostnames). From outside, it's [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
 Access will require you to log in. This is a small barrier to help retain our intellectual property. The password is the same as that for our in-house wifi connections.
 
 We encourage all members to contribute to our wiki and correct any errors. The tool we use to maintain the site is [*Obsidian*](https://obsidian.md) — a free, multiplatform Markdown editor. [Click here for more details.](Contributing%20to%20our%20wiki.md).
