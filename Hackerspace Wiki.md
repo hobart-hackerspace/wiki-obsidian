@@ -1,6 +1,6 @@
 ![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
-# Hobart Hackerspace wiki ([wiki-test.local](#home))
+# Hobart Hackerspace wiki ([wiki.local](#home))
 
 This is our documentation store. This is **your** place to stash records of how to use our gear and what projects/experiments you've done.
 
@@ -10,8 +10,10 @@ In the spirit of our *Make -- Learn -- Inspire* motto, use it to:
 - share how you **made** something (including the gory details *and* the mistakes) 
 - **inspire** others to explore and create!
 
-Connect from within our local network at: [wiki.local](#home) (`http` only — `https` isn’t possible in`.local` hostnames). From outside, it's [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
-Access will require you to log in. This is a small barrier to help retain our intellectual property. The password is the same as that for our in-house wifi connections.
+Connect from within our local network at: [wiki.local](#home) (`http` only — `https` isn’t possible in`.local` hostnames). From outside, it's [http://wiki.hobarthackerspace.org.au:7008/](http://wiki.hobarthackerspace.org.au:7008/) or 
+[https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
+
+You will be required log in. This is a small barrier to help retain our intellectual property. The password is the same as that for our in-house wifi connections.
 
 We encourage all members to contribute to our wiki and correct any errors. The tool we use to maintain the site is [*Obsidian*](https://obsidian.md) — a free, multiplatform Markdown editor. [Click here for more details.](Contributing%20to%20our%20wiki.md).
 
