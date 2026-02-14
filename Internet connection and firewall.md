@@ -6,7 +6,7 @@ The internet IP address of the space is `144.48.164.114`. This is a static IP ad
 
 There is also an IPv6 prefix: `2404:e80:fef::/48`. (IPv6 addresses are being allocated but no relevant ports are exposed yet.)
 
-The firewall device is a [Ubiquiti Router & WiFi controller](WiFi7%20upgrade%202025.md). Connect to it from within the Space at [`192.168.2.1`](http://192.168.2.1). (The credentials are in [the vault](Password vault).) Its managaement page is accessible from the WAN by logging into [Ubiquiti Unifi](https://unifi.ui.com/).
+The firewall device is a [Ubiquiti Router & WiFi controller](WiFi7%20upgrade%202025.md). Connect to it from within the Space at [`192.168.2.1`](http://192.168.2.1). (The credentials are in [the vault](Password vault).) Its management page is accessible from the WAN by logging into [Ubiquiti Unifi](https://unifi.ui.com/).
 
 [Ubiquiti Router & WiFi controller](WiFi7%20upgrade%202025.md)
 
