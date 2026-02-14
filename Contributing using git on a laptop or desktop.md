@@ -1,4 +1,4 @@
-# Basic use of Obsidian for content management with separate `git`
+# Basic use of Obsidian for content management with separate `git` application
 The best-supported way of using *Obsidian* with *git* and *Obsidian Publish* is when *git* is a separate application.
 
 ## Pre-requisites. 
@@ -19,6 +19,12 @@ You need to have *Git* installed on your machine
     - [*Visual Studio*](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=visualstudio)
     - or one of the many others.
 - The (*Git* website](https://git-scm.com/) has links for installation, tools and the CLI reference.
+### GitHub account
+If you don’t already have a *GitHub* account, that needs to be set up first.
+- Go to [github.com/signup](https://github.com/signup) and follow the prompts.
+- Note that the messiest bit is setting up your authentication. 
+	- *GitHub* has strong protections against fraudulent submissions to their repository. 
+	- Fortunately it’s a one-off process. 
 ### The repository
 You’ll need to connect to and clone the repository
 - The repository is at [github.com/hobart-hackerspace/wiki-obsidian](https://github.com/hobart-hackerspace/wiki-obsidian)
@@ -50,8 +56,11 @@ You need to make the cloned directory into an *Obsidian* vault.
 *Obsidian* will automatically work with whichever branch you have checked out.
 1. Ensure that you’re [logged in to *Obsidian*](https://help.obsidian.md/publish/setup).
 2. Make your contributions (additions and/or changes).
+    - Note that Obsidian has two ways of displaying pages: reading and editing. Within editing mode there are a further two modes:  “Live preview” or “Source mode” (settable from the “Options” gear wheel icon).
+	    - “Live preview” is a WSIWYG editor similar to Word. Use the right-cllick options menu to format, add links, etc.
+	    - “Source mode” is what it says — you see the whole page as Markdown source. Use that if you’re familiar with Markdown.
     - The [*Obsidian* Formatting Help pages](https://help.obsidian.md/syntax) have lots of advice on how to format your contributions.
-    - Use the other existing pages as models for consistent page structure, image formatting, source code contributions etc.
+    - Use the other existing pages as models for consistent page structure, image formatting, table formatting, source code contributions etc.
 
 ### Publish your drafts to see how they look
 When you’re happy with your contributions:
@@ -59,7 +68,9 @@ When you’re happy with your contributions:
 	- If you have any pages that have attachments (for example images or attached PDFs), ensure that you click on `Add linked` at the top of the **`Publish`** panel, so that the attachments get published along with their host pages.
 2. Check the page formatting on [the wiki website](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki)
 3. Make any adjustments and re-publish 
-
+4. Refresh the page to see the new content. You may have to do a [“hard refresh”]( https://www.wikihow.com/Force-Refresh-in-Your-Internet-Browser) to clear the browser cache.
+	- Note that some part of the publish/browser cache combination seems to have limits on how frequently you can refresh a page. Sometimes if a page takes a few goes to get the published details right, it won’t change when viewed in your browser, even if you do a hard refresh. Try a different browser or take a coffee break.
+	
 ### Check your changes in
 If that’s all ok, check the changes into your branch
 1. Please use appropriate useful comments. 
