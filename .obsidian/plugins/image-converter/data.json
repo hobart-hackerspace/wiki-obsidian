@@ -28,7 +28,7 @@
       "conflictResolution": "increment"
     }
   ],
-  "selectedFilenamePreset": "Keep original name",
+  "selectedFilenamePreset": "NoteName-Timestamp",
   "outputFormat": "NONE",
   "quality": 100,
   "colorDepth": 1,
@@ -71,7 +71,7 @@
     {
       "name": "WEBP (75, no resizing)",
       "outputFormat": "WEBP",
-      "quality": 75,
+      "quality": 90,
       "colorDepth": 1,
       "resizeMode": "None",
       "desiredWidth": 800,
@@ -109,7 +109,7 @@
       "ffmpegPreset": "medium"
     }
   ],
-  "selectedConversionPreset": "None",
+  "selectedConversionPreset": "WEBP (75, no resizing)",
   "globalPresets": [
     {
       "name": "WebP 75",
@@ -118,9 +118,17 @@
       "conversionPreset": "WEBP (75, no resizing)",
       "linkFormatPreset": "Default (Wikilink, Shortest)",
       "resizePreset": "Default (No Resize)"
+    },
+    {
+      "name": "HHS_Wiki",
+      "folderPreset": "Default (Obsidian setting)",
+      "filenamePreset": "NoteName-Timestamp",
+      "conversionPreset": "WEBP (75, no resizing)",
+      "linkFormatPreset": "Markdown, Relative",
+      "resizePreset": "Default (No Resize)"
     }
   ],
-  "selectedGlobalPreset": "",
+  "selectedGlobalPreset": "HHS_Wiki",
   "linkFormatSettings": {
     "linkFormatPresets": [
       {
@@ -218,7 +226,7 @@
   "resizeCursorLocation": "none",
   "dropPasteCursorLocation": "back",
   "neverProcessFilenames": "",
-  "modalBehavior": "ask",
+  "modalBehavior": "never",
   "ProcessCurrentNoteconvertTo": "webp",
   "ProcessCurrentNotequality": 0.75,
   "ProcessCurrentNoteResizeModalresizeMode": "None",
@@ -337,5 +345,9 @@
   "captionLetterSpacing": "normal",
   "captionBorder": "none",
   "captionMarginTop": "4px",
-  "captionAlignment": "center"
+  "captionAlignment": "center",
+  "modalSessionState": {
+    "customFolderOverride": "",
+    "customFilenameOverride": "{notename}-{timestamp}"
+  }
 }
