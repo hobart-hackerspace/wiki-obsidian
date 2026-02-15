@@ -15,10 +15,11 @@ You need to have *Obsidian* installed on your machine.
 ### Git
 You need to have *Git* installed on your machine
 - It can be either on the command line or you can use a *Git* GUI tool such as:
+    - [*GitHub desktop*](https://github.com/desktop/desktop?tab=readme-ov-file#where-can-i-get-it)
     - [*Sourcetree*](https://www.sourcetreeapp.com/), 
     - [*Visual Studio*](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=visualstudio)
     - or one of the many others.
-- The (*Git* website](https://git-scm.com/) has links for installation, tools and the CLI reference.
+- The [*Git* website](https://git-scm.com/) has links for installation, tools and the CLI reference.
 ### GitHub account
 If you don’t already have a *GitHub* account, that needs to be set up first.
 - Go to [github.com/signup](https://github.com/signup) and follow the prompts.
