@@ -16,6 +16,7 @@ You need to have *Obsidian* installed on your machine.
 You need to have *Git* installed on your machine
 - It can be either on the command line or you can use a *Git* GUI tool such as:
     - [*GitHub desktop*](https://github.com/desktop/desktop?tab=readme-ov-file#where-can-i-get-it)
+	    - *Brian note: If you don’t use `git` a lot, and are using Windows or MacOS,  I’d strongly recommend this — it’s free & open source and simple to use.*
     - [*Sourcetree*](https://www.sourcetreeapp.com/), 
     - [*Visual Studio*](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=visualstudio)
     - or one of the many others.
