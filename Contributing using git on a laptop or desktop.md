@@ -9,9 +9,9 @@ You need to have *Obsidian* installed on your machine.
 - See [obsidian.md](https://obsidian.md/download) for details.
 - You’ll also need to register [an Obsidian id](https://obsidian.md/auth) with your email address 
 - And arrange to have this account authorised to publish to our Wiki:
-    - Notify the HHS Obsidian administrator of your address
+    - Notify the [HHS Obsidian administrator](mailto:obsidian@hobarthackerspace.org.au) of your address
     - They will send you an invitation
-    - Accept that invitation
+    - Click on the link in the invitation to click on to accept it
 ### Git
 You need to have *Git* installed on your machine
 - It can be either on the command line or you can use a *Git* GUI tool such as:
@@ -30,9 +30,10 @@ If you don’t already have a *GitHub* account, that needs to be set up first.
 ### The repository
 You’ll need to connect to and clone the repository
 - The repository is at [github.com/hobart-hackerspace/wiki-obsidian](https://github.com/hobart-hackerspace/wiki-obsidian)
-- The repository is a private one (to protect our intellectual property), so you’ll need to be added to the Hackerspace Github group. 
+- Make a local copy of the repository by cloning it.
+- If you want to be able to push your contributions directly to the repository,  you’ll need to be added to the Hackerspace Github group. 
     - Send a note to github@hobarthackerspace.org.au asking to be added as a user to the members list.
-- Once you have access, make a local copy of the repository by cloning it.
+    - Alternatively, you can suggest changes by creating a “Pull” request.
 ### The repository branches
 *Git* is a software development tool and allows multiple branches in the “evolutionary tree” of the source code. We keep it simple; there is just a single “normal” branch, entitled `main`. This is the branch that tracks the current visible state of the Wiki. In addition, we recommend that you set up your own named branch to make contributions.
 
