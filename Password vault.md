@@ -6,4 +6,4 @@ The vault is provided by [bitwarden](https://bitwarden.com), an open source serv
 
 We use the free "personal" flavour of the service, with a single set of credentials shared amongst trusted members. If you need access to it, ask a committee member. 
 
-If you do use it, it's strongly suggested that you [install it](https://bitwarden.com/download/) on to at least one of your devices - it will run on most modern platforms (Win, Mac, linux, iOS & Android) and doesn't even need a GUI if that's your bent. You can use it for your own secrets, too - just set up your own set of credentials and log into whichever you need at the time.
+If you do use it, it's strongly suggested that you [install the app](https://bitwarden.com/download/) on to at least one of your devices - it will run on most modern platforms (Win, Mac, linux, iOS & Android) and can even run from the command line if that's your bent. You can use it for your own secrets, too - just set up your own set of credentials and log into whichever you need at the time.
