@@ -167,6 +167,6 @@ body {
 .site-footer:after {
     /* add you text */
     font-size: 16px;
-    content: "All content Copyright (c) Hobart Hackerspace Inc. unless otherwise stated." 
-    /* Markdown and HTML don't work. You mgiht be able to add an image, but I didn't test this: https://developer.mozilla.org/en-US/docs/Web/CSS/content  */
+    content: "All content © Hobart Hackerspace Inc., licensed under CC BY-SA 4.0, unless otherwise stated." 
+    /* Markdown and HTML don't work. You might be able to add an image, but I didn't test this: https://developer.mozilla.org/en-US/docs/Web/CSS/content  */
 }
