@@ -10,7 +10,7 @@ In the spirit of our *Make -- Learn -- Inspire* motto, use it to:
 - share how you **made** something (including the gory details *and* the mistakes) 
 - **inspire** others to explore and create!
 
-Connect from within our local network at: [wiki.local](#home) (`http` only — `https` isn’t possible in`.local` hostnames). From outside, it's [http://wiki.hobarthackerspace.org.au/](http://wiki.hobarthackerspace.org.au/) or 
+Connect from within our local network at: [http://wiki.local](#home) (`http` only — `https` isn’t possible with`.local` hostnames). From outside, it's [https://wiki.hobarthackerspace.org.au/](https://wiki.hobarthackerspace.org.au/) or 
 [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
 
 We encourage all members to contribute to our wiki and correct any errors. The tool we use to maintain the site is [*Obsidian*](https://obsidian.md) — a free, multiplatform Markdown editor. [Click here for more details.](Contributing%20to%20our%20wiki.md).
