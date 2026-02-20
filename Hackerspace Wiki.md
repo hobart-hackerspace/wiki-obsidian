@@ -10,7 +10,7 @@ In the spirit of our *Make -- Learn -- Inspire* motto, use it to:
 - share how you **made** something (including the gory details *and* the mistakes) 
 - **inspire** others to explore and create!
 
-Connect from within our local network at: [wiki.local](#home) (`http` only — `https` isn’t possible in`.local` hostnames). From outside, it's [http://wiki.hobarthackerspace.org.au:7008/](http://wiki.hobarthackerspace.org.au:7008/) or 
+Connect from within our local network at: [wiki.local](#home) (`http` only — `https` isn’t possible in`.local` hostnames). From outside, it's [http://wiki.hobarthackerspace.org.au/](http://wiki.hobarthackerspace.org.au/) or 
 [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
 
 You will be required log in. This is a small barrier to help retain our intellectual property. The password is the same as that for our in-house wifi connections.
