@@ -3,9 +3,11 @@
 Obsidian stores all its text information in [Markdown](https://help.obsidian.md/syntax) format. This is an extremely readable plain text format that makes documentation easy. The Obsidian markdown editor is especially easy to use. 
 
 ## The repository
-All markdown source and assets (images etc) is stored in and shared from a [GitHub](https://github.com/hobart-hackerspace/wiki-obsidian) repository. [Obsidian](https://obsidian.md) is used to manage the content and to publish web pages to this site. 
+All markdown source and assets (images etc) are stored in and shared from a [GitHub](https://github.com/hobart-hackerspace/wiki-obsidian) repository. [Obsidian](https://obsidian.md) is used to manage the content and to publish web pages to this site. 
 
-The GitHub repository is private, to protect our shared intellectual property. All members are entitled to have access — just ask a committee member if you’d like access. You can also use [the GitHub *Issues* log](https://github.com/hobart-hackerspace/wiki-obsidian/issues) to report problems or suggest changes.
+The GitHub repository is public, so anyone can read from it or clone it. 
+
+If you’d like to change or add something, just ask a committee member for access. You can also use standard GitHub processes - [the GitHub *Issues* log](https://github.com/hobart-hackerspace/wiki-obsidian/issues) or Pull Requests to report problems or suggest changes.
 
 ## The gory details
 - [Contributing using git on a laptop or desktop](Contributing%20using%20git%20on%20a%20laptop%20or%20desktop.md)
