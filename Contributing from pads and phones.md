@@ -16,7 +16,11 @@ All offers of assistance (even just to test, especially on Android pads or phone
 	- Before you start, set up within the GitHub a “[Personal Access Token (classic)](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic)”
 		- Make sure you stash it somewhere safe like a password vault.
 	- Install *GitSync* app from the App Store.
-	- Walk through the setup process.
+	- Walk through [the setup process](https://viscouspotenti.al/posts/gitsync-all-devices-tutorial).
+	- [https://viscouspotenti.al/posts/gitsync-all-devices-tutorial#generate-and-add-ssh-key-for-github](https://viscouspotenti.al/posts/gitsync-all-devices-tutorial#generate-and-add-ssh-key-for-github)
+	- [https://viscouspotenti.al/posts/gitsync-all-devices-tutorial#add-the-ssh-key-to-github](https://viscouspotenti.al/posts/gitsync-all-devices-tutorial#add-the-ssh-key-to-github)
+	- 
+	- 
 - Process is:
 	1. On device, 
 		1. Run Obsidian and create a temporary vault.

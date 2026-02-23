@@ -4,20 +4,18 @@ Obsidian stores all its text information in [Markdown](https://help.obsidian.md/
 
 ## The repository
 All markdown source and assets (images etc) are stored in and shared from a [GitHub](https://github.com/hobart-hackerspace/wiki-obsidian) repository. [Obsidian](https://obsidian.md) is used to manage the content and to publish web pages to this site. 
-
 The GitHub repository is public, so anyone can read from it or clone it. 
 
-If you’d like to change or add something, just ask a committee member for access. You can also use standard GitHub processes - [the GitHub *Issues* log](https://github.com/hobart-hackerspace/wiki-obsidian/issues) or Pull Requests to report problems or suggest changes.
+If you’d like to change or add something, if you don’t already have a *GitHub* account, you need to set that up.
+- Go to [github.com/signup](https://github.com/signup) and follow the prompts.
 
-## The gory details
-- [Contributing using git on a laptop or desktop](Contributing%20using%20git%20on%20a%20laptop%20or%20desktop.md)
-- [Contributing from pads and phones](Contributing%20from%20pads%20and%20phones.md)
+When you have an account there are several ways to contribute:
+- You can use standard GitHub processes: 
+	- Raise an issue in [the GitHub *Issues* log](https://github.com/hobart-hackerspace/wiki-obsidian/issues) to report an issue or 
+	- Submit a [pull request](https://github.com/hobart-hackerspace/wiki-obsidian/pulls) with the proposed change.
+- Alternatively, for active members the easiest thing is simply to make the change yourself, [using *Obsidian* and a `git` tool](Contributing%20using%20Obsidian%20and%20Git.md).
 
 ## Maintainer
 The base system is maintained by [Brian Marriott](mailto:brian.marriott@hobarthackerspace.org.au) -- 
 but it's up to all members to provide the content! 
 
-## Useful links
-
-- [ ] links to Obsidian editor doco
-- [ ] style guide?

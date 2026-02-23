@@ -63,7 +63,7 @@ Members may borrow items of the Hackerspace portable tools, but there are restri
 		- Committee members can add items to those calendars so that others can know what's happening when.
 		- [Adding an event](Public%20calendars.md).
 - This wiki
-	- [Adding your content](Contributing%20using%20git%20on%20a%20laptop%20or%20desktop.md). The easy way to add content is to start with another page and copy its source into your new page.
+	- [Adding your content](Contributing%20using%20Obsidian%20and%20Git.md). The easy way to add content is to start with another page and copy its source into your new page.
 	- [The wiki server and its software](The%20Wikmd%20server.md)
 - Home Assistant
 	- [Home assistant](https://office.hobarthackerspace.org.au:8123) gives us access to our security system - the alarms, video cameras, etc. Committee members can have access to it if they ask.
@@ -114,7 +114,7 @@ Members may borrow items of the Hackerspace portable tools, but there are restri
 # This wiki
 Our wiki is based on [*Obsidian*](https://obsidian.md) software. The content is created and maintained in *Obsidian* and then published to the web. *Obsidian* is a file-based personal note-making system, using Markdown -- a markup language you're probably already familiar with (or can learn very quickly if you're not). 
 
-Details on how to add to or change it are in the [How to use this wiki](Contributing%20using%20git%20on%20a%20laptop%20or%20desktop.md) page. 
+Details on how to add to or change it are in the [How to use this wiki](Contributing%20using%20Obsidian%20and%20Git.md) page. 
 Briefly, all source is in [markdown](https://www.markdownguide.org) format; it is stored in and shared from a [github](https://github.com/hobart-hackerspace/wiki-obsidian) repository. [Obsidian](https://obsidian.md) is used to manage the content and to publish to this site.
 
 The base system is maintained by [Brian Marriott](mailto:brian.marriott@hobarthackerspace.org.au) -- 
