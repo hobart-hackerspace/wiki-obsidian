@@ -39,6 +39,7 @@ You need to have *Git* installed on your machine/device.
 - Follow the relevant set of instructions (*Android* or *iOS*) in the [GitSync guide](https://viscouspotenti.al/posts/gitsync-all-devices-tutorial#setting-up-gitsync). 
 - Note, however, these differences:
 	1. Our repository does not (at the moment) work with OAuth authentication. You’ll need to use an `ssh` key or  PAT as described above.
-	2. You’ll have to paste in the URL of our repository (`https://github.com/hobart-hackerspace/wiki-obsidian`). GitSync only offers a dropdown list of your personal repositories.
+	2. Please provide your real name in the “**Author name**” field of the *GitSync* settings. While your GitHub ID is unique, it is much easier for someone reading the change history to understand personal names.
+	3. You won’t see our wiki in the dropdown list of repositories. You’ll have to paste in its URL (`https://github.com/hobart-hackerspace/wiki-obsidian`). GitSync only offers a dropdown list of your personal repositories.
 ## 5. Repository write access
 This is necessary if you’d like to contribute directly to the Wiki. Simply send a note to github@hobarthackerspace.org.au asking to be added as a user to the Hackerspace repository members list. 
