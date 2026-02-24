@@ -27,11 +27,9 @@ We encourage all members to contribute to our wiki and correct any errors. The t
 - If you see an issue that needs attention, please [report it to the Committee](mailto:committee@hobarthackerspace.org.au?subject=Safety%20issue&body=OH%26S%20Incident%20Report). Please use an Incident Report form, either paper or electronic. Paper forms are in the labelled box opposite the main entrance door. Electronic forms are either [PDF](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.pdf) or [MS Word](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.docx).
 
 # Member identification
-
-^d07ddc
-
 - All members are encouraged to make and wear their membership badges. [Here are the details of how to do that](Members%20name%20badges.md).
 - Most members have blue badges, while committee members wear yellow ones so that you can see who they are. 
+
 # Our Building
 Our home is a shared space and [a heritage building](Gatehouses.md). Please respect these when using it.
 The heritage issue means that we have to be careful how we look after the building, especially the older stone parts.
