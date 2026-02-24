@@ -3,7 +3,7 @@ mounted on a manufacturer-supplied heavy duty stand.
 
 **Note -- This machine may only be  used by trained and approved operators.**  
 This is because its too easy to break things, including the machine, if you make a mistake.
-If you have a G code file that you've tested on a simulator and that you'd like to run, please consult a committee member (yellow badge).
+If you have a G code file that you've tested on a simulator and that you'd like to run, please consult a committee member ([yellow badge](Hackerspace%20Wiki.md#Member%20identification))
 
 ## Rules for use
 [CNC Usage Rules](CNC_Usage.md)
@@ -13,7 +13,7 @@ If you have a G code file that you've tested on a simulator and that you'd like 
 The machine requires the `UCCNC` control software -- this is installed on the PC that's set up next to the machine. 
 
 ### Design software
-`UCCNC` will read standard G-code files. These can be produced by most CAD/CAM packages and imported to the control PC won a USB stick or over the network using file transfer software such as *Magic Wormhole* (`wormhole send` and `wormhole receive`).
+`UCCNC` will read standard G-code files. These can be produced by most CAD/CAM packages and imported to the control PC on a USB stick or over the network using file transfer software such as *Magic Wormhole* (`wormhole send` and `wormhole receive`).
 
 ## Documentation
 Full machine documentation is provided [on the manufacturer's website](https://i2rcnc.com/pages/help-center), and some specific documents are listed below.  

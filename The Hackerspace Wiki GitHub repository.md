@@ -1,5 +1,5 @@
 # The GitHub repository
-Our wiki operates under source control, using `git` as the source code manager and  [`GitHub`](https://github.com/hobart-hackerspace/wiki-obsidian) as our shared repository. This is a private repository, with access given to Hackerspace members only. If you'd like access, simply ask a committee member or send an email to committee@hobarthackerspace.org.au.
+Our wiki operates under source control, using `git` as the source code manager and  [`GitHub`](https://github.com/hobart-hackerspace/wiki-obsidian) as our shared repository. This is a private repository, with access given to Hackerspace members only. If you'd like access, simply ask a committee member ([yellow badge](Hackerspace%20Wiki.md#Member%20identification)) or send an email to committee@hobarthackerspace.org.au.
 
 # The `git` branches
 There are currently three primary branches in our repository: `wikmd`, `published` and `draft`. 

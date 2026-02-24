@@ -10,12 +10,12 @@ In the spirit of our *Make -- Learn -- Inspire* motto, use it to:
 - share how you **made** something (including the gory details *and* the mistakes) 
 - **inspire** others to explore and create!
 
-Connect from within our local network at: [http://wiki.local](#home) (`http` only — `https` isn’t possible with`.local` hostnames). From outside, it's [https://wiki.hobarthackerspace.org.au/](https://wiki.hobarthackerspace.org.au/) or 
+Connect from within our local network at: [http://wiki.local](#home) (`http` only — `https` isn’t possible with`.local` hostnames). From outside, it's [https://wiki.hobarthackerspace.org.au/](https://wiki.hobarthackerspace.org.au/) or (if all else fails:-)
 [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
 
-We encourage all members to contribute to our wiki and correct any errors. The tool we use to maintain the site is [*Obsidian*](https://obsidian.md) — a free, multiplatform Markdown editor. [Click here for more details.](Contributing%20to%20our%20wiki.md).
+We encourage all members to contribute to our wiki and correct any errors. The tool we use to maintain the site is [*Obsidian*](https://obsidian.md) — a free, multiplatform Markdown editor. [Click here for more details](Contributing%20to%20our%20wiki.md).
 
-# Navigation
+# Wiki navigation
 - On larger screens there is a list of pages on the left of the screen. The search bar at the top is a full-text search.
 - On small screens, the pages list and search bar will appear when you click on the “hamburger” in the top LH corner.
 - On large screens there is also a “contents” display of headings in the current page on the lower right of the screen.
@@ -26,6 +26,12 @@ We encourage all members to contribute to our wiki and correct any errors. The t
 - [Remember our core terms of use](https://hobarthackerspace.org.au/terms_of_use/)
 - If you see an issue that needs attention, please [report it to the Committee](mailto:committee@hobarthackerspace.org.au?subject=Safety%20issue&body=OH%26S%20Incident%20Report). Please use an Incident Report form, either paper or electronic. Paper forms are in the labelled box opposite the main entrance door. Electronic forms are either [PDF](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.pdf) or [MS Word](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.docx).
 
+# Member identification
+
+^d07ddc
+
+- All members are encouraged to make and wear their membership badges. [Here are the details of how to do that](Members%20name%20badges.md).
+- Most members have blue badges, while committee members wear yellow ones so that you can see who they are. 
 # Our Building
 Our home is a shared space and [a heritage building](Gatehouses.md). Please respect these when using it.
 The heritage issue means that we have to be careful how we look after the building, especially the older stone parts.
