@@ -20,6 +20,8 @@ Full machine documentation is provided [on the manufacturer's website](https://i
 
 - [Users manual](https://hobarthackerspace.sharepoint.com/:b:/s/Committee/ETBBKSRNzlVJvRZ_Yxh6kOIBG_WRBPJezKqdhnsiJMUf6g?e=d4jVGf)
 - [Technical specifications of our I2R A23 CNC](attachments/Tech_specs-hi77xxxxotic3ayiopo2qpjkj43o.svg)
+- Notes:
+	- Our router uses ER20 collets, not the default ER11
 
 ### Supplied manuals
 
