@@ -1,3 +1,4 @@
+**NOTE: This machine has been returned to the original owner. This page is kept for reference only.**
 ## Introduction
 
 The CNC machine is a 6040 CNC, which simply means that the bed is 60 cm
