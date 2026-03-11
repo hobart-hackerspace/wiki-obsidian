@@ -4,7 +4,7 @@
 - Create an SD card that will plug into the current door controller Pi (a *Raspberry Pi Model B+ V1.2* aka Pi 1B+)
 - It will boot and run the door controller system, with the currently-working features
 - It runs under the `pi` user, from the directory `~/AccessController/`.
-	- Note that this is a change from previously, when the directory was called `~/HHSAccessControlV4/ 
+	- Note that this is a change from previously, when the directory was called `~/HHSAccessControlV4/`
 	- This brings the directory name into alignment with the repository name, in accordance with current standard practice
 - It runs the required services:
 	- The `tagreader.service`
