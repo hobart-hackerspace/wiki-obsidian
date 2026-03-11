@@ -1,4 +1,7 @@
-# The St Johns Park Gatehouses
+# We occupy a significant heritage building
+Our building (#2 St Johns Avenue) and the one opposite (#1 St Johns Avenue) are buildings of heritage significance in Tasmania, as the report below shows.
+
+# The St Johns Park Gatehouses — Heritage report
 ## Gatehouse at 1 St Johns Avenue 1841 (Southern side)
 
 No. 1 St Johns Avenue is one of a pair of Victorian Gothic Watch Houses/Gatehouses designed by James Blackburn in
@@ -18,6 +21,7 @@ This site has identified archaeological
 potential as indicated in the Conservation Management Plan (Godden Mackay 1996).
 
 ## Gatehouse at 2 St Johns Avenue 1841 (Northern side)
+This is the building occupied by Hobart Hackerspace Inc.
 
 James Blackburn's design for No. 2 St Johns Avenue mirrors that for the watch house at 1 St Johns Avenue. 
 
@@ -33,5 +37,8 @@ interior of 2 St Johns Avenue has been remodelled, although doors, skirting boar
 This site has identified archaeological potential as indicated in the Conservation Management Plan (Godden Mackay 1996).
 
 *We need to add here a scan of the building plan document we have from the Archives Office*
+
+## Current building plan
+![](attachments/Floorplan-v07.svg)
 
 *BWM 2026-01-16*
