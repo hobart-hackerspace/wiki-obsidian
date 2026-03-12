@@ -66,7 +66,7 @@ to create both:
 
 You still have to manually export the new database to the Door Controller:
 ``` bash
-scp -P 8386 ./xxx.db pi@office.hobarthackerspace.org.au:~/HHSAccessControlV4/
+scp -P 8386 ./xxx.db pi@office.hobarthackerspace.org.au:~/AccessController/
 ```
 
 ## Mailchimp mailing lists

@@ -1,7 +1,7 @@
 ## Manual Remote access
 A new feature added to the access controller is the ability to remotely open the door via SSH.
 Once you have gained access via SSH, you can enter the access controller directory with  
-`cd HHSAccessControlV4`  
+`cd AccessController`  
 Then to open the door remotely you can type:  
 `python manual_access.py open`  
 Which will open the door.  

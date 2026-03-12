@@ -41,7 +41,7 @@ This is done by logging into the controller from a terminal. Any terminal progra
 1. Change to the controller's working directory
 
 	 ``` sh
-	 cd ~/HHSAccessControlV4/
+	 cd ~/AccessController/
 	 ```
 
 1. If you've scanned the tag to test it, it will show up in the log. Print the recent log entries to see it
