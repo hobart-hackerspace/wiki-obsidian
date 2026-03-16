@@ -11,12 +11,12 @@
 	- The `pigpiod.service`
 - It communicates with  *Home Assistant* within the Space
 - It runs the ancillary temperature monitoring & reporting app
-- It allows login via `ssh`
-	- Other modes of access, such as *Tailscale* or *Raspberry Pi Connect* are not addressed
+- It allows login via `ssh` and *Raspberry Pi Connect*.
 
 # Grab a Pi to use as setup machine
 - A Pi Zero or any early generation Pi is suitable
 	- If you're using a PiZero, it's easier if you have a USB->Ethernet dongle - it'll work with WiFI, but you'll need to disable WiFi later when you have it installed, to avoid possible network issues from the live machine, as it doesn't have a WiFi port at all.
+
 # Acquire the card
 - It needs to be a "High Endurance" or similar micro-SD card
 - Size isn't important - this isn't a big app or DB.
@@ -24,13 +24,13 @@
 # Write a basic Raspberry Pi OS image
 - Modern releases of *Raspberry Pi OS* are best imaged with *Raspberry Pi Imager*. 
 	- This allows configuration in advance and works with all recent releases. 
-	- (These notes were written with `trixie` as current release.)
-- We're running on an old Pi 1 model B+, so choose the 32-bit version.
+	- (These notes were written with `trixie` as the current release.)
+- We're running on an old *Pi 1 model B+*, so choose that version.
 - Choose the "minimal" (no desktop) version.
-- Set hostname to `door-system`;
-	- If you're doing this within the Space you might want to set this to `door-system-new` at first and change it later, so that you can connect to both new & old at the same time
+- Set hostname to `access-controller`;
+	- If you're doing this within the Space you might want to set this to `access-controller-new` at first and change it later, so that you can connect to both new & old at the same time
 - Set password for user-id `pi` to `spacehackers@#` or whatever is currently in the vault;
-- Enable `ssh`;
+- Enable `ssh` and *Raspberry Pi Connect* (from the HHS account)
 - Optional:
 	- Add an `ssh` key for login from your computer;
 	- Set up wifi SSID & passcode for access to the HHS IoT network.
@@ -42,14 +42,16 @@
 	- This'll probably take a while...
 - Reboot, just in case
 
-# Install `git` & `uv`
-- `sudo apt install git`
+# Install `git`,  `uv` & `sqlite3`
+These aren’t provided in the default distribution.
+
+- `sudo apt install git sqlite3`
 - There's no `apt` repository for `uv` yet, so:
 	- `curl -LsSf https://astral.sh/uv/install.sh | sh`
 - Reboot again, to ensure paths are set up repeatably
 
 # Pull in the door system code
-- Note that you have to have read access to the *GitHub* repository for this.
+- Note that you ***must*** have read access to the *GitHub* repository for this.
 - Log in to the Pi
 - Change to the relevant superior directory (normally `~/`)
 - `git clone https://github.com/hobart-hackerspace/AccessController.git`
@@ -91,7 +93,7 @@
 - We follow the instructions at:
 	https://abyz.me.uk/rpi/pigpio/download.html
 	- You'll have to install the Python setup tools first:
-		- `sudo apt install python-setuptools python3-setuptools`
+		- `sudo apt install python3-setuptools`
 	- Ensure you're at the home directory: `cd ~/`
 	- Then do the full build-from-source bit:
 	``` bash
@@ -102,7 +104,7 @@
 		sudo make install
 	```
 	- That takes a while, especially on a Pi 1 or Pi Zero  
-- It's worth running the library verification tests that are also listed on the `pigpio` download page, especially if you're using a Pi other than the current Pi 1 B+ or a Zero 1
+- It's worth running the library verification tests that are also listed on the [`pigpio` download](https://abyz.me.uk/rpi/pigpio/download.html) page, especially if you're using a Pi other than the current Pi 1 B+ or a Zero 1
 - Start the `pigpio` daemon: `sudo pigpiod`
 - Change back into the `~/AccessController/` directory, activate the venv and try again.
 - This time it should run to the stage where it's waiting on input from somewhere, and you should get console output like:
@@ -226,6 +228,15 @@ dtoverlay=disable-bt
 
 # Reserve the IP address on the Router
 The system on the Pi 1 B+ has an IPv4 address reserved on the Router of  `192.168.2.125`.
-This is reserved for a MAC address that is not actually that of the board, due to some historic complications that were resolved in software on the Pi because our old router was primitive.
 
-We now have a new, smarter router, so, in rebuilding the SD card we should fix this, letting the Pi keep its hardware MAC and assigning a normal reserved IP address in the router.
+- Log in to the [Unifi console website](https://unifi.ui.com/).
+- In the *Site Manager*, select `Hackerspace`.
+- On the *Network* tab, go to 'Client Devices' in the side menu and select the `IP Table` tab. (Scroll over the icons to see their names:-) 
+	- You can then click on the line with the relevant device to edit it.
+	- Set `Fixed IP Address` and give it the address: `192.168.2.125`
+
+## Historic note
+This IP address had been reserved for a MAC address that is not actually that of the board, due to some historic complications that were resolved in software on the Pi because our old router was primitive. 
+As we now have a new, smarter router, we no longer need to do this. 
+The Pi can keep its hardware MAC and we assign a normal reserved IP address in the router, as described above.
+
