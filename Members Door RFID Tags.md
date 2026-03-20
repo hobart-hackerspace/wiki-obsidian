@@ -33,10 +33,7 @@ This is done by logging into the controller from a terminal. Any terminal progra
 
 1. Connect to the controller:
 
-	 ``` sh
-	 ssh -p 8386 pi@office.hobarthackerspace.org.au
-	 # (password is same as wifi)
-	 ```
+	 This uses the Hackerspace Raspberry Pi Connect account. If you need access to this, contact a Committee member.
 
 1. Change to the controller's working directory
 
