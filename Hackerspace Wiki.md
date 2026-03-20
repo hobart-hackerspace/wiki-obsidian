@@ -1,6 +1,6 @@
 ![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
-# Hobart Hackerspace wiki ([wiki.local](#home))
+# Hobart Hackerspace wiki ([wiki.hobarthacker.space](#home))
 
 This is our documentation store. This is **your** place to stash records of how to use our gear and what projects/experiments you've done.
 
@@ -10,7 +10,7 @@ In the spirit of our *Make -- Learn -- Inspire* motto, use it to:
 - share how you **made** something (including the gory details *and* the mistakes) 
 - **inspire** others to explore and create!
 
-Connect from within our local network at: [http://wiki.local](#home) (`http` only — `https` isn’t possible with`.local` hostnames). From outside, it's [https://wiki.hobarthackerspace.org.au/](https://wiki.hobarthackerspace.org.au/) or (if all else fails:-)
+Connect  at: [https://wiki.hobarthacker.space](#home). Alternatively (if all else fails:-) 
 [https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki](https://publish.obsidian.md/hhs-wiki/Hackerspace+Wiki).
 
 We encourage all members to contribute to our wiki and correct any errors. The tool we use to maintain the site is [*Obsidian*](https://obsidian.md) — a free, multiplatform Markdown editor. [Click here for more details](Contributing%20to%20our%20wiki.md).
@@ -45,7 +45,7 @@ The heritage issue means that we have to be careful how we look after the buildi
 - [Laser Cutting](Laser%20Cutting.md)
 - [3D Printing](3D_Printers.md)
 - [Electronics](Electronics%20Lab.md)
-- [Radio](Radio%20Station.md)
+- [Radio](https://hobarthackerspace.org.au/facilities/radio-station/)
 
 ## Borrowing of equipment
 Members may borrow items of the Hackerspace portable tools, but there are restrictions:

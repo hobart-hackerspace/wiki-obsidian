@@ -32,6 +32,8 @@ Relevant access credentials are in [the password vault](Password%20vault.md).
 		- Incoming mail is handled as part of our free Microsoft365 subscription, 
 			so it's set to priority `0` and redirects to
 			`hobarthackerspace-org-au.mail.protection.outlook.com`
+- `hobarthacker.space`
+	- Used in parallel to a number of the purposes listed above.
 - `hobarthackerspace.com`
 - `hobarthackerspace.org`
 	- These are both secondary names, registered to prevent domain name poaching by others. 
@@ -41,14 +43,16 @@ Relevant access credentials are in [the password vault](Password%20vault.md).
 ### Subdomains used for other web-based access 
 These all use **A** records  
 
-- [`office.hobarthackerspace.org.au`](https://office.hobarthackerspace.org.au:8123/)
+- [`homeassistant.hobarthackerspace.org.au`](https://homeassistant.hobarthackerspace.org.au:8123/)
 	- This gives access to our Home Assistant instance
-		- An **A** record points to `100.67.51.201`,
+		- An **A** record points to `144.48.164.114`,
 			the current IP address for our NBN connection.
 - [`wiki.hobarthackerspace.org.au`](http://wiki.hobarthackerspace.org.au:7008)
 	- This gives access to this wiki from outside the space
-		- An **A** record points to `100.67.51.201`,
+		- An **A** record points to `144.48.164.114`,
 			the current IP address for our NBN connection.
+- `hobarthacker.space`
+	- Used in parallel to a number of the purposes listed above.
 - [`cnc.hobarthackerspace.org.au`](https://cnc.hobarthackerspace.org.au)
 	- This is a Shane special page hosting CNC documentation
 		- An **A** record points to `103.13.100.230`,
