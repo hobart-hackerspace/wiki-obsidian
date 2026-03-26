@@ -29,25 +29,24 @@ The membership system at the moment is TidyHQ (often abbreviated in this documen
 
 ## Updating tags on the door controller
 
-This is done by logging into the controller from a terminal. Any terminal program on windows, Linux or MacOS will do, as will those on phones or pads.
+This is done by logging into the controller command line.
 
 1. Connect to the controller:
-
 	 This uses the Hackerspace Raspberry Pi Connect account. If you need access to this, contact a Committee member.
 
-1. Change to the controller's working directory
+2. Change to the controller's working directory
 
 	 ``` sh
 	 cd ~/AccessController/
 	 ```
 
-1. If you've scanned the tag to test it, it will show up in the log. Print the recent log entries to see it
+3. If you've scanned the tag to test it, it will show up in the log. Print the recent log entries to see it
 
 	 ``` sh
 	 tail -20 access_log.log
 	 ```
 
-1. You should see some records like:
+4. You should see some records like:
 
 	 ```
 	 2024-07-11 19:13:40,929;Tag scanned: 9520825
@@ -55,24 +54,24 @@ This is done by logging into the controller from a terminal. Any terminal progra
 	 2024-07-11 19:13:40,959;Multiple invalid tag attempts for Unknown
 	 ```
 
-1. Take note of the number after `Tag scanned: ` as that's the tag's RFID code. It should match the number printed on the outside of the tag.
+5. Take note of the number after `Tag scanned: ` as that's the tag's RFID code. It should match the number printed on the outside of the tag.
 
-1. Before modifying the controller database, we should copy the file to another name as a backup:
+6. Before modifying the controller database, we should copy the file to another name as a backup:
 
 	 ``` sh
 	 cp -p members.db members_backup.db
 	 ```
 
-1. Listed towards the bottom of this document are several boilerplate SQL code blocks. There are examples there for:
+7. Listed towards the bottom of this document are several boilerplate SQL code blocks. There are examples there for:
 	- [a new tag](#add-a-new-member), 
 	- [updating a tag](#change-tag-for-a-member), 
 	- [suspending a member](#suspend-a-member),
 	- [reinstating a member](#re-activate-a-member) and
 	- [deleting a member](#remove-a-member).
 
-1. Pick the one that's relevant to what you're about to do and copy it into a text editor on your local machine. Then replace the relevant sample field contents (the ones with single quotes around them) with the actual values for `THQ_ID`,`firstname`,`lastname`&`RFID_no` as required for the particular need. THQ_ID is the "ID Number" from the THQ "Contact" information page.
+8. Pick the one that's relevant to what you're about to do and copy it into a text editor on your local machine. Then replace the relevant sample field contents (the ones with single quotes around them) with the actual values for `THQ_ID`,`firstname`,`lastname`&`RFID_no` as required for the particular need. THQ_ID is the "ID Number" from the THQ "Contact" information page.
 
-1. Start the SQLite command processor by typing `sqlite3` at the linux command line
+9. Start the SQLite command processor by typing `sqlite3` at the linux command line
 	 1. Then copy your changed command sequence from your text editor and paste into `sqlite3`.
 		  Note that it's a classic Unix-style command so it won't tell you that you got things right, only if you have an error.
 	 1. You can verify that your update went ok by typing:
