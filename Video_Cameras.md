@@ -34,8 +34,20 @@ Some doco on our monitoring cameras (NVR, CCTV, video surveillance, ....)
 	
 
 	- Configuration of Agent-DVR is done via its web interface. This ***must*** be opened in Chrome, at [http://wiki.local:8090/](http://wiki.local:8090/). 
-	
-		We're running without a paid licence, so it isn't remotely accessible. That happens via [`Home Assistant`](https://office.hobarthackerspace.org.au:8123/lovelace/container).
+	- We're running without a paid licence, so it isn't remotely accessible. That happens via [`Home Assistant`](https://office.hobarthackerspace.org.au:8123/lovelace/container).
+	- Video is captured and kept for 3 days.
+		- Video files are on the `docker-svr` in the subdirectory `/appdata/AgentDVR/media/video/`
+		- There’s no obvious configuration setting for how long files are held. 
+		- Instead, this is managed by the simple expedient of a `crontab` file which runs to delete older files. 
+			- It runs as a system (`root` user) `crontab` entry on `docker-svr.local`
+			``` bash
+			find /appdata/AgentDVR/media/video/JREQJ/ -mindepth 1 -maxdepth 1 -type f -mmin +7200  -delete
+			find /appdata/AgentDVR/media/video/JNSPO/ -mindepth 1 -maxdepth 1 -type f -mmin +7200  -delete
+			find /appdata/AgentDVR/media/video/UKMQF/ -mindepth 1 -maxdepth 1 -type f -mmin +7200  -delete
+			find /appdata/AgentDVR/media/video/XZKAD/ -mindepth 1 -maxdepth 1 -type f -mmin +7200  -delete
+			```
+			- Note that if you add a new camera you’ll have to add a new line to the above file.
+
 
 ## Cameras
 | Name | Address |Model | Location                           |
@@ -44,6 +56,5 @@ Some doco on our monitoring cameras (NVR, CCTV, video surveillance, ....)
 | | | |
 
 
-*More to come*  *BWM 2025-11-09*
-
+*More to come*  *BWM 2026-04-02*
 
