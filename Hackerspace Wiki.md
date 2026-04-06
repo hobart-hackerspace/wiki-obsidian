@@ -112,7 +112,7 @@ Members may borrow items of the Hackerspace portable tools, but there are restri
 			- In an after hours emergency at Hackerspace we need to call the RHH switchboard (6166 8308) and ask for Facilities On Call
 		- Electricity distribution
 			- [Here is a plan of the power outlets and circuits](Power%20Distribution.md)
-			- [Electrical work required 2025](Electrical%20work%202025.md)
+			- [Electrical work required 2025](Electrical%20work%202026.md)
 		- [Heritage report](Gatehouses.md)
 
 # This wiki
