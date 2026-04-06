@@ -29,6 +29,7 @@ The ability to practice and refine CNC programming without the need for a physic
 The machine has a 600x900mm bed and includes a manufacturer-supplied stand and a dust extractor.
 
 ### [Conditions of Use](CNC_Conditions_of_Use.md)
+### [Induction Manual](attachments/Induction%20Manual%20v1.0.pdf)
 ### [Rules for use](CNC_Usage.md)
 ### [Full details and documentation](I2R%20CNC%20Router.md)
 
