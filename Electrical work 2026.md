@@ -1,5 +1,5 @@
 # Electrical work needed Apr 2026
-For room locations see separate diagram.
+For room locations see [separate diagram](Power%20Distribution.md#GPO+plan).
 
 1. Heater in Bertrand Russell room
 	- Switchboard circuit breaker \#2A
@@ -14,3 +14,4 @@ For room locations see separate diagram.
 		- If a 2x15A GPO is not allowable, a single would be acceptable.
 3. Power supply possibilities for EV charging
 	- We’d like to know what options we have for providing EV charging
+	- Liaise with Glen Bertram for details.
