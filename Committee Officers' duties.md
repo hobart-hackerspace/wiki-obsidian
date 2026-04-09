@@ -29,7 +29,7 @@ The Committee is the policy-making group within the organisation - akin to the B
 - Oversee the implementation of Committee decisions
 - Liaise with the Public Officer on compliance matters
 - Facilitate conflict resolution within the membership or Committee
-## ## Monthly
+## Monthly
 - Chair all Committee meetings
 - Contribute to Committee decision-making
 ## Annually
