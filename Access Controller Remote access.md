@@ -10,7 +10,7 @@ To later arm the alarm you can type:
 `python manual_access.py arm_alarm`  
 
 ## Remote access via Raspberry Pi Connect
-This is the preferred access mode. It uses the Hackerspace Raspberry Pi Connect account to provide connectivity from anywhere. If you need access to this, contact a Committee member.
+This is the preferred access mode. It uses the [Hackerspace Raspberry Pi Connect](https://www.raspberrypi.com/documentation/services/connect.html#introduction) account to provide connectivity from anywhere. If you need access to this, contact a Committee member.
 
 ## Remote access via Tailscale
 Tailscale is a VPN software which you can access networks remotely with a simple user interface.
@@ -25,6 +25,7 @@ If you have access to a \*ix command line you can access it via:
 ``` bash
 # Within the LAN at the Space
 ssh -p 22 pi@access-controller.local
+# The hostname may be access-controller-new.local
 ```
 
 As usual, the password is in the BitWarden vault.
