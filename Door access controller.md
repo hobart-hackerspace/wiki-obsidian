@@ -10,16 +10,15 @@ computer in the Space. In turn, it receives commands from Home Assistant and act
 It can operate independently of Home Assistant if that is not available, but some functions are then inoperative.
 
 ## Platform
-The system runs on a 10+ year-old Raspberry Pi B+ and is written in Python. (Python 2, unfortunately.)
+The system runs on a 10+ year-old Raspberry Pi B+ and is written in Python. (Python 3)
 
 It uses:  
 
 - A Raspberry Pi B+, with a high endrance microSD card
-	- The Pi is currently running Raspbian 10 (Buster)
+	- The Pi is currently running Raspberry Pi OS 13 (Trixie)
 - A wired ethernet connection
 - A custom locally-built level-changing hat
-- Python 2.7.16 (one of the last Python2 versions to be supported.)
-	- This could constrian upgrading of the Raspbian version -- no Python2 is available on Bookworm (12) or later)
+- Python 3.13
 - The `pigpio` software library 
 	- `pigpio` provides a low-latency interface between the Python software and the Raspberry Pi GPIO ports.
 	- The GPIO ports are used to:
