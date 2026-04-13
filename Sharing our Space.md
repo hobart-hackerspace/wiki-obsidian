@@ -12,7 +12,7 @@ Others are more general, but are summed up by:
 - **Your safety is *your* responsibility**, as is the safety of those around you.
 - **Don't use a tool without induction and/or training**. Even if you've used a similar tool elsewhere -- there may be quirks with this one.
 - **Use suitable PPE (Portable Protective Equipment**. If we don't supply it, bring your own or report the lack.
-- **Report accidents and near misses**. If we don't know it happened we can't stop it again. Incident forms are by the back door.
+- **Report accidents and near misses**. If we don't know it happened we can't stop it again. Incident forms are by the back door and on our wiki.
 
 ### Security
 - **Keep the external doors closed** when it's not a public open time, otherwise folks can just walk in off the street. This isn't a vague threat - we have had stuff stolen, both personal items and Hackerspace stuff.

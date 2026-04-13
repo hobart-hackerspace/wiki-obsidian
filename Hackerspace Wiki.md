@@ -20,11 +20,10 @@ We encourage all members to contribute to our wiki and correct any errors. The t
 - On small screens, the pages list and search bar will appear when you click on the “hamburger” in the top LH corner.
 - On large screens there is also a “contents” display of headings in the current page on the lower right of the screen.
 - You can change from light to dark theme with the sun/moon icon above the search bar.
-
 # Safety
-- [Basic rules](https://hobarthackerspace.org.au/safety/)
+- [Basic safety rules](Safety.md)
 - [Remember our core terms of use](https://hobarthackerspace.org.au/terms_of_use/)
-- If you see an issue that needs attention, please [report it to the Committee](mailto:committee@hobarthackerspace.org.au?subject=Safety%20issue&body=OH%26S%20Incident%20Report). Please use an Incident Report form, either paper or electronic. Paper forms are in the labelled box opposite the main entrance door. Electronic forms are either [PDF](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.pdf) or [MS Word](https://hobarthackerspace.org.au/assets/wiki-assets/Incident_Report_Form.docx).
+- If you see an issue that needs attention, please [report it to the Committee](mailto:committee@hobarthackerspace.org.au?subject=Safety%20issue&body=OH%26S%20Incident%20Report). Please use an Incident Report form, either paper or electronic. Paper forms are in the labelled box opposite the main entrance door. Electronic forms are either [PDF](https://hobarthackerspace.org.au/assets/documents/Incident_Report_Form.pdf) or [MS Word](https://hobarthackerspace.org.au/assets/documents/Incident_Report_Form.docx).
 
 # Member identification
 - All members are encouraged to make and wear their membership badges. [Here are the details of how to do that](Members%20name%20badges.md).
