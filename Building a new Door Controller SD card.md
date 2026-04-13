@@ -209,6 +209,20 @@ These can be copied from the working system (if it's still available) or from th
 - Log copies are in:
 	- `Committee - Documents` → `Systems` → `Door controller` → `access log archive`
 
+# Raspberry Pi Connect
+This is the preferred access mode from outside the LAN. It uses the [Hackerspace Raspberry Pi Connect](https://www.raspberrypi.com/documentation/services/connect.html#introduction) account to provide connectivity from anywhere. 
+
+Before this can work, the Pi has to be registered as a device in our *Raspberry Pi Connect Organisation*. To do this, you need to be an administrator of the Organisation. 
+
+- See [the documentation](https://www.raspberrypi.com/documentation/services/connect.html#connect-organisations]) for details of device registration.
+- If you are  not an administrator, and have access to the password vault, you can set yourself up as one:
+	- See the password vault for connectivity credentials of our organisation master administrator.
+	- Log in with those credentials
+	- Invite yourself as a member or admin
+	- Accept the invitation
+	- Then do the device registration and subsequent access under your own ID.
+	- This process gives us traceability as to who does/did what.
+
 # Disabling WiFi
 When the SD card is initially imaged with *Raspberry Pi Imager* it is set up with WiFi enabled. The existing Pi 1 B+ has no WiFI hardware and it is cleaner to disable it on the OS side as well.
 
@@ -235,7 +249,7 @@ The system on the Pi 1 B+ has an IPv4 address reserved on the Router of  `192.16
 	- You can then click on the line with the relevant device to edit it.
 	- Set `Fixed IP Address` and give it the address: `192.168.2.125`
 
-## Historic note
+## Historic note re MAC address
 This IP address had been reserved for a MAC address that is not actually that of the board, due to some historic complications that were resolved in software on the Pi because our old router was primitive. 
 As we now have a new, smarter router, we no longer need to do this. 
 The Pi can keep its hardware MAC and we assign a normal reserved IP address in the router, as described above.
