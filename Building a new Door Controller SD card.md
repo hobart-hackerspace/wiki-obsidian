@@ -29,6 +29,8 @@
 - Choose the "minimal" (no desktop) version.
 - Set hostname to `access-controller`;
 	- If you're doing this within the Space you might want to set this to `access-controller-new` at first and change it later, so that you can connect to both new & old at the same time
+	- To change it later you’ll have to edit `/boot/firmware/user-data` and change the `hostname` setting, followed by a reboot.
+		- This method is new in `trixie`. Older methods using `raspi-config` or similar don’t work.
 - Set password for user-id `pi` to `spacehackers@#` or whatever is currently in the vault;
 - Enable `ssh` and *Raspberry Pi Connect* (from the HHS account)
 - Optional:
