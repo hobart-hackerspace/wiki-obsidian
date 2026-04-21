@@ -1,5 +1,12 @@
 ![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
+# Notice of Temporary Closure
+Due to unforeseen circumstances, the Committee of Hobart Hackerspace Inc. has decided that it is necessary to close the Space until further notice. We hope that the situation will be resolved soon. Thank you for your understanding. We will inform members via the website [hobarthackerspace.org.au](https://hobarthackerspace.org.au) as soon as possible.
+
+*Brian Marriott<br>
+Public Officer<br>
+brian@hobarthackerspace.org.au*
+
 # Hobart Hackerspace wiki ([wiki.hobarthacker.space](#home))
 
 This is our documentation store. This is **your** place to stash records of how to use our gear and what projects/experiments you've done.
