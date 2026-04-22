@@ -7,7 +7,7 @@ All GPO breakers are labelled with a ***B*** suffix.
 That relates to the Neutral bars - there are ***A*** & ***B*** bars identified on the breaker board.
 
 ## GPO plan
-![](attachments/Floorplan-v07-GPOs.svg)
+![](attachments/Floorplan-v08-Power.svg)
 
 ## GPO types, locations & circuits
 

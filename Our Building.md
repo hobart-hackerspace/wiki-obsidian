@@ -39,6 +39,6 @@ This site has identified archaeological potential as indicated in the Conservati
 *We need to add here a scan of the building plan document we have from the Archives Office*
 
 ## Current building plan
-![](attachments/Floorplan-v07.svg)
+![](attachments/Floorplan-v08.svg)
 
 *BWM 2026-01-16*
