@@ -14,13 +14,13 @@ Things that have to be done:
 	5. [ ] hackerspace welcome light
 6. Establish process to manage door monitoring
 	- Extra camera?
-7. [ ] arrange expiry extensions for current members & those expired since closure
-	1. Need a list of such members
-	2. Create a spreadsheet to track progress
+7. Arrange expiry extensions for current members & those expired since closure
+	1. [ ] Need a list of such members
+	2. [ ] Create a spreadsheet to track progress
 		1. Name
 		2. Date of expiry
 		3. new date
 		4. Done date
-	3. Then work through each one individually…
+	3. [ ] Then work through each one individually…
 
 
