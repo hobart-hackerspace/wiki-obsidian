@@ -1,23 +1,24 @@
 Things that have to be done:
 1. [x] Restart & test door system
 2. [x] Mailchimp email to all current members per Tiff’s wording
-3. [ ] Update website and wiki
+3. [x] Update website and wiki
 	1. Open to members only
-4.  [ ] New door sign
-5. [ ] New signs re WiFi passphrase
-	1. [ ] test QR code
+4.  [x] New door sign
+5. [x] Change public calendar on website to identify Thursdays as “Social night” not “Visitors night”
+6. [x] New signs re WiFi passphrase
+	1. [x] test QR code
 	2. [ ] change code again if it isn’t QR-compliant due to space characters
-6. fix & test other critical stuff after password change. Eg:
+7. fix & test other critical stuff after password change. Eg:
 	1. [ ] speakers
 	2. [ ] container CNC PC
 	3. [ ] outside lamp
 	4. [ ] kitchen lamp
 	5. [ ] hackerspace welcome light
-7. Establish process to manage door monitoring
+8. Establish process to manage door monitoring
 	- [ ] Attendance sheets
 	- [ ] Extra camera?
 		- With audio?
-8. Arrange expiry extensions for current members & those expired since closure
+9. Arrange expiry extensions for current members & those expired since closure
 	1. [ ] Need a list of such members
 	2. [ ] Create a spreadsheet to track progress
 		1. Name
