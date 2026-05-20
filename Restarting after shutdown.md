@@ -8,6 +8,11 @@ Things that have to be done:
 6. [x] New signs re WiFi passphrase
 	1. [x] test QR code
 	2. [-] change code again if it isn’t QR-compliant due to space characters
+	3. [x] Create signs
+	4. [x] print & laminate
+		- Sara
+	5. [ ] mount on wall
+		- Michael
 7. fix & test other critical stuff after password change. Eg:
 	1. [x] speakers
 	2. [x] container CNC PC
