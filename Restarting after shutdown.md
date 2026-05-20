@@ -1,6 +1,6 @@
 Things that have to be done:
 1. [x] Restart & test door system
-2. [ ] Mailchimp email to all current members per Tiff’s wording
+2. [x] Mailchimp email to all current members per Tiff’s wording
 3. [ ] Update website and wiki
 	1. Open to members only
 4.  [ ] New door sign
