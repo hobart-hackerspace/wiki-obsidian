@@ -1,5 +1,5 @@
 Things that have to be done:
-1. [ ] Restart & test door system
+1. [x] Restart & test door system
 2. [ ] Mailchimp email to all current members per Tiff’s wording
 3. [ ] Update website and wiki
 	1. Open to members only
@@ -13,7 +13,9 @@ Things that have to be done:
 	4. [ ] kitchen lamp
 	5. [ ] hackerspace welcome light
 6. Establish process to manage door monitoring
-	- Extra camera?
+	- [ ] Attendance sheets
+	- [ ] Extra camera?
+		- With audio?
 7. Arrange expiry extensions for current members & those expired since closure
 	1. [ ] Need a list of such members
 	2. [ ] Create a spreadsheet to track progress
