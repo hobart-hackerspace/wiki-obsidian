@@ -26,5 +26,7 @@ Things that have to be done:
 		3. new date
 		4. Done date
 	3. [ ] Then work through each one individually…
+		- noting that I’ve already extended membership for Leo & Bella because they had expired
+		- 
 
 
