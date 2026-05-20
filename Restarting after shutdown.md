@@ -9,8 +9,8 @@ Things that have to be done:
 	1. [x] test QR code
 	2. [ ] change code again if it isn’t QR-compliant due to space characters
 7. fix & test other critical stuff after password change. Eg:
-	1. [ ] speakers
-	2. [ ] container CNC PC
+	1. [x] speakers
+	2. [x] container CNC PC
 	3. [ ] outside lamp
 	4. [ ] kitchen lamp
 	5. [ ] hackerspace welcome light
