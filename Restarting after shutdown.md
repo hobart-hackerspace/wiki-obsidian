@@ -11,7 +11,7 @@ Things that have to be done:
 	3. [x] Create signs
 	4. [x] print & laminate
 		- Sara
-	5. [ ] mount on wall
+	5. [x] mount on wall
 		- Michael
 7. fix & test other critical stuff after password change. Eg:
 	1. [x] speakers
@@ -25,14 +25,16 @@ Things that have to be done:
 		- Deferred until later
 		- With audio?
 9. Arrange expiry extensions for current members & those expired since closure
-	1. [ ] Need a list of such members
-	2. [ ] Create a spreadsheet to track progress
+	1. [x] Need a list of such members
+	2. [x] Create a spreadsheet to track progress
 		1. Name
 		2. Date of expiry
 		3. new date
 		4. Done date
-	3. [ ] Then work through each one individually…
+	3. [x] Then work through each one individually…
 		- noting that I’ve already extended membership for Leo & Bella because they had expired
+	4. [x] And follow up with an audit
+		- Compare list on spreadsheet with final list of end dates
 
 
 
