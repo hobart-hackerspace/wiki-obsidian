@@ -3,7 +3,7 @@
 # We’re now open to members
 **After the recent temporary closure, we’re now open again!**
 
-For the moment, we’re only open to current financial members. Watch this space for more news about wen we are also open to visitors.
+For the moment, we’re only open to current financial members. Watch this space for more news about when we will also be open to visitors.
 
 # Hobart Hackerspace wiki ([wiki.hobarthacker.space](#home))
 
