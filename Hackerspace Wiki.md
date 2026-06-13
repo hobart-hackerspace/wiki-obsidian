@@ -1,9 +1,11 @@
 ![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
-# We’re now open to members
-**After the recent temporary closure, we’re now open again!**
+# We’re now open again to members and their guests
+**After the recent temporary closure, we’re now open again, but rules are a bit different.**
 
-For the moment, we’re only open to current financial members. Watch this space for more news about when we will also be open to visitors.
+We’re open to current financial members and their sponsored guests. Sponsoring means that the sponsor vouches for and takes responsibility for the guest's activities. 
+
+On Thursday evenings between 7:00pm & 9:00pm, visitors are also welcome. But visitors also must be signed in by a member.
 
 # Hobart Hackerspace wiki ([wiki.hobarthacker.space](#home))
 
