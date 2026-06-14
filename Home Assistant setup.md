@@ -58,11 +58,14 @@ An SSL Certificate has been created for three domains:
 We have the `Let's Encrypt` add-on installed to update the certificate. It requires port 80 to be open on some machine in this domain (it doesn't matter which, so long as it listens on port 80 and responds to `HTTP` requests). At present (March 2006) the gateway router routes port 80 to the Homeassistant machine (`192.168.2.42`).
 
 If the certificate doesn't get updated for whatever reason, we can be locked out of the web GUI.
-The backdoor way to resolve this is to `ssh` into the box from within our LAN, as `root`: `ssh root@192.168.2.42` and run:
-``` bash
-ha addons start core_letsencrypt # update the certificates
-reboot # certs don't get used until reboot
-```
+The backdoor way to resolve this is:
+-  `ssh` into the box from within our LAN, as `root`: `ssh root@192.168.2.42`
+	- This is enabled passwordless if you’re logged in to `hhs-docker-svr.local` as `hhs-admin`.
+-  then run:
+	``` bash
+	ha addons start core_letsencrypt # update the certificates
+	reboot # certs don't get used until reboot
+	```
 
 # `Nginx` reverse proxy setup
 
