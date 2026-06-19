@@ -1,5 +1,5 @@
 # Pre-requisites. 
-You’ll need to ensure all these are in place. But you’ll only have to do them once:-)
+You’ll need to ensure all these are in place. Fortunately,  you’ll only have to do them once:-)
 
 ## 1. *Obsidian*
 You need to have *Obsidian* installed on your machine/device. 
@@ -30,6 +30,7 @@ You need to have *Git* installed on your machine/device.
 	    - *Brian note: If you are using Windows or MacOS,  I’d strongly recommend this, even if you’re an experienced `git` user. It saves you having to remember most of the commands and provides you with a visible reminder for things like update descriptions and pushing back to the repo. It’s free & open source, fast and simple to use.*
     - [*Sourcetree*](https://www.sourcetreeapp.com/), 
     - [*Visual Studio*](https://learn.microsoft.com/en-us/visualstudio/version-control/git-with-visual-studio?view=visualstudio)
+    - [SourceGit}(https://github.com/sourcegit-scm/sourcegit)]
     - or one of the many others.
 - The [*Git* website](https://git-scm.com/) has links for installation, tools and the CLI reference.
 ### Pads & phones
@@ -43,3 +44,5 @@ You need to have *Git* installed on your machine/device.
 	3. You won’t see our wiki in the dropdown list of repositories. You’ll have to paste in its URL (`https://github.com/hobart-hackerspace/wiki-obsidian`). GitSync only offers a dropdown list of your personal repositories.
 ## 5. Repository write access
 This is necessary if you’d like to contribute directly to the Wiki. Simply send a note to github@hobarthackerspace.org.au asking to be added as a user to the Hackerspace repository members list. 
+
+## 6. Once all that’s in place, you’re ready [to contribute](Contributing%20using%20Obsidian%20and%20Git.md).
