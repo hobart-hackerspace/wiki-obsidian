@@ -73,7 +73,7 @@ The backdoor way to resolve this is:
 - Sub-domain names are registered for `homeassistant` on the two base domain names `hobarthacker.space` and `hobarthackerspace.org.au`.
 - The *Letsencrypt* certificate for the `wiki` names includes four domain names - the two `wiki` ones and the two `homeassistant` ones.
 	- This certificate is generated using `certbot` and uses the *DNS-01* challenge, to avoid needing to have port 80 open on this machine — it’s already in use for the `Letsencrypt` plugin on Home Assistant.
-	- At the moment (Mar 2026) this requires manual updating every 90 days. It’s expected that the *DNS-PERSIST-01* challenge will soon be available and this can be automated.
+	- At the moment (Jun 2026) this requires manual updating every 90 days. It’s expected that the *DNS-PERSIST-01* challenge will soon be available and this can be automated.
 	- The relevant command to create/update the certificate is: 
 	``` bash
 	sudo certbot -d wiki.hobarthackerspace.org.au \
@@ -82,6 +82,7 @@ The backdoor way to resolve this is:
 	    certonly; date
 	# the date command is there in case you're too fast for domain propogation and have to wait
 	```
+	- Last updated 19-Jun-2026; needs to be re-issued before 16-Sept-2026. Hopefully the *DNS-PERSIST-01* support will be available by then.
 - There is a `homeassistant.conf` file in the `/etc/nginx/conf.d/` directory which provides a `server-name` directive responding to the two `homeassistant` domain names and linking to the above certificates. This file provides the relevant proxy commands:
 ``` 
 server {
