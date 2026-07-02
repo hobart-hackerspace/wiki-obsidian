@@ -5,7 +5,8 @@
 
 We’re open to current financial members and their sponsored guests. Sponsoring means that the sponsor vouches for and takes responsibility for the guest's activities. 
 
-On Thursday evenings between 7:00pm & 9:00pm, visitors are also welcome. But visitors also must be signed in by a member.
+On Thursday evenings between 7:00pm & 9:00pm, visitors are also welcome. 
+A member can open the door, sign you in and look after you during your visit.
 
 # Hobart Hackerspace wiki ([wiki.hobarthacker.space](#home))
 
