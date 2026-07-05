@@ -4,7 +4,7 @@ Most domains are registered and their records hosted and managed by [VentraIP](h
 
 One domain (`hobarthackerspace.onmicrosoft.com`) is separately managed, as part of our free NFP Microsoft365 subscription.
 
-Relevant access credentials are in [the password vault](Password%20vault.md).
+Relevant access credentials are in [the password vault](Governance/Password%20vault.md).
 
 ## The domain names 
 ### Base level names

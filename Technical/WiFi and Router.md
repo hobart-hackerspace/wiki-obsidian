@@ -75,7 +75,7 @@ The UX7 serves as both a WiFi access point and a controller for other access poi
 
 # Static IP address leases and LAN ports opened
 
-- [Addresses](IP%20address%20leases.md)
-- [Port forwarding](Exposed_ports.md)
+- [Addresses](Technical/IP%20address%20leases.md)
+- [Port forwarding](Technical/Exposed_ports.md)
 
 

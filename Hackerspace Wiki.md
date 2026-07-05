@@ -72,32 +72,32 @@ Members may borrow items of the Hackerspace portable tools, but there are restri
 	- [Public calendars](https://hobarthackerspace.org.au/events/calendar/)
 		- We have calendars on our website showing event bookings and space bookings.
 		- Committee members can add items to those calendars so that others can know what's happening when.
-		- [Adding an event](Public%20calendars.md).
+			- [Adding an event](Governance/Public%20calendars.md).
 - This wiki
 	- [Adding your content](Contributing%20using%20Obsidian%20and%20Git.md). The easy way to add content is to start with another page and copy its source into your new page.
 	- [The wiki server and its software](The%20Wikmd%20server.md)
 - Home Assistant
 	- [Home assistant](https://office.hobarthackerspace.org.au:8123) gives us access to our security system - the alarms, video cameras, etc. Committee members can have access to it if they ask.
-	- Details of our [Home Assistant setup & configuration](Home%20Assistant%20setup.md) are [here](Home%20Assistant%20setup.md).
+	- Details of our [Home Assistant setup & configuration](Technical/Home%20Assistant%20setup.md) are [here](Technical/Home%20Assistant%20setup.md).
 - CCTV cameras
 	- Most of our monitoring cameras are connected to a Hikvision NVR. Ask for permission to access that directly.
-	- More recent cameras [are documented here](Video_Cameras.md).
+	- More recent cameras [are documented here](Technical/Video_Cameras.md).
 
 # Administration
 - These are links for Committee members access the various systems that we use to look after the Hackerspace. 
-	- Committee documents are in our [OneDrive/Microsoft365 document store](Microsoft%20365%20and%20OneDrive%20file%20access.md)
-	- [Management of Members' RFID tags](Members%20Door%20RFID%20Tags.md)
-	- [Membership records](Membership%20records.md)
-	- The [Door access controller](Door%20access%20controller.md) runs on a Rasperry Pi.
-	- We use the [GnuCash accounting system](HHS%20GnuCash%20Notes.md) to manage our accounts.
+	- Committee documents are in our [OneDrive/Microsoft365 document store](Governance/Microsoft%20365%20and%20OneDrive%20file%20access.md)
+	- [Management of Members' RFID tags](Governance/Members%20Door%20RFID%20Tags.md)
+	- [Membership records](Governance/Membership%20records.md)
+	- The [Door access controller](Technical/Door%20access%20controller.md) runs on a Rasperry Pi.
+	- We use the [GnuCash accounting system](Governance/HHS%20GnuCash%20Notes.md) to manage our accounts.
 		- Our books are open to all members on request. Just [ask the treasurer](mailto:treasurer@hobarthackerspace.org.au?subject=Request%20to%20look%20at%20financial%20reports&body=Please%20send%20me%20a%20link%20to%20the%20current%20financial%20reports) for access to our recent reports.
 	- Networks (LAN, WAN & Internet)
-		- [Internet connection](Internet%20connection%20and%20firewall.md)
+		- [Internet connection](Technical/Internet%20connection%20and%20firewall.md)
 		- Internal (LAN) network and WiFi
-			- [Ethernet network](Ethernet_network.md)
-			- [WiFi and router](WiFi%20and%20Router.md)
-		- [Domain Names and DNS records](Domain%20Name%20records.md)
-		- [Exposed IP ports](Internet%20connection%20and%20firewall.md##Static%20IP%20assignments%20and%20exposed%20IP%20ports)
+			- [Ethernet network](Technical/Ethernet_network.md)
+			- [WiFi and router](Technical/WiFi%20and%20Router.md)
+		- [Domain Names and DNS records](Technical/Domain%20Name%20records.md)
+		- [Exposed IP ports](Technical/Internet%20connection%20and%20firewall.md##Static%20IP%20assignments%20and%20exposed%20IP%20ports)
 	- Branding assets (logo, letterhead, etc etc)
 		- Logo 
 			- ![50](attachments/Hacky_source_7x11-kxzr34ldff7ygkwwnhxid75mnoh4.svg)
@@ -118,8 +118,8 @@ Members may borrow items of the Hackerspace portable tools, but there are restri
 				- e: [michael.rowley@dhhs.tas.gov.au](mailto:michael.rowley@dhhs.tas.gov.au)
 			- In an after hours emergency at Hackerspace we need to call the RHH switchboard (6166 8308) and ask for Facilities On Call
 		- Electricity distribution
-			- [Here is a plan of the power outlets and circuits](Power%20Distribution.md)
-			- [Electrical work required 2025](Electrical%20work%202026.md)
+			- [Here is a plan of the power outlets and circuits](Governance/Power%20Distribution.md)
+			- [Electrical work required 2025](Technical/Electrical%20work%202026.md)
 		- [Heritage report](Gatehouses.md)
 
 # This wiki

@@ -9,7 +9,7 @@
 	- It has a reserved IP address of `192.168.2.2
 - Its hostname is `hhs-docker-svr`
 	- It responds as `hhs-docker-svr.lan` (if  `avahi-daemon` is running).
-- Initially, just one user was set up: `hhs-admin`, with [its password in our vault](Password%20vault.md). 
+- Initially, just one user was set up: `hhs-admin`, with [its password in our vault](Governance/Password%20vault.md). 
 	This user has `sudo` access.
 - SSH service is enabled to provide admin access from other local machines. Authorized_keys can be added as required for convenience.
 - `avahi-daemon` and `avahi-utils` are installed (using `apt`). 
@@ -45,7 +45,7 @@
 ```
 - Connecting to `https://hhs-docker-svr.local:9443` with a browser should show the portainer web GUI
 	- On first connection from a given browser, the browser may warn about insecure connections - this is because the certificate is locally-generated. Over-ride the warning.
-	- On first connection after (re)installation, Portainer will ask for an admin user to be created and a password supplied. The password to use is in the [vault](Password%20vault.md). 
+	- On first connection after (re)installation, Portainer will ask for an admin user to be created and a password supplied. The password to use is in the [vault](Governance/Password%20vault.md). 
 
 - Added the linux user to the `docker` group to avoid the need for `sudo` all the time:
 ```
@@ -55,7 +55,7 @@
 ## WikMD user
 - The docker server was initially set up to host *WikMD*, the first iteration of our Wiki.
 - For this, there is a user-id on the docker server as owner of the wiki. This is to avoid permissions issues and to make it easy to work at the filesystem level for backup etc:
-	- User is "wiki-user"; password in [the vault](Password%20vault.md).
+	- User is "wiki-user"; password in [the vault](Governance/Password%20vault.md).
 ```
 	sudo adduser wiki-user
 	# and add it to the "sudo" group
