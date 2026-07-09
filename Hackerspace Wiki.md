@@ -47,19 +47,16 @@ The heritage issue means that we have to be careful how we look after the buildi
 ## Leaving the building
 [Here's a checklist to follow when leaving, to make sure the building is left safe & secure.](Building%20departure%20checklist.md)
 
+# Hackerspace Policies
+From time to time the Committee decides on [policies for using the Space & its equipment]() and for general membership matters. These policy decisions are made in the best interest of all members to encourage safe and equitable use of what we have. 
+
+[There is a full list of them here.](Policies.md)
 # Our Equipment
 - [CNC Router](CNC%20Router.md)
 - [Laser Cutting](Laser%20Cutting.md)
 - [3D Printing](3D_Printers.md)
 - [Electronics](Electronics%20Lab.md)
 - [Radio](https://hobarthackerspace.org.au/facilities/radio-station/)
-
-## Borrowing of equipment
-Members may borrow items of the Hackerspace portable tools, but there are restrictions:
-
-- All loans must be recorded on the loan forms above the tools drawers
-- You may not borrow tools which are in heavy use or are the only examples we possess
-- Tools may be borrowed for no more than two weeks, without express approval from the Committee
 
 # Events
 - [Open Night](https://hobarthackerspace.org.au/events/open-night/)
