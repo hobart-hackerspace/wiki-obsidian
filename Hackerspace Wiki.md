@@ -50,7 +50,7 @@ The heritage issue means that we have to be careful how we look after the buildi
 # Hackerspace Policies
 From time to time the Committee decides on [policies for using the Space & its equipment]() and for general membership matters. These policy decisions are made in the best interest of all members to encourage safe and equitable use of what we have. 
 
-[There is a full list of them here.](Policies.md)
+[There is a full list of them here.](Policies/Policies.md)
 # Our Equipment
 - [CNC Router](CNC%20Router.md)
 - [Laser Cutting](Laser%20Cutting.md)
