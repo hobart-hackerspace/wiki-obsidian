@@ -12,7 +12,7 @@ You probably assume all those, but they're listed here so they aren't forgotten.
 ## Specific to our constitution
 The next level down of responsibilities are those given in our constitution - our "Articles of Association". 
 
-[These are publically available on our website](https://hobarthackerspace.org.au/assets/documents/Constitution-2023-as-approved.pdf). Note that all Committee members are deemed to have read and understood them.
+[These are publicly available on our website](https://hobarthackerspace.org.au/assets/documents/Constitution-2023-as-approved.pdf). Note that all Committee members are deemed to have read and understood them.
 
 In particular, these responsibilities are "to control and manage the business and affairs of the Association": raising and spending money and managing our members.
 
@@ -131,3 +131,4 @@ The Committee is the policy-making group within the organisation - akin to the B
 	- Minutes of AGM
 
 # Committee Members
+*Still to come…*

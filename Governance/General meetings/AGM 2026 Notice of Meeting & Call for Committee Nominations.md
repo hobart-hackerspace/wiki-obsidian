@@ -35,6 +35,13 @@ So items (4) and (5) of the prescribed agenda are null.
 
 While we are not required by the Act to be audited, the Treasurer welcomes any financial Members(s) who would like to review our accounts and financial record-keeping to assure themselves and others that the books are in order.
 
+## Reports
+### President’s report
+TBA
+
+### Treasurer’s report
+
+
 ## Election of Officers and Committee
 
 Our Constitution specifies that there shall be 4 Officers as listed below (each up for election every two years), up to 5 other Committee Members (elected each year) and all life Members (ongoing — no election).
@@ -71,4 +78,5 @@ Nominations can be sent in writing to the Public Officer (brian.marriott@hobarth
 Brian Marriott<br>
 Public Officer
 
-
+# Notification
+The above agenda was distributed to members by email on 3-July-2026. [The email is visible here.](https://mailchi.mp/9f1339794d02/preliminary-notice-of-annual-general-meeting-12772531?e=bca8dbc60d)
