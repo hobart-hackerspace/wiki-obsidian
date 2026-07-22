@@ -1,6 +1,5 @@
 # All Committee members
 Being on the Committee brings some responsibilities. All members have legal obligations (or ‘duties’) that we must comply with and understand. These aren't something that we can ignore or decide don't apply to us -- they are legislated as part of us being a registered not-for-profit organisation ("Incorporated body" in Tasmanian legalese).
-
 ## Legal responsibilities
 Formally, these are:
 - the duty to act in good faith in the best interests of the organisation and for proper purposes; 

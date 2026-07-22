@@ -1,13 +1,14 @@
 The Hackerspace has a number of internet domain names for different purposes.
 We also have domain name records that are used as part of managiing these domains.
+
 Most domains are registered and their records hosted and managed by [VentraIP](https://vip.ventraip.com.au/dashboard). 
 
-One domain (`hobarthackerspace.onmicrosoft.com`) is separately managed, as part of our free NFP Microsoft365 subscription.
+One domain (`hobarthackerspace.onmicrosoft.com`) is separately managed, as part of our free NFP *Microsoft365* subscription.
 
 Relevant access credentials are in [the password vault](Governance/Password%20vault.md).
 
-## The domain names 
-### Base level names
+# The domain names 
+## Base level names
 - [`hobarthackerspace.org.au`](https://hobarthackerspace.org.au)
 	- This is used for:
 		- our website
@@ -33,33 +34,33 @@ Relevant access credentials are in [the password vault](Governance/Password%20va
 			so it's set to priority `0` and redirects to
 			`hobarthackerspace-org-au.mail.protection.outlook.com`
 - `hobarthacker.space`
-	- Used in parallel to a number of the purposes listed above.
+	- Used in parallel to `hobarthackerspace.org.au` for a number of the purposes listed here.
 - `hobarthackerspace.com`
 - `hobarthackerspace.org`
 	- These are both secondary names, registered to prevent domain name poaching by others. 
 		There are no current DNS records for them.
 	- Both are registered with [VentraIP](https://vip.ventraip.com.au/dashboard)
 
-### Subdomains used for other web-based access 
-These all use **A** records  
+## Subdomains used for other web-based access 
+These all use **A** records. Where they point to the common NBN IP address  there is a reverse proxy `nginx` server running which redirects to the correct internal or external server address and port.
 
 - [`homeassistant.hobarthackerspace.org.au`](https://homeassistant.hobarthackerspace.org.au:8123/)
 	- This gives access to our Home Assistant instance
 		- An **A** record points to `144.48.164.114`,
 			the current IP address for our NBN connection.
+		- Redirected by `nginx` to `192.168.2.42:8123`
 - [`wiki.hobarthackerspace.org.au`](http://wiki.hobarthackerspace.org.au:7008)
 	- This gives access to this wiki from outside the space
 		- An **A** record points to `144.48.164.114`,
 			the current IP address for our NBN connection.
-- `hobarthacker.space`
-	- Used in parallel to a number of the purposes listed above.
+		- Redirected by `nginx` to [publish.obsidian.md/hhs-wiki](https://publish.obsidian.md/hhs-wiki/)
 - [`cnc.hobarthackerspace.org.au`](https://cnc.hobarthackerspace.org.au)
 	- This is a Shane special page hosting CNC documentation
 		- An **A** record points to `103.13.100.230`,
 			the IP address for Shane's NISS server.
 
 
-### "Subdomains" registered to support specific services 
+## "Subdomains" registered to support specific services 
 These are not actual reachable subdomains, rather they are DNS records that use the subdomain format to be reachable and authenticated.
 Typically these are created on request for or on the recommendation of the provider of an external service.
 
