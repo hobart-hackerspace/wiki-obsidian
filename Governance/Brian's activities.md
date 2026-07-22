@@ -1,4 +1,4 @@
-*I’m starting here a list of the things that I’ve previously done or taken responsibility for, so that Committee can decide how to handle my winding down. <br>BWM July 2026*
+*I’m starting here a list of the things that I’ve previously done or taken responsibility for, so that Committee can decide how to handle my stepping back from active stuff. <br>BWM July 2026*
 # Public Officer
 ## Legislatively-prescribed
 - Notify and/or request the Commissioner for Corporate Affairs of 
@@ -52,6 +52,7 @@
 		- Maintaining & documenting our locally added data fields (eg RFID, badge issue)
 		- Add-ons incl. export to *mailchimp*
 - Maintaining, backing-up & monitoring access controller database
+	- Routine updates based on *THQ* extracts
 ### Record-keeping & communication
 - Administration of our *Microsoft365* not-for-profit grant and “tenancy”
 	- *Sharepoint*/*OneDrive* document store
@@ -62,9 +63,9 @@
 	- `xxx@hobarthackerspace.org.au` groups and email addresses/accounts
 	- Committee members’ *MS365* access accounts
 - Member communications
-	- Individual notices
+	- Individual notices (using contact details from *THQ*)
 	- All-member bulk messages
-		- *mailchimp* account (including link)
+		- *mailchimp* account (including *THQ* feed of updates)
 - Wiki & Website
 	- Content & updates
 	- Technical
@@ -108,3 +109,21 @@
 All the files are held on the *MS365* `Committee` repository
 - Most are within the `Treasurer` top level folder except for the NDIS ones.
 - Where spreadsheets have been used they are readable by either *Excel* or *LibreOffice Calc*. Saving from *LO Calc* back to *Excel* format seems to work well.
+
+# General Committee stuff
+## Honesty shop and other supplies
+- Keep an eye on stock levels in honesty shop & purchase top-up supplies
+- Purchase cleaning materials & other “household” supplies, as requested by Michael or as stock levels drop.
+## Building maintenance
+- Keep an eye on state of building and repair/replace minor aspects as required
+- Document details of building infrastructure like power distribution, networking, etc
+## Oversight of Governance 
+- Help to ensure that we are “doing the right thing” wrt meetings, responsibilities to members, etc
+- Observe, organise &/or remind folks of tasks, commitments & promises 
+# Technical
+- Use & be familiar with the relevant tools to manage
+	- Networks
+	- Servers
+	- Door controller
+- Arrange and monitor backups & documentation for configuration of all the above
+
