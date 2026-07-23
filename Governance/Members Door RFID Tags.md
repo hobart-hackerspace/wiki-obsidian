@@ -11,7 +11,7 @@ If a member has no tag (new member or lost tag), get a new one from the tags sto
 
 Wave the tag past the tag reader to verify that it works. If the reader beeps once the tag is ok.
 
-The tags have a number printed on the outside, but it's best to confirm that that matches the number that is stored within. That's easy to do by accessing the controller. [See steps [1:5] below under "Updating tags on the door controller".](#updating-tags-on-the-door-controller)
+The tags have a number printed on the outside, but it's best to confirm that that matches the number that is stored within. That's easy to do by accessing the controller. [See steps [1:5] below under "Updating tags on the door controller".](#Updating%20tags%20on%20the%20door%20controller)
 
 Before we add the tag to the controller, it's prudent to verify the member's registration in our membership system. (This helps to avoid spelling errors in the name, allows us to find the membership number, and verifies in passing that they have actually paid their membership.)
 
@@ -63,11 +63,11 @@ This is done by logging into the controller command line.
 	 ```
 
 7. Listed towards the bottom of this document are several boilerplate SQL code blocks. There are examples there for:
-	- [a new tag](#add-a-new-member), 
-	- [updating a tag](#change-tag-for-a-member), 
-	- [suspending a member](#suspend-a-member),
-	- [reinstating a member](#re-activate-a-member) and
-	- [deleting a member](#remove-a-member).
+	- [a new tag](#Add%20a%20new%20member);
+	- [updating a tag](#Change%20tag%20for%20a%20member);
+	- [suspending a member](#Suspend%20a%20member);
+	- [reinstating a member](#Re-activate%20a%20member); and
+	- [deleting a member](#Remove%20a%20member).
 
 8. Pick the one that's relevant to what you're about to do and copy it into a text editor on your local machine. Then replace the relevant sample field contents (the ones with single quotes around them) with the actual values for `THQ_ID`,`firstname`,`lastname`&`RFID_no` as required for the particular need. THQ_ID is the "ID Number" from the THQ "Contact" information page.
 
@@ -97,11 +97,11 @@ Type `control/D` or `.exit` to terminate the command processor
 
 Now that you've identified the RFID code on the member's tag, you need to add that to the member database. This provides ain independent record of the tag that we've issued, so that we can cross-reference it with details in the door system. This is useful when things go wrong, as can too easily happen.
 
-1. Connect to the membership system (if you're not still connected), [as described above](#accessing-the-membership-system).
+1. Connect to the membership system (if you're not still connected), [as described above]((#Accessing%20the%20Membership%20System).
 
-1. Go to the member's contact page (the one that shows the ID number.)
+2. Go to the member's contact page (the one that shows the ID number.)
 
-1. At the bottom of that page is a field for RFID code. Add the code number to that field and save the record.
+3. At the bottom of that page is a field for RFID code. Add the code number to that field and save the record.
 
 ## Tidying up
 
