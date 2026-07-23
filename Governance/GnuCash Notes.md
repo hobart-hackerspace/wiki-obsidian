@@ -1,5 +1,3 @@
-# HHS GnuCash Notes
-
 ## Introduction
 
 We use an accounting package to avoid the many pitfalls of simple spreadsheet accounting. 

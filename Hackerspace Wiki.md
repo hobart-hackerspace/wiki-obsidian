@@ -86,7 +86,7 @@ From time to time the Committee decides on [policies for using the Space & its e
 	- [Management of Members' RFID tags](Governance/Members%20Door%20RFID%20Tags.md)
 	- [Membership records](Governance/Membership%20records.md)
 	- The [Door access controller](Technical/Door%20access%20controller.md) runs on a Rasperry Pi.
-	- We use the [GnuCash accounting system](Governance/HHS%20GnuCash%20Notes.md) to manage our accounts.
+	- We use the [GnuCash accounting system](Governance/GnuCash%20Notes.md) to manage our accounts.
 		- Our books are open to all members on request. Just [ask the treasurer](mailto:treasurer@hobarthackerspace.org.au?subject=Request%20to%20look%20at%20financial%20reports&body=Please%20send%20me%20a%20link%20to%20the%20current%20financial%20reports) for access to our recent reports.
 	- Networks (LAN, WAN & Internet)
 		- [Internet connection](Technical/Internet%20connection%20and%20firewall.md)
