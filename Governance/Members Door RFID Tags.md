@@ -85,8 +85,8 @@ select * from members where
 You should see a terse listing of the member's database entry. Something like:
 
 ``` sql
-sqlite> select * from members where first_name = 'Jason';
-3000015|Jason|Hammond|7922112|activated|
+sqlite> select * from members where first_name = 'Hacky';
+3009999|Hacky|Space|7912345|activated|
 sqlite>
 ```
 
