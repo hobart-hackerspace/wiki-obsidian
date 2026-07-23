@@ -55,7 +55,7 @@ amount of funds being removed *from* one or more other accounts. These accounts 
 of funds (bank account, cash jar, ...) or they may simply be reporting categories in the Chart of Accounts. 
 The essence is that the amount(s) *to* equal the amount(s) *from*.
 
-### Transactions {#transactions}
+### Transactions
 As indicated above, every GnuCash transaction contains at least two double entry components. 
 GnuCash calls these components "Splits".
 They identify the source and destination accounts of the funds involved in the transaction. 
@@ -69,7 +69,7 @@ You can open transactions to see their component splits in several ways:
 1. Highlight the transaction and select `Menu bar` >> `Split`
 2. Set either `Auto-Split Ledger` or `Transaction Journal` under the `Menu bar` >> `View` option .
 
-## Chart of accounts {#chartofaccounts}
+## Chart of accounts
 
 GnuCash maintains a Chart of Accounts (CoA) which is used as a basis for reporting income,
 expenditure and financial assets. It's an hierarchical structure of categories and
@@ -161,7 +161,7 @@ level of detail without making reports overly complex.
 All reports summarise account totals to the higher levels for quick review.
 
 ## Files
-### Data Files {#datafiles}
+### Data Files
 
 GnuCash files are stored on the shared OneDrive/Sharepoint drive, in
 the [`/Committee - Documents/Treasurer Files/GnuCash`](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/ErL2AyOw2x1FmqdhZnuhZ7YB1ls63Y8ZsVt2iR0EZU5TXQ?e=P4C7p7) folder.
