@@ -41,7 +41,7 @@ In this document, there is reference to "Accounts" and to "Bank accounts":
  
 1. The term "Bank account" refers to the accounts held by the Bank.
 1. The term "Account" refers to one of the categories identified in the 
-[Chart of Accounts](#chartofaccounts) and used by us to categorise our income and expenditure.)
+[Chart of accounts](#Chart%20of%20accounts) and used by us to categorise our income and expenditure.)
 
 ### Debit vs Credit
 GnuCash is a "double entry" system, which means that each recorded transaction has two parts
@@ -84,7 +84,7 @@ When you are creating new accounts, check the exported file for appropriate plac
 in the number hierarchy.
 
 The process of using these accounts is described in the 
-[section on Allocating transactions to Accounts](#allocating).
+[section on Allocating transactions to Accounts](#Allocating%20transactions%20to%20Accounts).
 
 GnuCash allows export of its Chart of Accounts to a .csv file. This allows a
 convenient way to review the accounts structure. It helps to import this into
@@ -119,7 +119,7 @@ Real accounts sit under the following categories in the CoA:
 Individual asset accounts identify the individual bank accounts, cash stores, etc.
 Liabilities are just lumped into a single account as we have such a small number.
 
-#### Bank accounts
+##### Bank accounts
 The actual bank accounts (Westpac) are:
 
 | Account label | Account no | Purpose |
@@ -128,6 +128,12 @@ The actual bank accounts (Westpac) are:
 | `NDIS Income (709)` | 037-009 249709 | Where we hold income from NDIS |
 | `Debit Card (717)` | 037-009 249717 | The account linked to our Debit cards |
 
+##### Cash
+(As in: that which folds or clinks)
+
+Actual cash seems to be known in the accounting trade as “*Cash on Hand*”, so the relevant account is named that. It represents the amount of cash held in the honesty shop jar at any point at which it’s counted and recorded. 
+
+We have a single “real” account with that name. When the amount in the jar looks to be big enough, it’s deposited into the debit card bank account, leaving enough to provide change to someone using the shop. Currently that residual is $40.
 
 #### "Reporting" accounts
 The reporting accounts are just that: labels for the reasons we receive or spend money. Using such labels helps us to better understand where our money is coming from and what we do with it.
@@ -195,8 +201,8 @@ If you don't have automatic synchronisation set up, please ensure that the
 
 ### Bank export files
 Bank transaction files (.OFX format) are placed in the
-[`Bank export files`](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/EjbndnUwVaNJnk5f4wEdE14BitlI8G9yDMy59nnmQQ6Z4w?e=d3YhnT)
-sub-folder of the GnuCash folder, in suitably-dated sub-folders.
+[`Banking/Bank export files`](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/EjbndnUwVaNJnk5f4wEdE14BitlI8G9yDMy59nnmQQ6Z4w?e=d3YhnT)
+sub-folder of the `Treasurer Files` folder, in suitably-dated sub-folders.
 
 ### Reports
 Report files (.PDF format) are placed in the 
@@ -246,7 +252,7 @@ just the format of the data.
 sub-folder of the GnuCash folder.
 1. Before you log out, grab a "Proof of balance and transactions" report (`Overview` >> `Exports 
 and reports` >> `Proof of balance and transactions > Report`). This makes it easier to verify after 
-you've processed everything that you have the final balances correct. (See "[Reconciliation](#reconciliation)" below.)
+you've processed everything that you have the final balances correct. (See "[Reconciliation](#Reconciling%20transactions)" below.)
 
 ### Importing transaction files
 1. Use the menu to select `File` >> `Import` >> `Import OFX/QFX...`. GnuCash then opens
@@ -256,7 +262,7 @@ its pedantic "Helper/Wizard". (Pedantic because many pages don't require entry, 
 the appropriate income or expenditure account within the Chart of Accounts. 
 The OFX importer knows which bank account transactions relate to, 
 but it's up to us to tell GnuCash which reporting account they relate to.
-[See next section](#allocating).
+[See next section](#Allocating%20transactions%20to%20Accounts).
 
 #### Duplicate transactions
 If you accidentally create a duplicate transaction, it's possible to delete it. 
@@ -264,7 +270,7 @@ If you accidentally create a duplicate transaction, it's possible to delete it.
 Strictly, if we were to follow standard accounting principles we would leave the duplicate there 
 and apply a "reverse" transaction. GnuCash will allow either.
 
-### Allocating transactions to Accounts {#allocating}
+### Allocating transactions to Accounts
 #### Overview
 The OFX import process will assign all transactions to the relevant bank account,
 as described above, but
@@ -342,7 +348,7 @@ For the  above example, a suitable transaction summary could be
 "Income" accounts and one in the "Expenditure" ones. It should be obvious
 which to assign to a given transaction.  
 
-#### Reconciling transactions {#reconciliation}
+#### Reconciling transactions
 Reconciliation is the process of matching transactions that have been recorded internally (ie in GnuCash) 
 against monthly statements from external sources such as banks to see if there are differences in the 
 records and to correct any discrepancies. 
@@ -445,24 +451,23 @@ the transactions would involve depositing *into* (say) the debit card account,
 followed by a transfer *from* that account to the purchaser.  
 So we create a transaction that does the same, but skips the bank accounts bit:  
 
-1. Start by creating a new (empty) transaction. On any of the account listings there's a blank 
-	transaction at the bottom of the list. We'll start in the *Snacks Cash* account listing. 
-	Click in the bottom empty transaction line, and it will open a new transaction, 
+1. Start by creating a new (empty) transaction. 
+	On any of the account listings there's a blank transaction 
+	at the bottom of the list. We'll start in the *Snacks Cash* account listing. Click in the bottom empty 
+	transaction line, and it will open a new transaction, 
 	with today's date and the cursor in the *Memo* column. Enter in that line something like 
 	"*Coles drinks & cleaning reimbursed from cash jar*". 
-1. The deposit would have withdrawn from the (external) *Snacks Cash* account and 
-	deposited into the debit card account. So the first part of our transaction 
-	withdraws $25 from the *Snacks Cash* account. Enter that by clicking in the next blank line, 
-	selecting the *Snacks Cash* account, entering the amount ($25)in the *Income* column and entering 
-	something appropriate like "*Reimbursement to Joe Bloggs from cash jar*" in the *Memo* column. 
-1. The transfer to the purchaser would have involved withdrawing funds from the bank account  
+2. The deposit would have withdrawn from the (external) *Snacks Cash* account and deposited into the debit card account. 
+	So the first part of our transaction withdraws $25 from the *Snacks Cash* account. 
+	Enter that by clicking in the next blank line, selecting the *Snacks Cash* account, entering the amount ($25)in the *Income* column and entering something appropriate like "*Reimbursement to Joe Bloggs from cash jar*" in the *Memo* column. 
+3. The transfer to the purchaser would have involved withdrawing funds from the bank account 
 	and marking the amounts against the relevant expenditure account(s). So the second and subsequent 
 	part of our example transaction would be $20 in the *Charge* column against the *Snacks Out* 
 	account (for the Coke). This will immediately create an "Imbalance" line. 
-	Change that to show $5 against the *Cleaning costs* account for the towels,
+	Change that to show $5 against the *Cleaning costs* account for the towels, 
 	and add appropriate *Memo* entries for each component. 
-1. Note that, if you start the blank transaction in a different kind of account, the columns 
-	will have different labels. Expense accounts will have *Tot Expense* and *Tot Rebate* 
+4. Note that, if you start the blank transaction in a different kind of account, the columns will have different labels. 
+	Expense accounts will have *Tot Expense* and *Tot Rebate* 
 	instead of *Charge* and *Income*, while a banking account will have *Tot Deposit* and *Tot Withdrawal*. 
 	But the principles are the same -- just make sure that you get them the right way round. 
 	You can check this easily: if the "receiving" account goes down afterwards, you've got it the wrong way round:-)
@@ -483,7 +488,7 @@ You can verify the match by pulling a "Proof of balance" report at the same time
 pull down the transaction (QIF) files, and then checking the individual account balances.
 
 ### Don't forget to keep a snapshot
-Close GnuCash and, [as described above](#datafiles), duplicate the working file, append the day's date to its title and move it to the `Data file archive` folder.
+Close GnuCash and, [as described above](#Data%20Files), duplicate the working file, append the day's date to its title and move it to the `Data file archive` folder.
 
 ## Reporting
 ### Monthly reports
@@ -544,7 +549,7 @@ Save the report config under a new title so it's available for future runs.
 Accepted practice for not-for-profits seems to be to close off the transactions at the end of a 
 financial year (EOFY) and start a fresh set of transactions with the same accounts structure. 
 Obviously, the bank account amounts need to match between years, otherwise you wouldn't be able to 
-check with the bank's current balance to verify that all transactions have been properly [reconciled](#reconciliation).
+check with the bank's current balance to verify that all transactions have been properly [reconciled](#Reconciling%20transactions).
 
 The simplistic solution to this is to do precisely that:  
 - make a copy of the GnuCash file as at the end of the financial year  
@@ -627,4 +632,7 @@ These are screen captures of the settings I'm using (in the same order as offere
 | 30 Aug 2024 | Brian Marriott | Minor adjustments to content before putting in the Wiki |
 | 08 Sep 2024 | Brian Marriott | Added some links to the OneDrive directories; Finished adding the images from the non-wiki original; Still to update the bank imoprt and cash-on-hand processing to new practices |
 | 06 Mar 2025 | Brian Marriott | Changed bank transaction importing to use OFX rather than QIF files |
+| 29 Jul 2026 | Brian Marriott | Corrected broken links that came from wiki migration |
+| 29 Jul 2026 | Brian Marriott | Added a section identifying the Cash on Hand  account |
+
 
