@@ -441,7 +441,7 @@ In doing this, we have to recognise that we are effectively depositing cash from
 the system, just as if we took the cash to the bank and made a cash deposit. 
 This is because we don't currently treat the cash jar money as being "within the system" 
 until it's deposited. 
-(While there is a *Cash on hand* account, it currently isn't used:-)
+(While there is a *Cash on hand* account, it’s used somewhat differently — it’s not a “current balance” as it might be if we banked at the end of each business day; rather, it’s a”snapshot” at a given point in time. )
 
 ### To see how this works, let's look at a hypothetical example.  
 Suppose someone purchases from Coles some Coke ($20) and some paper towels ($5), and we then reimburse 
