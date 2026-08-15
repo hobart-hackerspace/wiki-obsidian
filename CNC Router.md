@@ -16,6 +16,7 @@ The ability to practice and refine CNC programming without the need for a physic
 #### Some free simulators are:
 - Online
 	- [NC Viewer](https://ncviewer.com)
+	- [CutViewer](https://cutviewer.com/app/)
 	- [Filipe Caixeta's "CNC Web Simulator"](https://filipecaixeta.github.io/cncwebsim/)
 	- [Penta Simulator](https://sim.pentamachine.com)
 - Offlline (installed on your machine)
@@ -25,7 +26,8 @@ The ability to practice and refine CNC programming without the need for a physic
 - [G-Wizard Editor](https://www.cnccookbook.com/g-code-simulator-viewer-generator-gwizard/) -- Windows & MacOS
 - [CNC Simulator Pro](https://cncsimulator.com/) -- Windows only
 
-### G-code Commands
+### G-code Commands & Tutorial
+- [Tutorial](https://www.cnccookbook.com/cnc-programming-g-code/) (Ignore the sales picth for a no-longer-available product:-)
 - [A detailed explanation of the most common commands](https://howtomechatronics.com/tutorials/g-code-explained-list-of-most-important-g-code-commands/)
 - [A list of  most G-code commands](https://www.helmancnc.com/g-code/). Note that this is for a more sophisticated machine than ours and includes some commands not available on our I2R machine.
 ## Our I2R A Series A23 CNC Router
