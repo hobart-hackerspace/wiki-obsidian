@@ -25,6 +25,9 @@ The ability to practice and refine CNC programming without the need for a physic
 - [G-Wizard Editor](https://www.cnccookbook.com/g-code-simulator-viewer-generator-gwizard/) -- Windows & MacOS
 - [CNC Simulator Pro](https://cncsimulator.com/) -- Windows only
 
+### G-code Commands
+- [A detailed explanation of the most common commands](https://howtomechatronics.com/tutorials/g-code-explained-list-of-most-important-g-code-commands/)
+- [A list of  most G-code commands](https://www.helmancnc.com/g-code/). Note that this is for a more sophisticated machine than ours and includes some commands not available on our I2R machine.
 ## Our I2R A Series A23 CNC Router
 The machine has a 600x900mm bed and includes a manufacturer-supplied stand and a dust extractor.
 
