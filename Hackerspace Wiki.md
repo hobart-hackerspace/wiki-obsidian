@@ -1,13 +1,5 @@
 ![](attachments/hhs_banner-22kwugjbkc2qquqclz5kwif4srie.webp) <a id="home"></a>
 
-# We’re now open again to members and their guests
-**After the recent temporary closure, we’re now open again, but rules are a bit different.**
-
-We’re open to current financial members and their sponsored guests. Sponsoring means that the sponsor vouches for and takes responsibility for the guest's activities. 
-
-On Thursday evenings between 7:00pm & 9:00pm, visitors are also welcome. 
-A member can open the door, sign you in and look after you during your visit.
-
 # Hobart Hackerspace wiki ([wiki.hobarthacker.space](#home))
 
 This is our documentation store. This is **your** place to stash records of how to use our gear and what projects/experiments you've done.
@@ -28,6 +20,20 @@ We encourage all members to contribute to our wiki and correct any errors. The t
 - On small screens, the pages list and search bar will appear when you click on the “hamburger” in the top LH corner.
 - On large screens there is also a “contents” display of headings in the current page on the lower right of the screen.
 - You can change from light to dark theme with the sun/moon icon above the search bar.
+
+# Access to the Space
+After the recent temporary closure, we’re now open again, but rules have changed a bit.
+
+## Members and their Guests
+We’re open 24/7 to financial members and their *sponsored* guests. Sponsoring means that the sponsoring member vouches for and takes responsibility for the guest's activities. All guests are required to honour our [ Terms of use](https://hobarthackerspace.org.au/terms_of_use/)]
+
+## Visitors nights — Thursday evenings
+On Thursday evenings between 7:00pm & 9:00pm, visitors are also welcome. 
+Just show up and ring the doorbell. Any member can open the door, sign you in and look after you during your visit.
+
+New people are welcome to come in up to 3 times as visitors. If you’re still interested after that, we ask that you  [join us as a member](https://hobarthackerspace.org.au/membership/).
+
+
 # Safety
 - [Basic safety rules](Safety.md)
 - [Remember our core terms of use](https://hobarthackerspace.org.au/terms_of_use/)
