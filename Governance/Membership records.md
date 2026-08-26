@@ -1,7 +1,18 @@
-**Membership records processes**
+# The Membership System
 
-## Records management
-Records are currently derived from TidyHQ.
+The membership system at the moment is TidyHQ (often abbreviated in this document as 'THQ'). This is the external system that you pay your membership to, so you have a login to it already. Committee members should have admin access to this system - if you don't, ask Brian or Leo to set you up.
+
+1. Log in to [TidyHQ](https://hobarthackerspace.tidyhq.com) (it's an externally hosted & maintained system). Once you're logged in, it should bring up a page with a big (pixelated) copy of our logo and not much else.
+2. Click on the little square in the top RH corner that has your initials. If you have admin access, it will include in the dropdown a link to the dashboard. Click that. That should bring up the admin dashboard.
+
+## Verification of a Member's details
+1. Click on `Contacts` on the LH navigation list. It'll bring up a page with a few names on it, starting with the THQ account itself.
+2. Type some part of the member's name into the `Name, Phone, ID, ...` field and hit return. It should bring up a short list of names (likely only one). Click on the relevant person (the underlined actual name).
+3. Check that in the `Groups` box is included `Current Members`. You should also see an `Active` membership in the list below that.
+4. If you're setting up a member's RFID:
+	- In the page that comes up there is a `Contact Details` block that includes an `ID Number`. 
+		You'll need that ID number to give to the door controller.
+	- Keep that page open - you'll need to go back to it to provide the RFID number when you've allocated and confirmed it.
 
 ## Extracting from TidyHQ
 When exporting member lists from TidyHQ to update the door controller or get membership counts:
@@ -56,13 +67,13 @@ When exporting member lists from TidyHQ to update the door controller or get mem
 	- Select the "Membership counts" table and `Save as` a PDF.
 
 ## Processing to update door system
-The TidyHQ CSV can be processed by Brian's Python script (thq2db.py),
+The TidyHQ CSV can be processed by a simple Python script (thq2db.py),
 to create both:
 
 - a current local SQLite database and
 - a file for Mailchimp.
 
-(Note that that script runs in a Python virtual environment - see the associated `read_me.pdf`)
+This script is in the [`THQ2DB` subdirectory of the Members directory]([THQ2DB](https://hobarthackerspace.sharepoint.com/:f:/s/Committee/IgDhDPePyYpJT4Z_n8PSV8nAAQTG1O_3m7K_xy7R9lxFht8?e=YXe0fs)) Note that that script requires both the `uv` package manager and a recent version of Python (≥3.13) installed — see the associated `read_me.pdf`.
 
 You still have to manually export the new database to the Door Controller:
 ``` bash
