@@ -82,7 +82,8 @@ The backdoor way to resolve this is:
 	    certonly; date
 	# the date command is there in case you're too fast for domain propogation and have to wait
 	```
-	- Last updated 19-Jun-2026; needs to be re-issued before 16-Sept-2026. Hopefully the *DNS-PERSIST-01* support will be available by then.
+	- Last updated 27-Aug-2026; needs to be re-issued before 25 November 2026. 
+	- Unfortunately, the *DNS-PERSIST-01* support is delayed by a security issue and, as yet, there’s no schedule for implementation, so ongoing manual updates will be necessary for the foreseeable future.
 - There is a `homeassistant.conf` file in the `/etc/nginx/conf.d/` directory which provides a `server-name` directive responding to the two `homeassistant` domain names and linking to the above certificates. This file provides the relevant proxy commands:
 ``` 
 server {
