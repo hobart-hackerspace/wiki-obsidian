@@ -11,7 +11,7 @@
 | ToiletCam          | | Shane, Brian       | 192.168.2.93  | `ec:71:db:88:f2:8a` | Camera mounted on old outside toilet |   |
 | Radio-linux        | | Jason, Leo, DavidC  | 192.168.2.97  | `00:0a:f7:89:5c:90` | Linux machine on radio station bench | `2404:e80:1083:0:35ef:64b2:22af:404b` |
 | Access-controller  | | Leo, Brian         | 192.168.2.125 | `b8:27:eb:c1:eb:e4` | Door system Pi Zero | `2404:e80:1083:0:fe64:4414:c7f:1fa5`   |
-| Beambox            | | Tom                | 192.168.2.132 | `b8:27:eb:14:45:e5` | Laser Cutter |   |
+| Beambox            | | Tom                | 192.168.2.132 | `b8:27:eb:14:45:e5` `b8:27:eb:c7:03:e0`(temp) | Laser Cutter |   |
 | CNC PC             | | Mark               | 192.168.2.155 | `7c:f1:7e:ba:be:50` | Windows machine connected to CNC router |                                                                    |
 | ContainerOutsideCam | | Brian              | 192.168.2.157 | `00:40:8c:c4:b7:55` | Camera mounted outside the container |                                                                    |
 | 3D Printers        | | Leo                | 192.168.2.167 | `64:00:6a:4e:a0:7c` | Windows machine sitting between the 3D printers  |                                                                    |
